@@ -2,22 +2,22 @@
 
 Kid cartoons that teach every AWS SAA-C03 service. Sammy is S3. Eddie is EC2. Lulu is Lambda.
 
-**Agents:** start at HANDOFF.md, then SERIES.md.
+**Agents:** start at [HANDOFF.md](HANDOFF.md), then [SERIES.md](SERIES.md) §6, then [`src/lib/scripts.ts`](src/lib/scripts.ts).
 
-**Status:** Episodes 1–11 built (helpers → RDS). Next is Episode 12 — Aurora.
+There is **no** `src/lib/series.ts` and **no** `src/lib/lesson.ts`.
+
+**Status:** Episodes 1–19 built (helpers → Keyspaces). Next is ECS, EKS, Fargate.
 
 ## Prompt
 
 You are continuing Cloud Town, a kid cartoon series for every in-scope AWS SAA-C03 service.
 
-Read SERIES.md first, then AGENTS.project.md, then src/lib/series.ts and src/lib/lesson.ts.
+Read SERIES.md first (especially §6), then AGENTS.project.md, then src/lib/scripts.ts.
 
 Rules:
-- Next cartoon is the first series.ts stop with no episodeId. That is Episode 12 — Aurora.
-- New episodes are 1 minute. Bake a kids voice into the mp4.
-- Do not put a storyteller kid in the corner of the video. Voice only.
-- Keep Sammy, Eddie, Lulu, Vivi. Do not redesign the town.
-- Do not rebuild episodes 1–11 unless I say they are broken.
-- After The vaults, each database gets its own cartoon: RDS (done), then Aurora, DynamoDB, ElastiCache, DocumentDB, Neptune, Keyspaces.
-
-Build Episode 12 as specified in SERIES.md.
+- SERIES.md §6 is the only character bible. Never redesign a locked friend.
+- If a service has no row, add it to SERIES.md and push BEFORE shooting.
+- Next cartoon is ECS / EKS / Fargate.
+- New episodes are 1 minute, native 9:16 1080x1920, no letterbox, no blurred bars.
+- Bake a kids voice into the mp4. No on-camera mouths. No storyteller kid in the corner.
+- Do not rebuild episodes 1–19 unless I say they are broken.
