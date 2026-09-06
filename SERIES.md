@@ -2,15 +2,15 @@
 
 Read this **before** adding a cartoon, a chapter, or a service.
 
-**If you are Claude, Gemini, or a new Grok session:** you cannot see the old Grok sandbox. Use this file plus [`HANDOFF.md`](HANDOFF.md). The live Grok app may still hold the mp4s.
+**If you are Claude, Gemini, or a new Grok session:** you cannot see the old Grok sandbox. Use this file plus [`HANDOFF.md`](HANDOFF.md).
 
-This file is the plan. [`src/lib/series.ts`](src/lib/series.ts) is the live checklist. [`src/lib/lesson.ts`](src/lib/lesson.ts) is the playable episodes. If they disagree, **this file plus the user’s last message win**, then update the two TypeScript files.
+This file is the plan. The **character bible in §6 is the only source of truth** for names and shapes. Never redesign a row that already exists.
 
 ---
 
 ## 1. Target (what we are building)
 
-**Cloud Town** is a **kid cartoon series** that teaches **every in-scope service on the AWS Solutions Architect Associate exam (SAA-C03)** — currently **121 official names** on the trail.
+**Cloud Town** is a **kid cartoon series** that teaches **every in-scope service on the AWS Solutions Architect Associate exam (SAA-C03)**.
 
 It is **not**:
 
@@ -26,7 +26,6 @@ It **is**:
 - one **1-minute cartoon per chapter** (new episodes)
 - the same friends coming back (Sammy, Eddie, Lulu, Vivi…)
 - a **stamp checklist** so a parent / learner can see exam coverage
-- an **interactive lesson** after each cartoon (cards + quiz, plus a map when the chapter is about streets)
 
 The user (ihab) wants kids to **learn AWS in an interesting way**, and later agents to **keep going on the same trail** until SAA is complete.
 
@@ -36,10 +35,10 @@ The user (ihab) wants kids to **learn AWS in an interesting way**, and later age
 
 | Goal | How we do it |
 |---|---|
-| Cover the SAA exam | Official service names stay official. Features (S3 Standard, IAM user, SCP, STS…) are extra rows with `official: false` so the 121 count stays honest. |
+| Cover the SAA exam | Official service names stay official. |
 | Make it stick for kids | One metaphor per service. Friends **work together**. Recap line at the end of every cartoon. |
-| Make it a series, not a one-off | Locked character bible. Locked art style. Locked length / voice / captions. Trail map + stamps. |
-| Make the next agent fast | This file. Next chapter is always **the first `SERIES` stop with no `episodeId`**. |
+| Make it a series, not a one-off | Locked character bible. Locked art style. Locked length / voice. |
+| Make the next agent fast | This file. Next chapter is the first unbuilt stop on the remaining trail. |
 
 Exam domains the finale must land on:
 
@@ -55,8 +54,8 @@ Exam domains the finale must land on:
 - **Kids ~6–10**, with a parent who may be studying SAA.
 - Narrator is a **fun kids voice**, excited, short sentences, names the AWS word **and** the kid word in the same breath: *“Sammy is S3.”*
 - No fear, no breaches-as-horror. Foxes, storms, strangers at the gate — that’s enough.
-- **No text, letters, logos, or watermarks in generated stills or video.** Captions live in the player, not in the picture.
-- Grown-up detail belongs on the **helper cards** (`detail` field), not in the 60-second script.
+- **No text, letters, logos, or watermarks in generated stills or video.**
+- Grown-up detail belongs on helper cards / PDF scripts, not in the 60-second voice.
 
 ---
 
@@ -65,143 +64,216 @@ Exam domains the finale must land on:
 Single page. Order from the top:
 
 1. Title **Cloud Town**
-2. **Episode tabs** (sticky) — only chapters that have a cartoon
-3. **Theater** — Play cartoon, captions, chapters, mute, fullscreen
-4. **Neighborhood map** — only for the VPC episode
-5. **Meet the neighbors** helper cards
-6. **What did you learn?** quiz (perfect score → stamp in `localStorage` key `cloudtown-stamps`)
-7. **The Cloud Town trail** — all chapters, checklist, A–Z of 121 official names
+2. **Episode tabs**
+3. **Theater** — 9:16 cartoon, play, voice baked in
+4. Voice-over script (copy box) + PDF pages
+5. Trail / checklist of remaining SAA services
 
 ---
 
 ## 5. Status (do not redo these unless the user says they are broken)
 
-| Ch | Id | Cartoon | Length | Voice in the file | Notes |
-|---|---|---|---|---|---|
-| 1 | `helpers` | Episode 1 *The helpers* | 30s | yes | Sammy / Eddie / Lulu intro. Grandfathered at 30s. |
-| 2 | `s3` | Episode 2 *Sammy’s closet* | 60s | yes | Buckets + storage classes + Glacier family. |
-| 3 | `s3locks` | Episode 3 *Copies and locks* | 60s | yes | Versioning, lifecycle, replication, encryption, BPA, Object Lock. |
-| 4 | `neighborhood` | Episode 4 *The neighborhood* | 30s | yes | VPC, public/private, IGW, NAT/egress, ALB, EC2, DB, peering, VPN. Has interactive packet map. Grandfathered at 30s. |
-| 5 | `closets` | Episode 5 *The other boxes* | 60s | yes | EBS, EFS, FSx, Glacier recap, Storage Gateway, Backup. |
-| 6 | `keys` | Episode 6 *The key keepers* | 60s | yes | IAM, Identity Center, Cognito, Directory Service, RAM. |
-| 7 | `keyring` | Episode 7 *The key ring* | 60s | yes | IAM deep: user, role, policy, SCP, STS. |
-| 8 | `idcenter` | Episode 8 *The school badge* | 60s | yes | Identity Center: source, permission sets, vs IAM user vs Cognito. |
-| 9 | `cognito` | Episode 9 *The guest sticker* | 60s | yes | Cognito: user pool, identity pool, STS, vs IAM vs Identity Center. |
-| 10 | `vaults` | Episode 10 *The vaults* | 60s | yes | RDS, Aurora, Serverless, DynamoDB, ElastiCache, DocumentDB, Neptune, Keyspaces. No storyteller overlay. |
-| 11 | `rds` | Episode 11 *The tidy notebook* | 60s | yes | RDS deep: engines, private subnet, Multi-AZ, replica, backups. Voice only. |
-| 12–17 | db deep | **not built** | 60s | must bake in | Aurora, DynamoDB, ElastiCache, DocumentDB, Neptune, Keyspaces — one cartoon each. |
-| 18–29 | remaining | **not built** | 60s | must bake in | Next built cartoon after RDS is **Chapter 12 — The super notebook (Aurora)**. |
+| Ep | Title | AWS | Length | Notes |
+|---|---|---|---|---|
+| 1 | The helpers | S3, EC2, Lambda | 30s | Sammy / Eddie / Lulu intro. Grandfathered at 30s. |
+| 2 | Sammy’s closet | S3 classes + Glacier family | 60s | |
+| 3 | Copies and locks | Versioning, CRR, encryption, BPA, Object Lock | 60s | |
+| 4 | The neighborhood | VPC, IGW, NAT, ALB, peering, VPN | 60s | Kid voice (Ana). |
+| 5 | The other boxes | EBS, EFS, FSx, Glacier, Storage Gateway, Backup | 60s | Kid voice (Ana). |
+| 6 | The key keepers | IAM, Identity Center, Cognito, Directory Service, RAM | 60s | |
+| 7 | The key ring | IAM user, role, policy, SCP, STS | 60s | |
+| 8 | The school badge | IAM Identity Center | 60s | |
+| 9 | The guest sticker | Cognito | 60s | |
+| 10 | The vaults | RDS, Aurora, DynamoDB, ElastiCache, DocumentDB, Neptune, Keyspaces | 60s | |
+| 11 | The tidy notebook | RDS | 60s | |
+| 12 | The super notebook | Aurora | 60s | |
+| 13 | The nap | Aurora Serverless | 60s | |
+| 14 | The labeled cubbies | DynamoDB | 60s | |
+| 15 | The cubby extras | DAX, Global Tables, on-demand, strong/eventual | 60s | |
+| 16 | The unwrapped snack | ElastiCache | 60s | |
+| 17 | The story vault | DocumentDB | 60s | |
+| 18 | The family tree | Neptune | 60s | |
+| 19 | The wide cubbies | Keyspaces | 60s | |
 
-`episodeId` is how the UI knows a chapter is playable. Never mark a stop open until the mp4 plays with **real audio**.
+**Next built cartoon:** compute friends — **ECS, EKS, Fargate** (toy boxes that run many Eddies).
+
+Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
 
 ---
 
-## 6. Character bible (locked — do not redesign)
+## 6. Character bible (locked — only source of truth)
 
-| Friend | AWS | Look | Lives |
-|---|---|---|---|
-| **Sammy** | S3 | Cream round storage box, coral lid, button eyes, coral smile, short arms. | Closet / bucket |
-| **Eddie** | EC2 | Cream CRT computer, teal screen face, chunky cream arms and teal boots. | Private backyard (shop) |
-| **Lulu** | Lambda | Small cream fox-creature, huge ears, coral nose, teal cape, always mid-poof. | Appears for one job |
-| **Vivi** | VPC | Long cream fence, arched gateway, coral tiled roof, teal gem. | Around the whole town |
-| **Iggie** | Internet Gateway | Big front gate on the public street. | Only door to the internet |
-| **Albie** | ALB / ELB | Doorman on the **public** street. Visitors meet him first. | Public subnet |
-| **Nat** | NAT Gateway | Mail window on the public street. Letters go **out**. Strangers cannot come in. That is egress. | Public subnet |
-| **Dot** | Database | Vault. Visitors never meet her. | Private backyard |
-| **Home** | VPN / Direct Connect | House on the ground. Secret tunnel or private cable. | On-premises |
+**Never change an existing character.** Do not redesign a name, a job, or a shape that already has a row. When a character already exists, animate that shape. Do not generate a second Sammy.
 
-Art style: Pixar / Bluey 3D cartoon, Cloud Town, warm sunset pastel clouds, cobblestone, cream-and-coral houses, teal accents, no text, no letters, no logos, no watermarks.
+### Art rules (locked)
 
-When a character already exists, animate the existing portrait. Do not generate a second Sammy.
+- 3D Pixar-style, warm sunset, cobblestone, cream + teal, cute faces on objects.
+- **No AWS logos, no letters, no words** on the picture.
+- **No narrator kid in the corner** — voice is off-screen only.
+- **Characters never speak on camera.** Body reactions only (blink, nod, wiggle, wave). **No mouth animation. No lip-sync.**
+- Render **native 9:16, 1080×1920**. Full-frame cartoon. **No letterbox. No blurred bars. No 16:9 strip in the middle.**
+- Cloud Town floats in the sky.
+
+### Stars (they come back every episode)
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Sammy** | **S3** | Cream treasure **chest** with gold clasps, round friendly face, short arms/legs. His house is a **closet / bucket**. |
+| **Eddie** | **EC2** | Cream **retro CRT computer**. Teal screen. Chunk of a body, round face on the monitor, arms and legs. Never sleeps. Lives in the **backyard** (private subnet). |
+| **Lulu** | **Lambda** | Small round **yellow-gold spark / orb** with a face. Pops in, does one job, **poofs away**. |
+| **Maya** | (kid, not a service) | Little girl. Brown hair, **pink/coral dress**. Lives in Cloud Town. Friends with Eddie and Lulu. |
+| **Dot** | **the vaults** (RDS family) | Cream **notebook / vault** with a face. Hides in the backyard. “Dot” is the whole database family; each vault has its own shape below. |
+
+### The neighborhood (Episode 4)
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Vivi** | **VPC** | Wooden **picket fence** with a face. Our private neighborhood. |
+| **Front street** | Public subnet | Sunny cobblestone street **outside** the backyard. |
+| **Backyard** | Private subnet | Quiet yard **behind** the fence. Eddie and Dot hide here. |
+| **Iggie** | **Internet Gateway** | Big wooden **front gate / arch**. |
+| **Albie** | **ALB** | **Doorman** on the public street. Greets visitors. |
+| **Nat** | **NAT Gateway** | **Mail window**. Eddie can send mail out. Strangers cannot come in. Egress. |
+| **Sky bridge** | VPC peering | Bridge of clouds to **another Cloud Town**. |
+| **Secret tunnel** | VPN / Direct Connect | Tunnel down to a **house on the ground** (on-prem). |
+
+### Sammy’s other boxes (Episode 5)
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Backpack disk** | **EBS** | A **backpack** on Eddie. One Eddie only. Travels with him. |
+| **Shared fridge** | **EFS** | A **fridge** many Eddies open together. |
+| **Fancy cupboards** | **FSx** | Fancy wooden **cupboards**. |
+| **Deep freezer** | **S3 Glacier** | Icy **freezer** in the back. Cheap. Slow to open. |
+| **Little door at home** | **Storage Gateway** | A small **door** between the ground house and Sammy. |
+| **Spare-copy machine** | **AWS Backup** | A machine that makes **spare copies**. |
+
+### Key keepers (Episodes 6–9)
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Key ring** | **IAM** | A **ring of keys**. |
+| **Name tag** | IAM **user** | A kid’s **name tag**. Lives in town. One house only. |
+| **Class** | IAM **group** | A whole class of name tags. |
+| **Borrowed badge** | IAM **role** | A **badge you borrow** for one job, then give back. |
+| **Door list** | IAM **policy** | A list of **may / may-not** on the door. |
+| **Principal’s rule** | **SCP** | The **principal’s** rule. No classroom may break it. |
+| **Sunset pass** | **STS** | A **visitor pass that peels off at sunset**. |
+| **School badge** | **IAM Identity Center** | **One badge, many classrooms**. Not a name tag. Not a guest sticker. |
+| **Guest sticker** | **Cognito** | A **sticker** for lemonade guests. Not town workers. |
+| **Lemonade club list** | Cognito **user pool** | Sign-up list for guests. |
+| **Tray of sunset passes** | Cognito **identity pool** | Tray of short STS passes. |
+| **Old class list** | **Directory Service** | The old school’s list, brought into the sky. |
+| **Shared swing** | **RAM** | A **swing** you share. Not the house key. |
+
+### Vaults (Episodes 10–19)
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Tidy notebook** | **RDS** | Cream **lined notebook** with a face. Rows and columns. AWS turns the pages. Lives in the backyard. |
+| **Super notebook** | **Aurora** | A **bigger, glowing** notebook. Extra copies. Extra fast. Still MySQL / PostgreSQL. |
+| **Nap notebook** | **Aurora Serverless** | The same super notebook **asleep** when empty. Wakes and grows for a crowd. |
+| **Labeled cubbies** | **DynamoDB** | Wooden **cubby mascot** with round holes. One toy per cubby. Grab **by name**. |
+| **Cubby extras** | DAX, Global Tables, on-demand, strong/eventual | **Snack shelf** on the cubbies (DAX). Twin cubbies in another town. |
+| **Unwrapped snack** | **ElastiCache** | An **open snack tray**. Redis = a list. Memcached = a simple tray. **Not the vault.** |
+| **Story vault** | **DocumentDB** | A **leather storybook**. Whole tale in one pile of pages. Talks like MongoDB. |
+| **Family tree** | **Neptune** | A smiling **oak tree** with **glowing yarn** between friends. Who is related to who. A graph. |
+| **Wide cubbies** | **Keyspaces** | A **much wider** wooden cubby. One name, then a **long row of slots**. Cassandra talk. |
+
+### Setting
+
+**Cloud Town** = a cute cobblestone town in the clouds at sunset. Cream houses, teal lamps, no logos.
+
+**Narrator** = off-screen kid voice (AnaNeural). Never a face overlay. Characters do not mouth the words.
+
+---
+
+## 6.1 New characters (required before any new cartoon)
+
+For any **SAA-C03 service not already in this bible**:
+
+1. Invent **name**, **kid metaphor**, and **shape**.
+2. Shape rules: **one object with a face**, cream + teal, **one job**, **one sentence a 6-year-old can repeat**.
+3. **Add the row to this file (§6)** and **push to GitHub BEFORE generating its video**.
+4. **Never change an existing character.**
+
+Template row:
+
+| Name | AWS | Shape |
+|---|---|---|
+| **(name)** | **(service)** | **(one object with a face). (one job). (one kid sentence).** |
 
 ---
 
 ## 7. Episode contract (every new cartoon)
 
-New episodes are **60 seconds**, not 30.
+New episodes are **60 seconds**.
 
-- Video: `public/<id>.mp4` — 1280×720, H.264 Main, yuv420p, 24 fps, AAC stereo 96–128 kb/s, `+faststart`, about 6–12 MB.
-- Audio: **Kids voice baked into the mp4.** `hasAudio: true`.
-- Voice: kids voice (AnaNeural / luna). Loudness around −16 LUFS.
-- Captions: `public/<id>.vtt` and matching `captions[]` in `lesson.ts`.
-- Script: ~130–160 spoken words. End with “Now you know …!”
-- Helpers: 3–6 cards. Quiz: 3–4 questions.
-- **No storyteller kid in the corner of the picture — voice only.**
+- Video: `public/<nn>-<Title>.mp4` — **native 1080×1920 (9:16)**, H.264, yuv420p, 24 fps, AAC stereo, `+faststart`. **No letterbox. No blurred bars.**
+- Audio: **Kids voice baked into the mp4.** AnaNeural, about −16 LUFS. Talk for **58s**, last **2s** empty.
+- Voice: kids voice only. **No on-camera talking mouths.**
+- Captions: `public/<nn>-<Title>.vtt` when available.
+- Script PDF: every episode. End with “Now you know …! See you next time in Cloud Town, high up in the sky!”
+- **No storyteller kid in the corner.**
 - **Working together** is mandatory.
 
 Code checklist when a chapter opens:
 
-1. Add the id to `EpisodeId` / `HelperId` in `lesson.ts`.
-2. Add `EPISODES.<id>` (video, captions, helpers, quiz).
-3. Set `episodeId` on that stop in `series.ts`.
-4. Append the id to `EPISODE_ORDER` in `src/routes/index.tsx`.
-5. Put files in `public/` (mp4, vtt, poster, character jpgs).
-6. Typecheck, smoke the play button, leave the app running.
+1. Add the episode to `src/lib/scripts.ts`.
+2. Put files in `public/` (mp4, vtt, poster).
+3. Add any **new** character row to **this file** and push **before** the video.
+4. Typecheck, smoke play, leave the app running.
 
 ---
 
 ## 8. Remaining beat sheets (build in this order)
 
-### Chapter 12 — The super notebook  ← **NEXT**
-Aurora, Aurora Serverless, Aurora replicas. Super notebook that shares one pile of pages. Naps when nobody writes.
+### Next — The toy boxes (compute)
+ECS, EKS, Fargate. Boxes that run many Eddies.
 
-### Chapter 13 — The labeled cubbies
-DynamoDB keys, streams, GSI. Grab by name.
+### Then — The front door
+Route 53, CloudFront, Global Accelerator, ACM, API Gateway, Amplify.
 
-### Chapter 14 — The unwrapped snack
-ElastiCache Redis/Memcached vs the real vault.
-
-### Chapter 15 — The story vault
-DocumentDB / JSON stories.
-
-### Chapter 16 — The family tree
-Neptune graphs.
-
-### Chapter 17 — The wide cubbies
-Keyspaces / Cassandra.
-
-### Chapter 18 — The front door
-Route 53, CloudFront, Global Accelerator, ACM, API Gateway, Amplify, Device Farm.
-
-### Chapter 19 — The post office
+### Then — The post office
 SQS, SNS, EventBridge, Step Functions, AppFlow, AppSync, MQ.
 
-### Chapter 20 — The watchtower
-CloudWatch, CloudTrail, Config, X-Ray, Health Dashboard, Grafana, Prometheus.
+### Then — The watchtower
+CloudWatch, CloudTrail, Config, X-Ray, Health Dashboard.
 
-### Chapter 21 — The builder crew
-Auto Scaling, Beanstalk, Batch, ECR, ECS, EKS, Fargate.
+### Then — The builder crew
+Auto Scaling, Beanstalk, Batch, ECR.
 
-### Chapter 22 — The safety net
+### Then — The safety net
 KMS, Secrets Manager, WAF, Shield, GuardDuty, Inspector, Macie, Security Hub.
 
-### Chapter 23 — The town hall
+### Then — The town hall
 CloudFormation, Organizations, Control Tower, Systems Manager, CLI, Console, Trusted Advisor.
 
-### Chapter 24 — The movers
+### Then — The movers
 MGN, DMS, DataSync, Snow Family, Transfer Family.
 
-### Chapter 25 — The library
+### Then — The library
 Athena, Redshift, EMR, Glue, Kinesis, OpenSearch, QuickSight.
 
-### Chapter 26 — The talking friends
+### Then — The talking friends
 SageMaker, Rekognition, Comprehend, Polly, Transcribe, Translate, Textract, Lex, Kendra.
 
-### Chapter 27 — The picture shop
+### Then — The picture shop
 Elastic Transcoder, Kinesis Video Streams.
 
-### Chapter 28 — The piggy bank
+### Then — The piggy bank
 Budgets, Cost Explorer, Cost and Usage Report, Savings Plans, Compute Optimizer.
 
-### Chapter 29 — The whole town
-The four SAA promises. Lemonade-stand website using friends from earlier chapters. Series finale.
+### Then — The whole town
+The four SAA promises. Series finale.
 
 ---
 
 ## 9. What to do on the next turn
 
-1. Build **Chapter 12 — The super notebook (Aurora)** as Episode 12, 60s, kids voice, captions, helpers, quiz. No storyteller overlay — voice only.
-2. Then DynamoDB, ElastiCache, DocumentDB, Neptune, Keyspaces — one cartoon each.
-3. Do not rebuild episodes 1–11 unless the user says they are broken.
+1. If the next service is **not** in §6, invent the character, **add the row, push SERIES.md**, then shoot the cartoon.
+2. Build native **9:16 1080×1920** (no blurred bars), 60s, kids voice, 58+2, no mouth animation, no kid overlay.
+3. Do not rebuild episodes 1–19 unless the user says they are broken.
+4. Do not change Sammy, Eddie, Lulu, Maya, Dot, Vivi, Iggie, Albie, Nat, or any other locked row.
 
 If the user asks for a different next chapter, obey the user, then come back to this order.
