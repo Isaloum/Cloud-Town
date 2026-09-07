@@ -98,7 +98,7 @@ Single page. Order from the top:
 
 **Pattern for every remaining district:** one **overview** episode (the district title), then **one 60s cartoon per service** — same as Episode 10 (The vaults) plus 11–19. If a service cannot fill 60s honestly, **say so before shooting** and propose pairing. **Do not pair silently.**
 
-**Next built cartoon:** Episode **20 — The toy boxes** (ECS, EKS, Fargate overview).
+**Next built cartoon:** Episode **21 — Boxy (ECS)**.
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
 
@@ -106,7 +106,7 @@ Planned (not built unless noted):
 
 | Ep | Title | AWS | Notes |
 |---|---|---|---|
-| 20 | The toy boxes | ECS, EKS, Fargate | **overview** ← next |
+| 20 | The toy boxes | ECS, EKS, Fargate | **overview — built** |
 | 21 | Boxy | ECS | |
 | 22 | Kira | EKS | |
 | 23 | Fay | Fargate | |

@@ -210,4 +210,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: ["/script-pages/19-The-wide-cubbies-script-p1.jpg"],
     voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 19. Dynamo cubbies grab by name. One toy per cubby. Keyspaces is wide cubbies. One name, then a long row of slots. Like Cassandra. A whole week of drawings stay in one wide cubby. You can peek a slice. You do not hunt the whole town. Eddie talks Cassandra talk. AWS keeps the house. You do not build it yourself. Many towns can share the wide cubbies. Super wide. Super fast. Now you know the wide cubbies! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 20,
+    title: "The toy boxes",
+    tagline: "Boxy, Kira, and Fay. Many Eddies in boxes.",
+    video: "/20-The-toy-boxes.mp4?v=native9x16",
+    pdf: "/scripts/20-The-toy-boxes-script.pdf",
+    scriptFile: "20-The-toy-boxes-script.pdf",
+    pages: ["/script-pages/20-The-toy-boxes-script-p1.jpg"],
+    voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 20. Eddie can run one job. Sometimes the town needs many little jobs at once. So we pack them in toy boxes! Meet Boxy. Boxy is ECS. A cream toy box. Many little Eddies play inside, and the box runs them. Meet Kira. Kira is EKS. She is the captain of the toy boxes. She lines them up the Kubernetes way. Meet Fay. Fay is Fargate. She is a flying box. No Eddie has to hold her. She runs herself. Boxy can sit on Eddie. Kira can captain lots of boxes. Fay can fly for both. Pack the toys. Pick a box. They work together. Now you know the toy boxes! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
