@@ -75,6 +75,7 @@ Single page. Order from the top:
 
 | Ep | Title | AWS | Length | Notes |
 |---|---|---|---|---|
+| 0 | What is the cloud? | the idea of the cloud | 60s | Native 9:16. Maya on the ground. Helpers wave, no names yet. |
 | 1 | The helpers | S3, EC2, Lambda | 30s | Sammy / Eddie / Lulu intro. Grandfathered at 30s. |
 | 2 | Sammy’s closet | S3 classes + Glacier family | 60s | |
 | 3 | Copies and locks | Versioning, CRR, encryption, BPA, Object Lock | 60s | |
@@ -95,7 +96,7 @@ Single page. Order from the top:
 | 18 | The family tree | Neptune | 60s | |
 | 19 | The wide cubbies | Keyspaces | 60s | |
 
-**Next built cartoon:** compute friends — **ECS, EKS, Fargate** (toy boxes that run many Eddies).
+**Next built cartoon:** compute friends — **ECS, EKS, Fargate** (toy boxes that run many Eddies). Episode 0 is the series opener.
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
 
