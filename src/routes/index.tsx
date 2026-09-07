@@ -83,21 +83,24 @@ function Home() {
       </div>
 
       <section className="flex justify-center bg-ink p-3">
-        <div className="relative w-full max-w-[360px]">
+        <div className="relative w-full max-w-[360px] min-h-[480px] aspect-[9/16] overflow-hidden rounded-xl bg-ink">
           <img
             src={poster}
             alt=""
-            className={cn("w-full rounded-xl bg-ink object-cover", playing ? "hidden" : "block")}
+            className="absolute inset-0 h-full w-full object-cover"
           />
           <video
             ref={videoRef}
             key={src}
-            className={cn("w-full rounded-xl bg-ink", playing ? "block" : "absolute inset-0 h-full w-full opacity-0")}
+            className={cn(
+              "absolute inset-0 h-full w-full object-cover",
+              playing ? "opacity-100" : "opacity-0",
+            )}
             src={src}
             poster={poster}
             controls={playing}
             playsInline
-            preload="metadata"
+            preload="auto"
             onPlaying={() => setPlaying(true)}
             aria-label={`${episode.title} cartoon`}
           />
@@ -105,7 +108,7 @@ function Home() {
             <button
               type="button"
               onClick={playLoud}
-              className="absolute inset-0 z-10 flex items-center justify-center rounded-xl"
+              className="absolute inset-0 z-10 flex items-center justify-center"
             >
               <span className="inline-flex size-20 items-center justify-center rounded-full bg-primary text-primary-fg shadow-card">
                 <Play className="size-10 translate-x-0.5" aria-hidden />

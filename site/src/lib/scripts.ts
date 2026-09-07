@@ -214,10 +214,10 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     n: 20,
     title: "The toy boxes",
     tagline: "Boxy, Kira, and Fay. Many Eddies in boxes.",
-    video: "/20-The-toy-boxes.mp4?v=native9x16",
+    video: "/20-The-toy-boxes.mp4?v=story",
     pdf: "/scripts/20-The-toy-boxes-script.pdf",
     scriptFile: "20-The-toy-boxes-script.pdf",
     pages: ["/script-pages/20-The-toy-boxes-script-p1.jpg"],
-    voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 20. Eddie can run one job. Sometimes the town needs many little jobs at once. So we pack them in toy boxes! Meet Boxy. Boxy is ECS. A cream toy box. Many little Eddies play inside, and the box runs them. Meet Kira. Kira is EKS. She is the captain of the toy boxes. She lines them up the Kubernetes way. Meet Fay. Fay is Fargate. She is a flying box. No Eddie has to hold her. She runs herself. Boxy can sit on Eddie. Kira can captain lots of boxes. Fay can fly for both. Pack the toys. Pick a box. They work together. Now you know the toy boxes! See you next time in Cloud Town, high up in the sky!",
+    voiceover: "Welcome back to Cloud Town, high up in the sky! Maya's class all tap play at once. Twenty games! One Eddie cannot do it. He wobbles. Toys drop. Boxy opens! Little Eddies pop out and run the jobs. Boxy is ECS. A toy box that runs many Eddies. Tweet! Kira blows her whistle. Five Boxys line up in a row. Kira is EKS. The captain of the toy boxes. Whoosh! Fay flies a box up to a house. No Eddie under it! Fay is Fargate. She flies. No Eddie has to hold the box. The games load. All twenty! Maya cheers. Now you know the toy boxes! See you next time in Cloud Town, high up in the sky!",
   },
 ];
