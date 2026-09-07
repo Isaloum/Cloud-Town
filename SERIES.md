@@ -96,9 +96,100 @@ Single page. Order from the top:
 | 18 | The family tree | Neptune | 60s | |
 | 19 | The wide cubbies | Keyspaces | 60s | |
 
-**Next built cartoon:** compute friends — **ECS, EKS, Fargate** (toy boxes that run many Eddies). Episode 0 is the series opener.
+**Pattern for every remaining district:** one **overview** episode (the district title), then **one 60s cartoon per service** — same as Episode 10 (The vaults) plus 11–19. If a service cannot fill 60s honestly, **say so before shooting** and propose pairing. **Do not pair silently.**
+
+**Next built cartoon:** Episode **20 — The toy boxes** (ECS, EKS, Fargate overview).
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
+
+Planned (not built unless noted):
+
+| Ep | Title | AWS | Notes |
+|---|---|---|---|
+| 20 | The toy boxes | ECS, EKS, Fargate | **overview** ← next |
+| 21 | Boxy | ECS | |
+| 22 | Kira | EKS | |
+| 23 | Fay | Fargate | |
+| 24 | The front door | Route 53, CloudFront, Global Accelerator | overview |
+| 25 | Route 53 | Route 53 | |
+| 26 | CloudFront | CloudFront | |
+| 27 | Global Accelerator | Global Accelerator | |
+| 28 | The name tag on the door | ACM, API Gateway, Amplify | overview |
+| 29 | ACM | ACM | |
+| 30 | API Gateway | API Gateway | |
+| 31 | Amplify | Amplify | |
+| 32 | The post office | SQS, SNS, EventBridge | overview |
+| 33 | SQS | SQS | |
+| 34 | SNS | SNS | |
+| 35 | EventBridge | EventBridge | |
+| 36 | The recipe and the river | Step Functions, AppFlow, AppSync, MQ | overview |
+| 37 | Step Functions | Step Functions | |
+| 38 | AppFlow | AppFlow | |
+| 39 | AppSync | AppSync | |
+| 40 | MQ | Amazon MQ | |
+| 41 | The watchtower | CloudWatch, CloudTrail, Config, X-Ray | overview |
+| 42 | CloudWatch | CloudWatch | |
+| 43 | CloudTrail | CloudTrail | |
+| 44 | Config | Config | |
+| 45 | X-Ray | X-Ray | |
+| 46 | The builder crew | Auto Scaling, Beanstalk, Batch, ECR | overview |
+| 47 | Auto Scaling | Auto Scaling | |
+| 48 | Beanstalk | Elastic Beanstalk | |
+| 49 | Batch | Batch | |
+| 50 | ECR | ECR | |
+| 51 | The safety net | KMS, Secrets Manager, WAF, Shield | overview |
+| 52 | KMS | KMS | |
+| 53 | Secrets Manager | Secrets Manager | |
+| 54 | WAF | WAF | |
+| 55 | Shield | Shield | |
+| 56 | The night watch | GuardDuty, Inspector, Macie, Security Hub | overview |
+| 57 | GuardDuty | GuardDuty | |
+| 58 | Inspector | Inspector | |
+| 59 | Macie | Macie | |
+| 60 | Security Hub | Security Hub | |
+| 61 | The town hall | CloudFormation, Organizations, Control Tower, Systems Manager | overview |
+| 62 | CloudFormation | CloudFormation | |
+| 63 | Organizations | Organizations | |
+| 64 | Control Tower | Control Tower | |
+| 65 | Systems Manager | Systems Manager | |
+| 66 | The grown-up desk | CLI, Console, Trusted Advisor | overview |
+| 67 | CLI | AWS CLI | |
+| 68 | Console | AWS Console | |
+| 69 | Trusted Advisor | Trusted Advisor | |
+| 70 | The movers | MGN, DMS, DataSync, Snow Family, Transfer Family | overview |
+| 71 | MGN | MGN | |
+| 72 | DMS | DMS | |
+| 73 | DataSync | DataSync | |
+| 74 | Snow Family | Snow Family | |
+| 75 | Transfer Family | Transfer Family | |
+| 76 | The library | Athena, Redshift, Glue, Kinesis, OpenSearch, EMR, QuickSight | overview |
+| 77 | Athena | Athena | |
+| 78 | Redshift | Redshift | |
+| 79 | Glue | Glue | |
+| 80 | Kinesis | Kinesis | |
+| 81 | OpenSearch | OpenSearch | |
+| 82 | EMR | EMR | |
+| 83 | QuickSight | QuickSight | |
+| 84 | The talking friends | SageMaker, Rekognition, Comprehend, Polly, Transcribe, Translate, Textract, Lex, Kendra | overview |
+| 85 | SageMaker | SageMaker | |
+| 86 | Rekognition | Rekognition | |
+| 87 | Comprehend | Comprehend | |
+| 88 | Polly | Polly | |
+| 89 | Transcribe | Transcribe | |
+| 90 | Translate | Translate | |
+| 91 | Textract | Textract | |
+| 92 | Lex | Lex | |
+| 93 | Kendra | Kendra | |
+| 94 | The picture shop | Elastic Transcoder, Kinesis Video Streams | overview |
+| 95 | Elastic Transcoder | Elastic Transcoder | |
+| 96 | Kinesis Video Streams | Kinesis Video Streams | |
+| 97 | The piggy bank | Budgets, Cost Explorer, CUR, Savings Plans, Compute Optimizer | overview |
+| 98 | Budgets | Budgets | |
+| 99 | Cost Explorer | Cost Explorer | |
+| 100 | CUR | Cost and Usage Report | |
+| 101 | Savings Plans | Savings Plans | |
+| 102 | Compute Optimizer | Compute Optimizer | |
+| 103 | The whole town | SAA four promises | finale |
 
 ---
 
@@ -181,6 +272,14 @@ Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you nex
 | **Family tree** | **Neptune** | A smiling **oak tree** with **glowing yarn** between friends. Who is related to who. A graph. |
 | **Wide cubbies** | **Keyspaces** | A **much wider** wooden cubby. One name, then a **long row of slots**. Cassandra talk. |
 
+### The toy boxes (Episodes 20–23)
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Boxy** | **ECS** | Cream **toy box** with a friendly face and a teal latch. Holds many little Eddie toys and runs them. *Boxy is a toy box that runs many Eddies.* |
+| **Kira** | **EKS** | Cream **toy box with a teal captain’s hat**. Lines up many boxes the Kubernetes way. *Kira is the captain of the toy boxes.* |
+| **Fay** | **Fargate** | Cream **toy box with tiny teal wings**, floating. No Eddie holds her. *Fay flies. No Eddie has to hold the box.* |
+
 ### Setting
 
 **Cloud Town** = a cute cobblestone town in the clouds at sunset. Cream houses, teal lamps, no logos.
@@ -229,44 +328,97 @@ Code checklist when a chapter opens:
 
 ## 8. Remaining beat sheets (build in this order)
 
-### Next — The toy boxes (compute)
-ECS, EKS, Fargate. Boxes that run many Eddies.
+Vaults pattern: **overview, then one 60s per service.** If a service cannot fill 60s honestly, say so **before** shooting and propose pairing. Do not pair silently.
 
-### Then — The front door
-Route 53, CloudFront, Global Accelerator, ACM, API Gateway, Amplify.
+### 20 — The toy boxes ← **NEXT (overview)**
+Meet Boxy (ECS), Kira (EKS), Fay (Fargate). Many little jobs in toy boxes. They work together.
 
-### Then — The post office
-SQS, SNS, EventBridge, Step Functions, AppFlow, AppSync, MQ.
+### 21 — Boxy
+ECS only.
 
-### Then — The watchtower
-CloudWatch, CloudTrail, Config, X-Ray, Health Dashboard.
+### 22 — Kira
+EKS only.
 
-### Then — The builder crew
+### 23 — Fay
+Fargate only.
+
+### 24 — The front door (overview)
+Route 53, CloudFront, Global Accelerator.
+
+### 25 Route 53 · 26 CloudFront · 27 Global Accelerator
+
+### 28 — The name tag on the door (overview)
+ACM, API Gateway, Amplify.
+
+### 29 ACM · 30 API Gateway · 31 Amplify
+
+### 32 — The post office (overview)
+SQS, SNS, EventBridge.
+
+### 33 SQS · 34 SNS · 35 EventBridge
+
+### 36 — The recipe and the river (overview)
+Step Functions, AppFlow, AppSync, MQ.
+
+### 37 Step Functions · 38 AppFlow · 39 AppSync · 40 MQ
+
+### 41 — The watchtower (overview)
+CloudWatch, CloudTrail, Config, X-Ray.
+
+### 42 CloudWatch · 43 CloudTrail · 44 Config · 45 X-Ray
+
+### 46 — The builder crew (overview)
 Auto Scaling, Beanstalk, Batch, ECR.
 
-### Then — The safety net
-KMS, Secrets Manager, WAF, Shield, GuardDuty, Inspector, Macie, Security Hub.
+### 47 Auto Scaling · 48 Beanstalk · 49 Batch · 50 ECR
 
-### Then — The town hall
-CloudFormation, Organizations, Control Tower, Systems Manager, CLI, Console, Trusted Advisor.
+### 51 — The safety net (overview)
+KMS, Secrets Manager, WAF, Shield.
 
-### Then — The movers
+### 52 KMS · 53 Secrets Manager · 54 WAF · 55 Shield
+
+### 56 — The night watch (overview)
+GuardDuty, Inspector, Macie, Security Hub.
+
+### 57 GuardDuty · 58 Inspector · 59 Macie · 60 Security Hub
+
+### 61 — The town hall (overview)
+CloudFormation, Organizations, Control Tower, Systems Manager.
+
+### 62 CloudFormation · 63 Organizations · 64 Control Tower · 65 Systems Manager
+
+### 66 — The grown-up desk (overview)
+CLI, Console, Trusted Advisor.
+
+### 67 CLI · 68 Console · 69 Trusted Advisor
+
+### 70 — The movers (overview)
 MGN, DMS, DataSync, Snow Family, Transfer Family.
 
-### Then — The library
-Athena, Redshift, EMR, Glue, Kinesis, OpenSearch, QuickSight.
+### 71 MGN · 72 DMS · 73 DataSync · 74 Snow Family · 75 Transfer Family
 
-### Then — The talking friends
+### 76 — The library (overview)
+Athena, Redshift, Glue, Kinesis, OpenSearch, EMR, QuickSight.
+
+### 77 Athena · 78 Redshift · 79 Glue · 80 Kinesis · 81 OpenSearch · 82 EMR · 83 QuickSight
+
+### 84 — The talking friends (overview)
 SageMaker, Rekognition, Comprehend, Polly, Transcribe, Translate, Textract, Lex, Kendra.
 
-### Then — The picture shop
+### 85 SageMaker · 86 Rekognition · 87 Comprehend · 88 Polly · 89 Transcribe · 90 Translate · 91 Textract · 92 Lex · 93 Kendra
+
+### 94 — The picture shop (overview)
 Elastic Transcoder, Kinesis Video Streams.
 
-### Then — The piggy bank
-Budgets, Cost Explorer, Cost and Usage Report, Savings Plans, Compute Optimizer.
+### 95 Elastic Transcoder · 96 Kinesis Video Streams
 
-### Then — The whole town
-The four SAA promises. Series finale.
+### 97 — The piggy bank (overview)
+Budgets, Cost Explorer, CUR, Savings Plans, Compute Optimizer.
+
+### 98 Budgets · 99 Cost Explorer · 100 CUR · 101 Savings Plans · 102 Compute Optimizer
+
+### 103 — The whole town
+The four SAA promises. Series finale. Everyone works together.
 
 ---
 
@@ -274,7 +426,8 @@ The four SAA promises. Series finale.
 
 1. If the next service is **not** in §6, invent the character, **add the row, push SERIES.md**, then shoot the cartoon.
 2. Build native **9:16 1080×1920** (no blurred bars), 60s, kids voice, 58+2, no mouth animation, no kid overlay.
-3. Do not rebuild episodes 1–19 unless the user says they are broken.
-4. Do not change Sammy, Eddie, Lulu, Maya, Dot, Vivi, Iggie, Albie, Nat, or any other locked row.
+3. Overview first, then one cartoon per service. **Do not pair silently.**
+4. Do not rebuild episodes 0–19 unless the user says they are broken.
+5. Do not change Sammy, Eddie, Lulu, Maya, Dot, Vivi, Iggie, Albie, Nat, Boxy, Kira, Fay, or any other locked row.
 
 If the user asks for a different next chapter, obey the user, then come back to this order.
