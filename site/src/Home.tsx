@@ -14,7 +14,7 @@ function fileUrl(video: string) {
 }
 
 export function Home() {
-  const [n, setN] = useState(4);
+  const [n, setN] = useState(0);
   const episode = useMemo(() => EPISODE_SCRIPTS.find((e) => e.n === n) ?? EPISODE_SCRIPTS[0], [n]);
   const [copied, setCopied] = useState(false);
   const [playing, setPlaying] = useState(false);
@@ -51,13 +51,16 @@ export function Home() {
     window.setTimeout(() => setCopied(false), 2000);
   };
 
+  const order = useMemo(() => EPISODE_SCRIPTS.map((e) => e.n), []);
   const prev = () => {
     setPlaying(false);
-    setN((x) => (x <= 1 ? EPISODE_SCRIPTS.length : x - 1));
+    const i = order.indexOf(n);
+    setN(order[(i - 1 + order.length) % order.length]);
   };
   const next = () => {
     setPlaying(false);
-    setN((x) => (x >= EPISODE_SCRIPTS.length ? 1 : x + 1));
+    const i = order.indexOf(n);
+    setN(order[(i + 1) % order.length]);
   };
 
   return (

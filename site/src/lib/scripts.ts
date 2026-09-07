@@ -11,6 +11,16 @@ export type EpisodeScript = {
 
 export const EPISODE_SCRIPTS: EpisodeScript[] = [
   {
+    n: 0,
+    title: "What is the cloud?",
+    tagline: "Not weather. A town of helpers in the sky.",
+    video: "/00-What-is-the-cloud.mp4?v=native9x16",
+    pdf: "/scripts/00-What-is-the-cloud-script.pdf",
+    scriptFile: "00-What-is-the-cloud-script.pdf",
+    pages: ["/script-pages/00-What-is-the-cloud-script-p1.jpg"],
+    voiceover: "Welcome! This is Maya. She is at home, on the ground, playing a game on her tablet. But wait. Where does the game live? Not in the tablet. Look up! We fly through the real clouds. A town is floating in the sky. Cream houses. Teal lamps. The cloud is not weather. It is a town of helpers, high in the sky, that keeps your stuff and runs your games. That chest keeps things. That computer runs things. That little spark pops in for one job. Maya taps play. A tiny light flies from her tablet, up to the town, and back. The game loads! The cloud is a town of helpers in the sky. Now you know the cloud! See you next time in Cloud Town, high up in the sky!",
+  },
+  {
     n: 1,
     title: "The helpers",
     tagline: "Sammy stores. Eddie runs. Lulu pops in.",
