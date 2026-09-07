@@ -107,7 +107,7 @@ Planned (not built unless noted):
 | Ep | Title | AWS | Notes |
 |---|---|---|---|
 | 20 | The toy boxes | ECS, EKS, Fargate | **overview — built** |
-| 21 | Boxy | ECS | |
+| 21 | Boxy | ECS | ← next |
 | 22 | Kira | EKS | |
 | 23 | Fay | Fargate | |
 | 24 | The front door | Route 53, CloudFront, Global Accelerator | overview |
@@ -317,6 +317,15 @@ New episodes are **60 seconds**.
 - **No storyteller kid in the corner.**
 - **Working together** is mandatory.
 
+**Story rule (every episode):**
+
+- Open on a **problem within the first 10 seconds.** Someone needs something and it is not working.
+- Every new friend does a **visible action on screen** that fixes part of the problem. Never “meet X” with a wave.
+- End on the **payoff:** the thing works, a kid reacts.
+- **Bright props** (toys, games, letters) in **red / yellow / blue** against the cream-and-teal town.
+- **Camera moves** in at least 3 shots. **No shot held longer than 6 seconds.**
+- **No text, letters, or logos** anywhere in the picture. Episode 20 had “CLOUD TOWN” on a classroom board — **do not repeat.**
+
 Code checklist when a chapter opens:
 
 1. Add the episode to `src/lib/scripts.ts`.
@@ -330,11 +339,11 @@ Code checklist when a chapter opens:
 
 Vaults pattern: **overview, then one 60s per service.** If a service cannot fill 60s honestly, say so **before** shooting and propose pairing. Do not pair silently.
 
-### 20 — The toy boxes ← **NEXT (overview)**
-Meet Boxy (ECS), Kira (EKS), Fay (Fargate). Many little jobs in toy boxes. They work together.
+### 20 — The toy boxes (overview) — **built**
+Class taps play. Eddie drops toys. Boxy pops helpers. Kira lines up five boxes. Fay flies with no Eddie under her. Maya cheers.
 
-### 21 — Boxy
-ECS only.
+### 21 — Boxy ← **NEXT (ECS only)**
+Many small jobs in one box. One little Eddie inside stops. That job goes dark. Boxy pops a new little Eddie in. The job lights up again.
 
 ### 22 — Kira
 EKS only.
