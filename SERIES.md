@@ -98,7 +98,7 @@ Single page. Order from the top:
 
 **Pattern for every remaining district:** one **overview** episode (the district title), then **one 60s cartoon per service** — same as Episode 10 (The vaults) plus 11–19. If a service cannot fill 60s honestly, **say so before shooting** and propose pairing. **Do not pair silently.**
 
-**Next built cartoon:** Episode **21 — Boxy (ECS)**.
+**Next built cartoon:** Episode **22 — Kira (EKS)**.
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
 
@@ -107,7 +107,7 @@ Planned (not built unless noted):
 | Ep | Title | AWS | Notes |
 |---|---|---|---|
 | 20 | The toy boxes | ECS, EKS, Fargate | **overview — built** |
-| 21 | Boxy | ECS | ← next |
+| 21 | Boxy | ECS | **built** |
 | 22 | Kira | EKS | |
 | 23 | Fay | Fargate | |
 | 24 | The front door | Route 53, CloudFront, Global Accelerator | overview |
@@ -342,10 +342,10 @@ Vaults pattern: **overview, then one 60s per service.** If a service cannot fill
 ### 20 — The toy boxes (overview) — **built**
 Class taps play. Eddie drops toys. Boxy pops helpers. Kira lines up five boxes. Fay flies with no Eddie under her. Maya cheers.
 
-### 21 — Boxy ← **NEXT (ECS only)**
+### 21 — Boxy (ECS only) — **built**
 Many small jobs in one box. One little Eddie inside stops. That job goes dark. Boxy pops a new little Eddie in. The job lights up again.
 
-### 22 — Kira
+### 22 — Kira ← **NEXT (EKS only)**
 EKS only.
 
 ### 23 — Fay

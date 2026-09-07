@@ -220,4 +220,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: ["/script-pages/20-The-toy-boxes-script-p1.jpg"],
     voiceover: "Welcome back to Cloud Town, high up in the sky! Maya's class all tap play at once. Twenty games! One Eddie cannot do it. He wobbles. Toys drop. Boxy opens! Little Eddies pop out and run the jobs. Boxy is ECS. A toy box that runs many Eddies. Tweet! Kira blows her whistle. Five Boxys line up in a row. Kira is EKS. The captain of the toy boxes. Whoosh! Fay flies a box up to a house. No Eddie under it! Fay is Fargate. She flies. No Eddie has to hold the box. The games load. All twenty! Maya cheers. Now you know the toy boxes! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 21,
+    title: "Boxy",
+    tagline: "ECS. One box. Many jobs. If a little Eddie stops, Boxy pops a new one in.",
+    video: "/21-Boxy.mp4?v=story",
+    pdf: "/scripts/21-Boxy-script.pdf",
+    scriptFile: "21-Boxy-script.pdf",
+    pages: ["/script-pages/21-Boxy-script-p1.jpg"],
+    voiceover: "Welcome back to Cloud Town, high up in the sky! Maya has many tiny jobs. Wrap this. Carry that. Tap this. One Eddie cannot hold them all. Into Boxy they go! One box. Many little Eddies pop out and run every job. That is ECS. A toy box that runs many Eddies. Oh no! One little Eddie inside stops. That one job goes dark. Maya's toy freezes. Boxy sees it. Pop! A new little Eddie jumps in. The job lights up again. The box keeps the jobs running. Now you know Boxy! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
