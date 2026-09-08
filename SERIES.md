@@ -98,7 +98,7 @@ Single page. Order from the top:
 
 **Pattern for every remaining district:** one **overview** episode (the district title), then **one 60s cartoon per service** — same as Episode 10 (The vaults) plus 11–19. If a service cannot fill 60s honestly, **say so before shooting** and propose pairing. **Do not pair silently.**
 
-**Next built cartoon:** Episode **25 — Mapi (Route 53)**.
+**Next built cartoon:** Episode **26 — Zip (CloudFront)**.
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
 
@@ -111,7 +111,7 @@ Planned (not built unless noted):
 | 22 | Kira | EKS | **built** |
 | 23 | Fay | Fargate | **built** |
 | 24 | The front door | Route 53, CloudFront, Global Accelerator | **overview — built** |
-| 25 | Mapi | Route 53 | ← next |
+| 25 | Mapi | Route 53 | **built** |
 | 26 | CloudFront | CloudFront | |
 | 27 | Global Accelerator | Global Accelerator | |
 | 28 | The name tag on the door | ACM, API Gateway, Amplify | overview |
@@ -372,10 +372,10 @@ Every Eddie is busy. Nobody can carry the box. Boxy sits on Eddie's head (needs 
 ### 24 — The front door (overview) — **built**
 Remy from far away wants Maya’s drawing. He gets lost, then arrives slow. Mapi points the way. Zip hands a copy at the edge. Boost is one rocket door, always the fastest road. Remy smiles at the drawing.
 
-### 25 — Mapi ← **NEXT (Route 53 only)**
+### 25 — Mapi (Route 53 only) — **built**
 Two same-color houses. Friends knock on the wrong door. Mapi names each house (emblem, no letters), points by name not color. Closed house → she points to the open twin (failover). All three at the right door. Maya waves.
 
-### 26 — Zip (CloudFront)
+### 26 — Zip ← **NEXT (CloudFront)**
 ### 27 — Boost (Global Accelerator)
 
 ### 28 — The name tag on the door (overview)

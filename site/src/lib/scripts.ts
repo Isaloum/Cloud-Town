@@ -260,4 +260,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: ["/script-pages/24-The-front-door-script-p1.jpg"],
     voiceover: "Welcome back to Cloud Town, high up in the sky! Remy is a visitor from far away. He wants to see Maya's drawing. He gets lost on the path. Then he arrives so slow. Oh no! Mapi is the town map. She is a signpost. She points him to the right house. Zip is the fast road. A copy of the drawing waits at the edge of town. Remy does not walk all the way in. He gets it right there. Boost is the rocket path. One front door. Always the fastest road, no matter where he starts. Remy smiles at the drawing. Now you know the front door! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 25,
+    title: "Mapi",
+    tagline: "Route 53. She points by name, not by color. That is failover.",
+    video: "/25-Mapi.mp4?v=story",
+    pdf: "/scripts/25-Mapi-script.pdf",
+    scriptFile: "25-Mapi-script.pdf",
+    pages: ["/script-pages/25-Mapi-script-p1.jpg"],
+    voiceover: "Welcome back to Cloud Town, high up in the sky! Eddie, Sammy, and Lulu want to visit Maya. Oh no! Two houses look the same color. They knock on the wrong door. Mapi is the town map. She gives each house a name. A star. A moon. Not the color. The name! She points by name. This way to Maya. Oh no! Maya's house is closed. Mapi points to the open twin. That is failover. All three friends at the right door. Maya waves. Now you know Mapi! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
