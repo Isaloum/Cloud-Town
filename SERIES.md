@@ -109,7 +109,7 @@ Planned (not built unless noted):
 | 20 | The toy boxes | ECS, EKS, Fargate | **overview — built** |
 | 21 | Boxy | ECS | **built** |
 | 22 | Kira | EKS | **built** |
-| 23 | Fay | Fargate | |
+| 23 | Fay | Fargate | ← next |
 | 24 | The front door | Route 53, CloudFront, Global Accelerator | overview |
 | 25 | Route 53 | Route 53 | |
 | 26 | CloudFront | CloudFront | |
@@ -205,6 +205,7 @@ Planned (not built unless noted):
 - **No narrator kid in the corner** — voice is off-screen only.
 - **Characters never speak on camera.** Body reactions only (blink, nod, wiggle, wave). **No mouth animation. No lip-sync.**
 - **No humans on screen except Maya** unless they have a §6 row. If a story needs a second kid, **lock the row first.** Do not reuse unnamed extras.
+- **Named friends are always their object.** Boxy, Kira, Fay, Eddie, Sammy, Lulu stay boxes / computers / sparks. **Never draw a friend as a human.** (Episode 22 briefly showed Kira as a girl in a hat — do not repeat.)
 - Render **native 9:16, 1080×1920**. Full-frame cartoon. **No letterbox. No blurred bars. No 16:9 strip in the middle.**
 - Cloud Town floats in the sky.
 
@@ -330,6 +331,7 @@ New episodes are **60 seconds**.
 - **No text, letters, or logos** anywhere in the picture. Episode 20 had “CLOUD TOWN” on a classroom board — **do not repeat.**
 - **Little Eddies** are tiny copies of Eddie (cream mini CRT, teal screen, palm-sized). Never white robots.
 - **Only Maya** as a human unless the extra has a §6 row.
+- **Never draw a named friend as a human.** Kira is a box with a hat, always.
 - Palette: **sunset sky, cream + coral + teal, cobblestone.** No white rooms. No clay look.
 
 Code checklist when a chapter opens:
@@ -355,7 +357,7 @@ Many small jobs in one box. One little Eddie inside stops. That job goes dark. B
 Five Boxys doing their own thing. Toys everywhere. Kira whistles, lines them up, replaces a box that tips, adds a box when the line gets long. The whole row works in step.
 
 ### 23 — Fay ← **NEXT (Fargate only)**
-Fargate only.
+Every Eddie is busy. Nobody can carry the box. Boxy sits on Eddie's head (needs an Eddie). Fay flies the box with nobody underneath. Jobs done, she lands and rests. Nobody pays for an idle Eddie.
 
 ### 24 — The front door (overview)
 Route 53, CloudFront, Global Accelerator.
