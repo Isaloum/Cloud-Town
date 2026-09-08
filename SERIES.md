@@ -344,6 +344,13 @@ New episodes are **60 seconds**.
 - **Never draw a named friend as a human.** Kira is a box with a hat, always.
 - Palette: **sunset sky, cream + coral + teal, cobblestone.** No white rooms. No clay look.
 
+**Prompt rule (every still and every clip):**
+
+- **Never use character names** in image or video prompts (not Sammy, Eddie, Lulu, Maya, Mapi, Boxy, Kira, Fay, Remy, or any other row).
+- **Always describe the shape from the bible row instead**, e.g. “cream treasure chest with gold clasps and a round smiling face”; “cream retro CRT computer with a teal screen face, arms and legs”; “small glowing yellow-gold orb with a face”; “girl with brown hair in a coral dress”.
+- If a shot **cannot be generated on-model**, **drop the shot and reuse an approved still**. **Never substitute an animal or a different object.**
+- **Emotion beat:** the problem shot shows a **worried face for 2–4 seconds**, mild, **no tears**. The payoff shot shows the **same character happy**.
+
 Code checklist when a chapter opens:
 
 1. Add the episode to `src/lib/scripts.ts`.
