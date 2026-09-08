@@ -344,6 +344,13 @@ New episodes are **60 seconds**.
 - **Never draw a named friend as a human.** Kira is a box with a hat, always.
 - Palette: **sunset sky, cream + coral + teal, cobblestone.** No white rooms. No clay look.
 
+**Prompt rule (every image and every video clip):**
+
+- **Never use character names** in image or video prompts (no Maya, Eddie, Sammy, Lulu, Mapi, Boxy, Kira, Fay, Remy, Zip, Boost, …).
+- **Always describe the shape from the bible row:** “cream treasure chest with gold clasps and a round smiling face”; “cream retro CRT computer with a teal screen face, arms and legs”; “small glowing yellow-gold orb with a face”; “girl with brown hair in a coral dress”; “cream wooden signpost with a face and teal arrows”.
+- If a shot cannot be generated **on-model**, **drop the shot and reuse an approved still**. Never substitute an animal, a robot, a flame, or a different object.
+- **Emotion beat:** the problem shot shows a **worried face for 2–4 seconds**, mild, **no tears**. The payoff shot shows the **same character happy**.
+
 **Prompt rule (every still and every clip):**
 
 - **Never use character names** in image or video prompts (not Sammy, Eddie, Lulu, Maya, Mapi, Boxy, Kira, Fay, Remy, or any other row).
@@ -379,7 +386,7 @@ Every Eddie is busy. Nobody can carry the box. Boxy sits on Eddie's head (needs 
 ### 24 — The front door (overview) — **built**
 Remy from far away wants Maya’s drawing. He gets lost, then arrives slow. Mapi points the way. Zip hands a copy at the edge. Boost is one rocket door, always the fastest road. Remy smiles at the drawing.
 
-### 25 — Mapi (Route 53 only) — **built**
+### 25 — Mapi (Route 53 only) — **reshoot**
 Two same-color houses. Friends knock on the wrong door. Mapi names each house (emblem, no letters), points by name not color. Closed house → she points to the open twin (failover). All three at the right door. Maya waves.
 
 ### 26 — Zip ← **NEXT (CloudFront)**
