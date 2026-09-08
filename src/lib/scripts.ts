@@ -230,4 +230,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: ["/script-pages/21-Boxy-script-p1.jpg"],
     voiceover: "Welcome back to Cloud Town, high up in the sky! Maya has many tiny jobs. Wrap this. Carry that. Tap this. One Eddie cannot hold them all. Into Boxy they go! One box. Many little Eddies pop out and run every job. That is ECS. A toy box that runs many Eddies. Oh no! One little Eddie inside stops. That one job goes dark. Maya's toy freezes. Boxy sees it. Pop! A new little Eddie jumps in. The job lights up again. The box keeps the jobs running. Now you know Boxy! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 22,
+    title: "Kira",
+    tagline: "EKS. The captain of the toy boxes. The whole row works in step.",
+    video: "/22-Kira.mp4?v=story",
+    pdf: "/scripts/22-Kira-script.pdf",
+    scriptFile: "22-Kira-script.pdf",
+    pages: ["/script-pages/22-Kira-script-p1.jpg"],
+    voiceover: "Welcome back to Cloud Town, high up in the sky! Maya has five Boxys. Each one does its own thing. Toys everywhere! Nothing lines up. Kira is the captain of the toy boxes. Tweet! She blows her whistle. The boxes line up. This box wraps. That box carries. That box taps. Oh no! One box tips over. Kira puts a new box in its place. The line gets long. Kira adds one more. Now the whole row works in step. That is EKS. Now you know Kira! See you next time in Cloud Town, high up in the sky!",
+  },
 ];

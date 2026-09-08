@@ -98,7 +98,7 @@ Single page. Order from the top:
 
 **Pattern for every remaining district:** one **overview** episode (the district title), then **one 60s cartoon per service** — same as Episode 10 (The vaults) plus 11–19. If a service cannot fill 60s honestly, **say so before shooting** and propose pairing. **Do not pair silently.**
 
-**Next built cartoon:** Episode **22 — Kira (EKS)**.
+**Next built cartoon:** Episode **23 — Fay (Fargate)**.
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
 
@@ -108,7 +108,7 @@ Planned (not built unless noted):
 |---|---|---|---|
 | 20 | The toy boxes | ECS, EKS, Fargate | **overview — built** |
 | 21 | Boxy | ECS | **built** |
-| 22 | Kira | EKS | ← next |
+| 22 | Kira | EKS | **built** |
 | 23 | Fay | Fargate | |
 | 24 | The front door | Route 53, CloudFront, Global Accelerator | overview |
 | 25 | Route 53 | Route 53 | |
@@ -351,10 +351,10 @@ Class taps play. Eddie drops toys. Boxy pops helpers. Kira lines up five boxes. 
 ### 21 — Boxy (ECS only) — **built**
 Many small jobs in one box. One little Eddie inside stops. That job goes dark. Boxy pops a new little Eddie in. The job lights up again.
 
-### 22 — Kira ← **NEXT (EKS only)**
+### 22 — Kira (EKS only) — **built**
 Five Boxys doing their own thing. Toys everywhere. Kira whistles, lines them up, replaces a box that tips, adds a box when the line gets long. The whole row works in step.
 
-### 23 — Fay
+### 23 — Fay ← **NEXT (Fargate only)**
 Fargate only.
 
 ### 24 — The front door (overview)
