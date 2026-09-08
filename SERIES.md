@@ -111,7 +111,7 @@ Planned (not built unless noted):
 | 22 | Kira | EKS | **built** |
 | 23 | Fay | Fargate | **built** |
 | 24 | The front door | Route 53, CloudFront, Global Accelerator | **overview — built** |
-| 25 | Route 53 | Route 53 | |
+| 25 | Mapi | Route 53 | ← next |
 | 26 | CloudFront | CloudFront | |
 | 27 | Global Accelerator | Global Accelerator | |
 | 28 | The name tag on the door | ACM, API Gateway, Amplify | overview |
@@ -206,6 +206,7 @@ Planned (not built unless noted):
 - **Characters never speak on camera.** Body reactions only (blink, nod, wiggle, wave). **No mouth animation. No lip-sync.**
 - **No humans on screen except Maya** unless they have a §6 row. If a story needs a second kid, **lock the row first.** Do not reuse unnamed extras.
 - **Named friends are always their object.** Boxy, Kira, Fay, Eddie, Sammy, Lulu stay boxes / computers / sparks. **Never draw a friend as a human.** (Episode 22 briefly showed Kira as a girl in a hat — do not repeat.)
+- **Remy is always a boy in a teal sweater.** Never a mouse. Never a girl.
 - Render **native 9:16, 1080×1920**. Full-frame cartoon. **No letterbox. No blurred bars. No 16:9 strip in the middle.**
 - Cloud Town floats in the sky.
 
@@ -291,7 +292,7 @@ Planned (not built unless noted):
 | **Mapi** | **Route 53** | Cream wooden **signpost** with a friendly face and teal arrows. Points visitors to the right house. *Mapi is the town map. She points you to the right house.* |
 | **Zip** | **CloudFront** | Cream **fast road** with a face, and a little stall at the **edge of town** holding copies of Sammy’s toys. *Zip is the fast road. Copies wait at the edge so you don’t walk all the way in.* |
 | **Boost** | **Global Accelerator** | Cream **front-door arch** with a face and teal rocket streaks. One fixed door. Sends visitors down the fastest road. *Boost is the rocket path. One door. Always the fastest road.* |
-| **Remy** | (kid, not a service) | Visiting kid from far away. Curly dark hair, **teal sweater**, cream shorts. Comes to see Maya’s drawing. *Remy is a visitor from far away.* |
+| **Remy** | (kid, not a service) | Visiting **boy**. Curly dark hair, **teal sweater**, cream shorts. **Always a boy. Never a girl. Never a mouse or any animal.** *Remy is a visitor from far away.* |
 
 ### Setting
 
@@ -372,7 +373,10 @@ Every Eddie is busy. Nobody can carry the box. Boxy sits on Eddie's head (needs 
 Remy from far away wants Maya’s drawing. He gets lost, then arrives slow. Mapi points the way. Zip hands a copy at the edge. Boost is one rocket door, always the fastest road. Remy smiles at the drawing.
 
 ### 25 — Mapi ← **NEXT (Route 53 only)**
-· 26 CloudFront · 27 Global Accelerator
+Two same-color houses. Friends knock on the wrong door. Mapi names each house (emblem, no letters), points by name not color. Closed house → she points to the open twin (failover). All three at the right door. Maya waves.
+
+### 26 — Zip (CloudFront)
+### 27 — Boost (Global Accelerator)
 
 ### 28 — The name tag on the door (overview)
 ACM, API Gateway, Amplify.
