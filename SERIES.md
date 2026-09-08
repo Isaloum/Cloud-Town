@@ -110,7 +110,7 @@ Planned (not built unless noted):
 | 21 | Boxy | ECS | **built** |
 | 22 | Kira | EKS | **built** |
 | 23 | Fay | Fargate | **built** |
-| 24 | The front door | Route 53, CloudFront, Global Accelerator | overview |
+| 24 | The front door | Route 53, CloudFront, Global Accelerator | **overview** ← next |
 | 25 | Route 53 | Route 53 | |
 | 26 | CloudFront | CloudFront | |
 | 27 | Global Accelerator | Global Accelerator | |
@@ -282,7 +282,16 @@ Planned (not built unless noted):
 |---|---|---|
 | **Boxy** | **ECS** | Cream **toy box** with a friendly face and a teal latch. Holds many little Eddie toys and runs them. *Boxy is a toy box that runs many Eddies.* |
 | **Kira** | **EKS** | Cream **toy box with a teal captain’s hat**. Lines up many boxes the Kubernetes way. *Kira is the captain of the toy boxes.* |
-| **Fay** | **Fargate** | Cream **toy box with tiny teal wings**, floating. No Eddie holds her. *Fay flies. No Eddie has to hold the box.* |
+| **Fay** | **Fargate** | Cream **toy box with tiny teal wings**, floating. **Wings are always teal, never white.** No Eddie holds her. *Fay flies. No Eddie has to hold the box.* |
+
+### The front door (Episodes 24–27)
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Mapi** | **Route 53** | Cream wooden **signpost** with a friendly face and teal arrows. Points visitors to the right house. *Mapi is the town map. She points you to the right house.* |
+| **Zip** | **CloudFront** | Cream **fast road** with a face, and a little stall at the **edge of town** holding copies of Sammy’s toys. *Zip is the fast road. Copies wait at the edge so you don’t walk all the way in.* |
+| **Boost** | **Global Accelerator** | Cream **front-door arch** with a face and teal rocket streaks. One fixed door. Sends visitors down the fastest road. *Boost is the rocket path. One door. Always the fastest road.* |
+| **Remy** | (kid, not a service) | Visiting kid from far away. Curly dark hair, **teal sweater**, cream shorts. Comes to see Maya’s drawing. *Remy is a visitor from far away.* |
 
 ### Setting
 
@@ -360,7 +369,7 @@ Five Boxys doing their own thing. Toys everywhere. Kira whistles, lines them up,
 Every Eddie is busy. Nobody can carry the box. Boxy sits on Eddie's head (needs an Eddie). Fay flies the box with nobody underneath. Jobs done, she lands and rests. Nobody pays for an idle Eddie.
 
 ### 24 — The front door ← **NEXT (overview)**
-Route 53, CloudFront, Global Accelerator.
+Remy from far away wants Maya’s drawing. He gets lost, then arrives slow. Mapi points the way. Zip hands a copy at the edge. Boost is one rocket door, always the fastest road. Remy smiles at the drawing.
 
 ### 25 Route 53 · 26 CloudFront · 27 Global Accelerator
 
