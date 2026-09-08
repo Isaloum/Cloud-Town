@@ -240,4 +240,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: ["/script-pages/22-Kira-script-p1.jpg"],
     voiceover: "Welcome back to Cloud Town, high up in the sky! Maya has five Boxys. Each one does its own thing. Toys everywhere! Nothing lines up. Kira is the captain of the toy boxes. Tweet! She blows her whistle. The boxes line up. This box wraps. That box carries. That box taps. Oh no! One box tips over. Kira puts a new box in its place. The line gets long. Kira adds one more. Now the whole row works in step. That is EKS. Now you know Kira! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 23,
+    title: "Fay",
+    tagline: "Fargate. She flies the box. No Eddie underneath.",
+    video: "/23-Fay.mp4?v=story",
+    pdf: "/scripts/23-Fay-script.pdf",
+    scriptFile: "23-Fay-script.pdf",
+    pages: ["/script-pages/23-Fay-script-p1.jpg"],
+    voiceover: "Welcome back to Cloud Town, high up in the sky! Maya has a box of jobs. Wrap this. Carry that. Tap this. But every Eddie in town is busy. Nobody can carry the box. Look: Boxy sits on Eddie's head. Boxy needs an Eddie. Whoosh! Fay flies in. She is a flying box. She carries the jobs herself. No Eddie underneath! The jobs run while she flies. When the jobs are done, Fay lands and rests. Eddie can go play. Nobody pays for an Eddie that sits idle. That is Fargate. Now you know Fay! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
