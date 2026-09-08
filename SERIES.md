@@ -98,7 +98,7 @@ Single page. Order from the top:
 
 **Pattern for every remaining district:** one **overview** episode (the district title), then **one 60s cartoon per service** — same as Episode 10 (The vaults) plus 11–19. If a service cannot fill 60s honestly, **say so before shooting** and propose pairing. **Do not pair silently.**
 
-**Next built cartoon:** Episode **24 — The front door** (Route 53, CloudFront, Global Accelerator overview).
+**Next built cartoon:** Episode **25 — Mapi (Route 53)**.
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
 
@@ -110,7 +110,7 @@ Planned (not built unless noted):
 | 21 | Boxy | ECS | **built** |
 | 22 | Kira | EKS | **built** |
 | 23 | Fay | Fargate | **built** |
-| 24 | The front door | Route 53, CloudFront, Global Accelerator | **overview** ← next |
+| 24 | The front door | Route 53, CloudFront, Global Accelerator | **overview — built** |
 | 25 | Route 53 | Route 53 | |
 | 26 | CloudFront | CloudFront | |
 | 27 | Global Accelerator | Global Accelerator | |
@@ -368,10 +368,11 @@ Five Boxys doing their own thing. Toys everywhere. Kira whistles, lines them up,
 ### 23 — Fay (Fargate only) — **built**
 Every Eddie is busy. Nobody can carry the box. Boxy sits on Eddie's head (needs an Eddie). Fay flies the box with nobody underneath. Jobs done, she lands and rests. Nobody pays for an idle Eddie.
 
-### 24 — The front door ← **NEXT (overview)**
+### 24 — The front door (overview) — **built**
 Remy from far away wants Maya’s drawing. He gets lost, then arrives slow. Mapi points the way. Zip hands a copy at the edge. Boost is one rocket door, always the fastest road. Remy smiles at the drawing.
 
-### 25 Route 53 · 26 CloudFront · 27 Global Accelerator
+### 25 — Mapi ← **NEXT (Route 53 only)**
+· 26 CloudFront · 27 Global Accelerator
 
 ### 28 — The name tag on the door (overview)
 ACM, API Gateway, Amplify.

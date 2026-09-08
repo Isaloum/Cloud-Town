@@ -250,4 +250,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: ["/script-pages/23-Fay-script-p1.jpg"],
     voiceover: "Welcome back to Cloud Town, high up in the sky! Maya has a box of jobs. Wrap this. Carry that. Tap this. But every Eddie in town is busy. Nobody can carry the box. Look: Boxy sits on Eddie's head. Boxy needs an Eddie. Whoosh! Fay flies in. She is a flying box. She carries the jobs herself. No Eddie underneath! The jobs run while she flies. When the jobs are done, Fay lands and rests. Eddie can go play. Nobody pays for an Eddie that sits idle. That is Fargate. Now you know Fay! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 24,
+    title: "The front door",
+    tagline: "Mapi points. Zip copies at the edge. Boost is one fast door.",
+    video: "/24-The-front-door.mp4?v=story",
+    pdf: "/scripts/24-The-front-door-script.pdf",
+    scriptFile: "24-The-front-door-script.pdf",
+    pages: ["/script-pages/24-The-front-door-script-p1.jpg"],
+    voiceover: "Welcome back to Cloud Town, high up in the sky! Remy is a visitor from far away. He wants to see Maya's drawing. He gets lost on the path. Then he arrives so slow. Oh no! Mapi is the town map. She is a signpost. She points him to the right house. Zip is the fast road. A copy of the drawing waits at the edge of town. Remy does not walk all the way in. He gets it right there. Boost is the rocket path. One front door. Always the fastest road, no matter where he starts. Remy smiles at the drawing. Now you know the front door! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
