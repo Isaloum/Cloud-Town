@@ -108,7 +108,7 @@ Planned (not built unless noted):
 |---|---|---|---|
 | 20 | The toy boxes | ECS, EKS, Fargate | **overview — built** |
 | 21 | Boxy | ECS | **built** |
-| 22 | Kira | EKS | |
+| 22 | Kira | EKS | ← next |
 | 23 | Fay | Fargate | |
 | 24 | The front door | Route 53, CloudFront, Global Accelerator | overview |
 | 25 | Route 53 | Route 53 | |
@@ -200,9 +200,11 @@ Planned (not built unless noted):
 ### Art rules (locked)
 
 - 3D Pixar-style, warm sunset, cobblestone, cream + teal, cute faces on objects.
+- **Every shot keeps the Cloud Town palette:** sunset sky, **cream + coral + teal**, cobblestone. **No flat white rooms. No clay-render look.**
 - **No AWS logos, no letters, no words** on the picture.
 - **No narrator kid in the corner** — voice is off-screen only.
 - **Characters never speak on camera.** Body reactions only (blink, nod, wiggle, wave). **No mouth animation. No lip-sync.**
+- **No humans on screen except Maya** unless they have a §6 row. If a story needs a second kid, **lock the row first.** Do not reuse unnamed extras.
 - Render **native 9:16, 1080×1920**. Full-frame cartoon. **No letterbox. No blurred bars. No 16:9 strip in the middle.**
 - Cloud Town floats in the sky.
 
@@ -212,6 +214,7 @@ Planned (not built unless noted):
 |---|---|---|
 | **Sammy** | **S3** | Cream treasure **chest** with gold clasps, round friendly face, short arms/legs. His house is a **closet / bucket**. |
 | **Eddie** | **EC2** | Cream **retro CRT computer**. Teal screen. Chunk of a body, round face on the monitor, arms and legs. Never sleeps. Lives in the **backyard** (private subnet). |
+| **Little Eddies** | **containers** (inside Boxy) | **Tiny copies of Eddie.** Cream mini CRT with a teal screen face, **palm-sized**. Never white robots. Never generic figures. |
 | **Lulu** | **Lambda** | Small round **yellow-gold spark / orb** with a face. Pops in, does one job, **poofs away**. |
 | **Maya** | (kid, not a service) | Little girl. Brown hair, **pink/coral dress**. Lives in Cloud Town. Friends with Eddie and Lulu. |
 | **Dot** | **the vaults** (RDS family) | Cream **notebook / vault** with a face. Hides in the backyard. “Dot” is the whole database family; each vault has its own shape below. |
@@ -325,6 +328,9 @@ New episodes are **60 seconds**.
 - **Bright props** (toys, games, letters) in **red / yellow / blue** against the cream-and-teal town.
 - **Camera moves** in at least 3 shots. **No shot held longer than 6 seconds.**
 - **No text, letters, or logos** anywhere in the picture. Episode 20 had “CLOUD TOWN” on a classroom board — **do not repeat.**
+- **Little Eddies** are tiny copies of Eddie (cream mini CRT, teal screen, palm-sized). Never white robots.
+- **Only Maya** as a human unless the extra has a §6 row.
+- Palette: **sunset sky, cream + coral + teal, cobblestone.** No white rooms. No clay look.
 
 Code checklist when a chapter opens:
 
@@ -346,7 +352,7 @@ Class taps play. Eddie drops toys. Boxy pops helpers. Kira lines up five boxes. 
 Many small jobs in one box. One little Eddie inside stops. That job goes dark. Boxy pops a new little Eddie in. The job lights up again.
 
 ### 22 — Kira ← **NEXT (EKS only)**
-EKS only.
+Five Boxys doing their own thing. Toys everywhere. Kira whistles, lines them up, replaces a box that tips, adds a box when the line gets long. The whole row works in step.
 
 ### 23 — Fay
 Fargate only.
