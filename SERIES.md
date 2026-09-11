@@ -113,7 +113,7 @@ Planned (not built unless noted):
 | 24 | The front door | Route 53, CloudFront, Global Accelerator | **overview — built** |
 | 25 | Mapi | Route 53 | **built** |
 | 26 | Zip | CloudFront | **built** |
-| 27 | Global Accelerator | Global Accelerator | |
+| 27 | Boost | Global Accelerator | ← next |
 | 28 | The name tag on the door | ACM, API Gateway, Amplify | overview |
 | 29 | ACM | ACM | |
 | 30 | API Gateway | API Gateway | |
@@ -291,7 +291,7 @@ Planned (not built unless noted):
 |---|---|---|
 | **Mapi** | **Route 53** | Cream **wooden signpost** with a smiling carved face, **one teal star-shaped arrow** and **one coral moon-shaped arrow**. Never a plain white post. Points visitors to the right house. *Mapi is the town map. She points you to the right house.* |
 | **Zip** | **CloudFront** | Cream **fast road** with a smiling face in the cobblestones, plus a cream **edge stall** with a face, holding copies of drawings (icons only, never writing). **Always this pair. Never a person. Never a vehicle.** *Zip is the fast road. Copies wait at the edge so you don’t walk all the way in.* |
-| **Boost** | **Global Accelerator** | Cream **front-door arch** with a face and teal rocket streaks. One fixed door. Sends visitors down the fastest road. *Boost is the rocket path. One door. Always the fastest road.* |
+| **Boost** | **Global Accelerator** | Cream **front-door arch** with a smiling carved face, teal speed streaks, and **one coral keystone**. Always this one doorway. Never a person. Never a vehicle. Never rainbow. *Boost is the rocket path. One door. Always the fastest road.* |
 | **Remy** | (kid, not a service) | Visiting **boy**. Curly dark hair, **teal sweater**, cream shorts. **Always a boy. Never a girl. Never a mouse or any animal.** *Remy is a visitor from far away.* |
 
 ### Setting
@@ -352,6 +352,7 @@ New episodes are **60 seconds**.
 - **Emotion beat:** the problem shot shows a **worried face for 2–4 seconds**, mild, **no tears**. The payoff shot shows the **same character happy**.
 - **Never render readable text or lettering inside shots.** Signs and labels are **blank** or use **only icons** (star, moon, arrows). No letters, numbers, or fake glyphs.
 - **Mapi (every shot):** cream **wooden signpost** with a smiling carved face, **one teal star-shaped arrow** and **one coral moon-shaped arrow**. Never a plain white post.
+- **Boost (every shot):** cream **front-door arch** with a smiling carved face, teal speed streaks, **one coral keystone**. Never a person. Never rainbow.
 
 - **Never use character names** in image or video prompts (not Sammy, Eddie, Lulu, Maya, Mapi, Boxy, Kira, Fay, Remy, or any other row).
 - **Always describe the shape from the bible row instead**, e.g. “cream treasure chest with gold clasps and a round smiling face”; “cream retro CRT computer with a teal screen face, arms and legs”; “small glowing yellow-gold orb with a face”; “girl with brown hair in a coral dress”.
@@ -393,6 +394,7 @@ Two same-color houses. Friends knock on the wrong door. Mapi names each house (e
 Remy waits far away. The chest walks a drawing all the way across town (slow). The fast-road stall keeps a copy at the edge (instant). New drawing: old copy goes away, fresh copy arrives (expire).
 
 ### 27 — Boost ← **NEXT (Global Accelerator)**
+Three far-away friends pick three bad roads (bumpy, closed, long). Late and tired. One cream doorway sends each down the fastest road. Zip keeps copies near you; this doorway is one door and the fastest road.
 
 ### 28 — The name tag on the door (overview)
 ACM, API Gateway, Amplify.
