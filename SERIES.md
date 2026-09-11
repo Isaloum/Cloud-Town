@@ -218,7 +218,7 @@ Planned (not built unless noted):
 | **Eddie** | **EC2** | Cream **retro CRT computer**. Teal screen. Chunk of a body, round face on the monitor, arms and legs. Never sleeps. Lives in the **backyard** (private subnet). |
 | **Little Eddies** | **containers** (inside Boxy) | **Tiny copies of Eddie.** Cream mini CRT with a teal screen face, **palm-sized**. Never white robots. Never generic figures. |
 | **Lulu** | **Lambda** | Small round **yellow-gold spark / orb** with a face. Pops in, does one job, **poofs away**. |
-| **Maya** | (kid, not a service) | Little girl. Brown hair, **pink/coral dress**. Lives in Cloud Town. Friends with Eddie and Lulu. |
+| **Maya** | (kid, not a service) | Little girl. Brown hair **down**, **pink/coral dress**. **No bun. No apron.** Lives in Cloud Town. Friends with Eddie and Lulu. |
 | **Dot** | **the vaults** (RDS family) | Cream **notebook / vault** with a face. Hides in the backyard. “Dot” is the whole database family; each vault has its own shape below. |
 
 ### The neighborhood (Episode 4)
@@ -299,7 +299,7 @@ Planned (not built unless noted):
 | Name | AWS | Shape |
 |---|---|---|
 | **Seal** | **ACM** | Cream **padlock sticker** with a smiling face, teal shackle, **one coral rivet**. Always this sticker. Glows on the door to prove the house is real. Never a person. Never letters. *Seal is the lock on the door. She proves this is really Maya’s house.* |
-| **Winn** | **API Gateway** | Cream **ticket window** with a smiling face, teal awning, **one coral bell**. Hands blank colored tickets (no writing). Holds up a hand when too many come. Always this window. Never a person. *Winn is the ticket window. Ask nicely, get a ticket, wait if too many.* |
+| **Winn** | **API Gateway** | Cream **ticket window** with a **cream smiling face**, **teal awning**, **one small coral bell on top**. Hands blank colored tickets (no writing). Holds up a hand when too many come. Always this window. Never a blue box. Never a person. *Winn is the ticket window. Ask nicely, get a ticket, wait if too many.* |
 | **Poppy** | **Amplify** | Cream **folded lemonade-booth kit** with a smiling face, teal trim, **one coral lemon**. Unfolds in one motion into a whole stand: street, door, and window already built. Always this kit. Never a person. *Poppy is the booth kit. One pop, and the whole stand is ready.* |
 
 ### Setting

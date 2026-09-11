@@ -294,7 +294,7 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     n: 28,
     title: "The name tag on the door",
     tagline: "ACM, API Gateway, Amplify. Lock, tickets, and a booth that pops up.",
-    video: "/28-The-name-tag-on-the-door.mp4?v=1",
+    video: "/28-The-name-tag-on-the-door.mp4?v=line",
     pdf: "/scripts/28-The-name-tag-on-the-door-script.pdf",
     scriptFile: "28-The-name-tag-on-the-door-script.pdf",
     pages: ["/script-pages/28-The-name-tag-on-the-door-script-p1.jpg"],
