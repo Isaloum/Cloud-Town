@@ -300,4 +300,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: ["/script-pages/28-The-name-tag-on-the-door-script-p1.jpg"],
     voiceover: "Welcome back to Cloud Town, high up in the sky! Maya wants a lemonade stand for visitors. Oh no! A visitor is scared. Is this a fake stand? A crowd shouts all at once. Building the stand by hand takes forever. Seal is the lock on the door. She glows. This is really Maya's house. The visitor relaxes. Winn is the ticket window. She hands tickets in order. Too many? She holds up a hand. Wait. Poppy is the booth kit. One pop! The whole stand is ready. Happy visitors in a tidy line. Maya waves. Now you know the name tag on the door! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 29,
+    title: "Seal",
+    tagline: "ACM. Look for the glow before you hand over your coin.",
+    video: "/29-Seal.mp4?v=1",
+    pdf: "/scripts/29-Seal-script.pdf",
+    scriptFile: "29-Seal-script.pdf",
+    pages: ["/script-pages/29-Seal-script-p1.jpg"],
+    voiceover: "Welcome back to Cloud Town, high up in the sky! Remy walks up to a lemonade stand. It looks like Maya's. Oh no! The awning is crooked. It is a copycat. Remy almost hands over his coin. Seal is the lock sticker. Only Maya's real door has her. Seal glows. The copycat has no glow. Remy walks past the fake. He buys at the real one. Look for the glow before you hand over your coin. Seal gets tired. The glow fades. A fresh Seal pops on, all by herself. Remy has lemonade. Maya waves. Now you know Seal! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
