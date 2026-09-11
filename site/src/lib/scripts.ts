@@ -310,4 +310,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: ["/script-pages/29-Seal-script-p1.jpg"],
     voiceover: "Welcome back to Cloud Town, high up in the sky! Remy walks up to a lemonade stand. It looks like Maya's. Oh no! The awning is crooked. It is a copycat. Remy almost hands over his coin. Seal is the lock sticker. Only Maya's real door has her. Seal glows. The copycat has no glow. Remy walks past the fake. He buys at the real one. Look for the glow before you hand over your coin. Seal gets tired. The glow fades. A fresh Seal pops on, all by herself. Remy has lemonade. Maya waves. Now you know Seal! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 30,
+    title: "Winn",
+    tagline: "API Gateway. Ask at the window, get a ticket, wait your turn.",
+    video: "/30-Winn.mp4?v=1",
+    pdf: "/scripts/30-Winn-script.pdf",
+    scriptFile: "30-Winn-script.pdf",
+    pages: ["/script-pages/30-Winn-script-p1.jpg"],
+    voiceover: "Welcome back to Cloud Town, high up in the sky! Helpers work in the back. Sammy has photos. Eddie mixes. Lulu scoops ice. Oh no! Visitors walk into the back. Eddie drops a pitcher. Winn is the ticket window. Come to the window first. Ask nicely. Get a ticket. Winn passes it to the right helper. Helpers are calm. A crowd rushes. Winn holds up a hand. Wait. A few at a time. No ticket? Winn shakes her head. Seal glows. Only real friends get in. Ask at the window, get a ticket, wait your turn. Maya waves. Now you know Winn! See you next time in Cloud Town, high up in the sky!",
+  },
 ];

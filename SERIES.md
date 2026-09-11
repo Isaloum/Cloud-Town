@@ -98,7 +98,7 @@ Single page. Order from the top:
 
 **Pattern for every remaining district:** one **overview** episode (the district title), then **one 60s cartoon per service** — same as Episode 10 (The vaults) plus 11–19. If a service cannot fill 60s honestly, **say so before shooting** and propose pairing. **Do not pair silently.**
 
-**Next built cartoon:** Episode **30 — Winn (API Gateway)**.
+**Next built cartoon:** Episode **31 — Poppy (Amplify)**.
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
 
@@ -116,7 +116,7 @@ Planned (not built unless noted):
 | 27 | Boost | Global Accelerator | **built** |
 | 28 | The name tag on the door | ACM, API Gateway, Amplify | **built** |
 | 29 | Seal | ACM | **built** |
-| 30 | API Gateway | API Gateway | |
+| 30 | Winn | API Gateway | **built** |
 | 31 | Amplify | Amplify | |
 | 32 | The post office | SQS, SNS, EventBridge | overview |
 | 33 | SQS | SQS | |
@@ -413,7 +413,11 @@ Maya wants a lemonade stand. Fake-stand scare, shouting crowd, hand-built foreve
 ### 29 — Seal (ACM) — **built**
 Copycat lemonade stand with a crooked awning. Remy almost pays. Glow on the real door only. Walk past the fake. Glow fades, a fresh lock pops on (renew). Look for the glow before you hand over your coin.
 
-### 30 — Winn ← **NEXT (API Gateway)**
+### 30 — Winn (API Gateway) — **built**
+Visitors crash the back. Eddie drops a pitcher. Window first: ticket to the right helper. Crowd rushes, hand up, wait (throttle). No ticket: shake head, padlock glow (auth).
+
+### 31 — Poppy ← **NEXT (Amplify)**
+
 ### 31 — Poppy (Amplify)
 ACM, API Gateway, Amplify.
 
