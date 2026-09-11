@@ -289,7 +289,7 @@ Planned (not built unless noted):
 
 | Name | AWS | Shape |
 |---|---|---|
-| **Mapi** | **Route 53** | Cream wooden **signpost** with a friendly face and teal arrows. Points visitors to the right house. *Mapi is the town map. She points you to the right house.* |
+| **Mapi** | **Route 53** | Cream **wooden signpost** with a smiling carved face, **one teal star-shaped arrow** and **one coral moon-shaped arrow**. Never a plain white post. Points visitors to the right house. *Mapi is the town map. She points you to the right house.* |
 | **Zip** | **CloudFront** | Cream **fast road** with a face, and a little stall at the **edge of town** holding copies of Sammy’s toys. *Zip is the fast road. Copies wait at the edge so you don’t walk all the way in.* |
 | **Boost** | **Global Accelerator** | Cream **front-door arch** with a face and teal rocket streaks. One fixed door. Sends visitors down the fastest road. *Boost is the rocket path. One door. Always the fastest road.* |
 | **Remy** | (kid, not a service) | Visiting **boy**. Curly dark hair, **teal sweater**, cream shorts. **Always a boy. Never a girl. Never a mouse or any animal.** *Remy is a visitor from far away.* |
@@ -350,8 +350,8 @@ New episodes are **60 seconds**.
 - **Always describe the shape from the bible row:** “cream treasure chest with gold clasps and a round smiling face”; “cream retro CRT computer with a teal screen face, arms and legs”; “small glowing yellow-gold orb with a face”; “girl with brown hair in a coral dress”; “cream wooden signpost with a face and teal arrows”.
 - If a shot cannot be generated **on-model**, **drop the shot and reuse an approved still**. Never substitute an animal, a robot, a flame, or a different object.
 - **Emotion beat:** the problem shot shows a **worried face for 2–4 seconds**, mild, **no tears**. The payoff shot shows the **same character happy**.
-
-**Prompt rule (every still and every clip):**
+- **Never render readable text or lettering inside shots.** Signs and labels are **blank** or use **only icons** (star, moon, arrows). No letters, numbers, or fake glyphs.
+- **Mapi (every shot):** cream **wooden signpost** with a smiling carved face, **one teal star-shaped arrow** and **one coral moon-shaped arrow**. Never a plain white post.
 
 - **Never use character names** in image or video prompts (not Sammy, Eddie, Lulu, Maya, Mapi, Boxy, Kira, Fay, Remy, or any other row).
 - **Always describe the shape from the bible row instead**, e.g. “cream treasure chest with gold clasps and a round smiling face”; “cream retro CRT computer with a teal screen face, arms and legs”; “small glowing yellow-gold orb with a face”; “girl with brown hair in a coral dress”.
