@@ -98,7 +98,7 @@ Single page. Order from the top:
 
 **Pattern for every remaining district:** one **overview** episode (the district title), then **one 60s cartoon per service** — same as Episode 10 (The vaults) plus 11–19. If a service cannot fill 60s honestly, **say so before shooting** and propose pairing. **Do not pair silently.**
 
-**Next built cartoon:** Episode **27 — Boost (Global Accelerator)**.
+**Next built cartoon:** Episode **28 — The name tag on the door** (ACM, API Gateway, Amplify overview).
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
 
@@ -113,7 +113,7 @@ Planned (not built unless noted):
 | 24 | The front door | Route 53, CloudFront, Global Accelerator | **overview — built** |
 | 25 | Mapi | Route 53 | **built** |
 | 26 | Zip | CloudFront | **built** |
-| 27 | Boost | Global Accelerator | ← next |
+| 27 | Boost | Global Accelerator | **built** |
 | 28 | The name tag on the door | ACM, API Gateway, Amplify | overview |
 | 29 | ACM | ACM | |
 | 30 | API Gateway | API Gateway | |
@@ -393,10 +393,10 @@ Two same-color houses. Friends knock on the wrong door. Mapi names each house (e
 ### 26 — Zip (CloudFront) — **built**
 Remy waits far away. The chest walks a drawing all the way across town (slow). The fast-road stall keeps a copy at the edge (instant). New drawing: old copy goes away, fresh copy arrives (expire).
 
-### 27 — Boost ← **NEXT (Global Accelerator)**
+### 27 — Boost (Global Accelerator) — **built**
 Three far-away friends pick three bad roads (bumpy, closed, long). Late and tired. One cream doorway sends each down the fastest road. Zip keeps copies near you; this doorway is one door and the fastest road.
 
-### 28 — The name tag on the door (overview)
+### 28 — The name tag on the door ← **NEXT (overview)**
 ACM, API Gateway, Amplify.
 
 ### 29 ACM · 30 API Gateway · 31 Amplify

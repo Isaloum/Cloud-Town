@@ -280,4 +280,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: ["/script-pages/26-Zip-script-p1.jpg"],
     voiceover: "Welcome back to Cloud Town, high up in the sky! Remy lives far away. He wants Maya's new drawing. Sammy walks it all the way across town. Remy waits. And waits. And waits. So slow! The first trip takes forever. Zip is the fast road. Zip keeps a copy at the edge of town, near Remy. Next time Remy asks... it is right there! Instant! Maya paints a new drawing. The old copy goes away. Zip fetches the fresh one. Remy smiles. Maya waves. Now you know Zip! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 27,
+    title: "Boost",
+    tagline: "Global Accelerator. One door. Always the fastest road.",
+    video: "/27-Boost.mp4?v=1",
+    pdf: "/scripts/27-Boost-script.pdf",
+    scriptFile: "27-Boost-script.pdf",
+    pages: ["/script-pages/27-Boost-script-p1.jpg"],
+    voiceover: "Welcome back to Cloud Town, high up in the sky! Maya's friends want to visit. They live far away. Each one picks a different road. One road is bumpy. One bridge is closed. One road is long. They arrive late. And tired. Boost is one front door. A glowing doorway at the edge of the sky. Every visitor goes to Boost first. Boost sends each one down the fastest road. Zip keeps copies near you. Boost gives you one door, and the fastest road. They all arrive fast. Maya waves. Now you know Boost! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
