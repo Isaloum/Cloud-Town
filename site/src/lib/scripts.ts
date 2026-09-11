@@ -314,7 +314,7 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     n: 30,
     title: "Winn",
     tagline: "API Gateway. Ask at the window, get a ticket, wait your turn.",
-    video: "/30-Winn.mp4?v=1",
+    video: "/30-Winn.mp4?v=winn",
     pdf: "/scripts/30-Winn-script.pdf",
     scriptFile: "30-Winn-script.pdf",
     pages: ["/script-pages/30-Winn-script-p1.jpg"],
