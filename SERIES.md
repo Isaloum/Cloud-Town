@@ -386,7 +386,7 @@ Every Eddie is busy. Nobody can carry the box. Boxy sits on Eddie's head (needs 
 ### 24 — The front door (overview) — **built**
 Remy from far away wants Maya’s drawing. He gets lost, then arrives slow. Mapi points the way. Zip hands a copy at the edge. Boost is one rocket door, always the fastest road. Remy smiles at the drawing.
 
-### 25 — Mapi (Route 53 only) — **reshoot**
+### 25 — Mapi (Route 53 only) — **built (reshot, bible shapes)**
 Two same-color houses. Friends knock on the wrong door. Mapi names each house (emblem, no letters), points by name not color. Closed house → she points to the open twin (failover). All three at the right door. Maya waves.
 
 ### 26 — Zip ← **NEXT (CloudFront)**

@@ -264,7 +264,7 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     n: 25,
     title: "Mapi",
     tagline: "Route 53. She points by name, not by color. That is failover.",
-    video: "/25-Mapi.mp4?v=story",
+    video: "/25-Mapi.mp4?v=reshot",
     pdf: "/scripts/25-Mapi-script.pdf",
     scriptFile: "25-Mapi-script.pdf",
     pages: ["/script-pages/25-Mapi-script-p1.jpg"],
