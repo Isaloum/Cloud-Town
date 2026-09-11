@@ -284,7 +284,7 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     n: 27,
     title: "Boost",
     tagline: "Global Accelerator. One door. Always the fastest road.",
-    video: "/27-Boost.mp4?v=1",
+    video: "/27-Boost.mp4?v=teal",
     pdf: "/scripts/27-Boost-script.pdf",
     scriptFile: "27-Boost-script.pdf",
     pages: ["/script-pages/27-Boost-script-p1.jpg"],
