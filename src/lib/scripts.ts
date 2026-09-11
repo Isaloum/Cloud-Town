@@ -290,4 +290,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: ["/script-pages/27-Boost-script-p1.jpg"],
     voiceover: "Welcome back to Cloud Town, high up in the sky! Maya's friends want to visit. They live far away. Each one picks a different road. One road is bumpy. One bridge is closed. One road is long. They arrive late. And tired. Boost is one front door. A glowing doorway at the edge of the sky. Every visitor goes to Boost first. Boost sends each one down the fastest road. Zip keeps copies near you. Boost gives you one door, and the fastest road. They all arrive fast. Maya waves. Now you know Boost! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 28,
+    title: "The name tag on the door",
+    tagline: "ACM, API Gateway, Amplify. Lock, tickets, and a booth that pops up.",
+    video: "/28-The-name-tag-on-the-door.mp4?v=1",
+    pdf: "/scripts/28-The-name-tag-on-the-door-script.pdf",
+    scriptFile: "28-The-name-tag-on-the-door-script.pdf",
+    pages: ["/script-pages/28-The-name-tag-on-the-door-script-p1.jpg"],
+    voiceover: "Welcome back to Cloud Town, high up in the sky! Maya wants a lemonade stand for visitors. Oh no! A visitor is scared. Is this a fake stand? A crowd shouts all at once. Building the stand by hand takes forever. Seal is the lock on the door. She glows. This is really Maya's house. The visitor relaxes. Winn is the ticket window. She hands tickets in order. Too many? She holds up a hand. Wait. Poppy is the booth kit. One pop! The whole stand is ready. Happy visitors in a tidy line. Maya waves. Now you know the name tag on the door! See you next time in Cloud Town, high up in the sky!",
+  },
 ];

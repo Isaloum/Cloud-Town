@@ -98,7 +98,7 @@ Single page. Order from the top:
 
 **Pattern for every remaining district:** one **overview** episode (the district title), then **one 60s cartoon per service** — same as Episode 10 (The vaults) plus 11–19. If a service cannot fill 60s honestly, **say so before shooting** and propose pairing. **Do not pair silently.**
 
-**Next built cartoon:** Episode **28 — The name tag on the door** (ACM, API Gateway, Amplify overview).
+**Next built cartoon:** Episode **29 — Seal (ACM)**.
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
 
@@ -114,7 +114,7 @@ Planned (not built unless noted):
 | 25 | Mapi | Route 53 | **built** |
 | 26 | Zip | CloudFront | **built** |
 | 27 | Boost | Global Accelerator | **built** |
-| 28 | The name tag on the door | ACM, API Gateway, Amplify | ← next |
+| 28 | The name tag on the door | ACM, API Gateway, Amplify | **built** |
 | 29 | ACM | ACM | |
 | 30 | API Gateway | API Gateway | |
 | 31 | Amplify | Amplify | |
@@ -407,8 +407,10 @@ Remy waits far away. The chest walks a drawing all the way across town (slow). T
 ### 27 — Boost (Global Accelerator) — **built**
 Three far-away friends pick three bad roads (bumpy, closed, long). Late and tired. One cream doorway sends each down the fastest road. Zip keeps copies near you; this doorway is one door and the fastest road.
 
-### 28 — The name tag on the door ← **NEXT (overview)**
+### 28 — The name tag on the door (overview) — **built**
 Maya wants a lemonade stand. Fake-stand scare, shouting crowd, hand-built forever. Seal glows on the door. Winn hands tickets and holds up a hand. Poppy unfolds the whole stand.
+
+### 29 — Seal ← **NEXT (ACM)**
 ACM, API Gateway, Amplify.
 
 ### 29 ACM · 30 API Gateway · 31 Amplify
