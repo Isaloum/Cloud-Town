@@ -114,7 +114,7 @@ Planned (not built unless noted):
 | 25 | Mapi | Route 53 | **built** |
 | 26 | Zip | CloudFront | **built** |
 | 27 | Boost | Global Accelerator | **built** |
-| 28 | The name tag on the door | ACM, API Gateway, Amplify | overview |
+| 28 | The name tag on the door | ACM, API Gateway, Amplify | ← next |
 | 29 | ACM | ACM | |
 | 30 | API Gateway | API Gateway | |
 | 31 | Amplify | Amplify | |
@@ -294,6 +294,14 @@ Planned (not built unless noted):
 | **Boost** | **Global Accelerator** | Cream **front-door arch** with a smiling carved face, teal speed streaks, and **one coral keystone**. Always this one doorway. Never a person. Never a vehicle. Never rainbow. *Boost is the rocket path. One door. Always the fastest road.* |
 | **Remy** | (kid, not a service) | Visiting **boy**. Curly dark hair, **teal sweater**, cream shorts. **Always a boy. Never a girl. Never a mouse or any animal.** *Remy is a visitor from far away.* |
 
+### The name tag on the door (Episodes 28–31)
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Seal** | **ACM** | Cream **padlock sticker** with a smiling face, teal shackle, **one coral rivet**. Always this sticker. Glows on the door to prove the house is real. Never a person. Never letters. *Seal is the lock on the door. She proves this is really Maya’s house.* |
+| **Winn** | **API Gateway** | Cream **ticket window** with a smiling face, teal awning, **one coral bell**. Hands blank colored tickets (no writing). Holds up a hand when too many come. Always this window. Never a person. *Winn is the ticket window. Ask nicely, get a ticket, wait if too many.* |
+| **Poppy** | **Amplify** | Cream **folded lemonade-booth kit** with a smiling face, teal trim, **one coral lemon**. Unfolds in one motion into a whole stand: street, door, and window already built. Always this kit. Never a person. *Poppy is the booth kit. One pop, and the whole stand is ready.* |
+
 ### Setting
 
 **Cloud Town** = a cute cobblestone town in the clouds at sunset. Cream houses, teal lamps, no logos.
@@ -353,6 +361,9 @@ New episodes are **60 seconds**.
 - **Never render readable text or lettering inside shots.** Signs and labels are **blank** or use **only icons** (star, moon, arrows). No letters, numbers, or fake glyphs.
 - **Mapi (every shot):** cream **wooden signpost** with a smiling carved face, **one teal star-shaped arrow** and **one coral moon-shaped arrow**. Never a plain white post.
 - **Boost (every shot):** cream **front-door arch** with a smiling carved face, teal speed streaks, **one coral keystone**. Never a person. Never rainbow.
+- **Seal (every shot):** cream **padlock sticker** with a smiling face, teal shackle, one coral rivet. Never a person. Never letters on the lock.
+- **Winn (every shot):** cream **ticket window** with a smiling face, teal awning, one coral bell. Tickets are blank colored cards, never writing.
+- **Poppy (every shot):** cream **folded lemonade-booth kit** with a smiling face, teal trim, one coral lemon. Unfolds into a stand. Never a person.
 
 - **Never use character names** in image or video prompts (not Sammy, Eddie, Lulu, Maya, Mapi, Boxy, Kira, Fay, Remy, or any other row).
 - **Always describe the shape from the bible row instead**, e.g. “cream treasure chest with gold clasps and a round smiling face”; “cream retro CRT computer with a teal screen face, arms and legs”; “small glowing yellow-gold orb with a face”; “girl with brown hair in a coral dress”.
@@ -397,6 +408,7 @@ Remy waits far away. The chest walks a drawing all the way across town (slow). T
 Three far-away friends pick three bad roads (bumpy, closed, long). Late and tired. One cream doorway sends each down the fastest road. Zip keeps copies near you; this doorway is one door and the fastest road.
 
 ### 28 — The name tag on the door ← **NEXT (overview)**
+Maya wants a lemonade stand. Fake-stand scare, shouting crowd, hand-built forever. Seal glows on the door. Winn hands tickets and holds up a hand. Poppy unfolds the whole stand.
 ACM, API Gateway, Amplify.
 
 ### 29 ACM · 30 API Gateway · 31 Amplify
