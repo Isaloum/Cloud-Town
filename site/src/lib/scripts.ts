@@ -274,7 +274,7 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     n: 26,
     title: "Zip",
     tagline: "CloudFront. A copy waits at the edge of town.",
-    video: "/26-Zip.mp4?v=1",
+    video: "/26-Zip.mp4?v=cream",
     pdf: "/scripts/26-Zip-script.pdf",
     scriptFile: "26-Zip-script.pdf",
     pages: ["/script-pages/26-Zip-script-p1.jpg"],
