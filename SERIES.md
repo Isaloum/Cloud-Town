@@ -112,7 +112,7 @@ Planned (not built unless noted):
 | 23 | Fay | Fargate | **built** |
 | 24 | The front door | Route 53, CloudFront, Global Accelerator | **overview — built** |
 | 25 | Mapi | Route 53 | **built** |
-| 26 | CloudFront | CloudFront | |
+| 26 | Zip | CloudFront | ← next |
 | 27 | Global Accelerator | Global Accelerator | |
 | 28 | The name tag on the door | ACM, API Gateway, Amplify | overview |
 | 29 | ACM | ACM | |
@@ -290,7 +290,7 @@ Planned (not built unless noted):
 | Name | AWS | Shape |
 |---|---|---|
 | **Mapi** | **Route 53** | Cream **wooden signpost** with a smiling carved face, **one teal star-shaped arrow** and **one coral moon-shaped arrow**. Never a plain white post. Points visitors to the right house. *Mapi is the town map. She points you to the right house.* |
-| **Zip** | **CloudFront** | Cream **fast road** with a face, and a little stall at the **edge of town** holding copies of Sammy’s toys. *Zip is the fast road. Copies wait at the edge so you don’t walk all the way in.* |
+| **Zip** | **CloudFront** | Cream **fast road** with a smiling face in the cobblestones, plus a cream **edge stall** with a face, holding copies of drawings (icons only, never writing). **Always this pair. Never a person. Never a vehicle.** *Zip is the fast road. Copies wait at the edge so you don’t walk all the way in.* |
 | **Boost** | **Global Accelerator** | Cream **front-door arch** with a face and teal rocket streaks. One fixed door. Sends visitors down the fastest road. *Boost is the rocket path. One door. Always the fastest road.* |
 | **Remy** | (kid, not a service) | Visiting **boy**. Curly dark hair, **teal sweater**, cream shorts. **Always a boy. Never a girl. Never a mouse or any animal.** *Remy is a visitor from far away.* |
 
@@ -390,6 +390,7 @@ Remy from far away wants Maya’s drawing. He gets lost, then arrives slow. Mapi
 Two same-color houses. Friends knock on the wrong door. Mapi names each house (emblem, no letters), points by name not color. Closed house → she points to the open twin (failover). All three at the right door. Maya waves.
 
 ### 26 — Zip ← **NEXT (CloudFront)**
+Remy waits far away. The chest walks a drawing all the way across town (slow). The fast-road stall keeps a copy at the edge (instant). New drawing: old copy goes away, fresh copy arrives (expire).
 ### 27 — Boost (Global Accelerator)
 
 ### 28 — The name tag on the door (overview)
