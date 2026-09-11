@@ -98,7 +98,7 @@ Single page. Order from the top:
 
 **Pattern for every remaining district:** one **overview** episode (the district title), then **one 60s cartoon per service** — same as Episode 10 (The vaults) plus 11–19. If a service cannot fill 60s honestly, **say so before shooting** and propose pairing. **Do not pair silently.**
 
-**Next built cartoon:** Episode **26 — Zip (CloudFront)**.
+**Next built cartoon:** Episode **27 — Boost (Global Accelerator)**.
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
 
@@ -112,7 +112,7 @@ Planned (not built unless noted):
 | 23 | Fay | Fargate | **built** |
 | 24 | The front door | Route 53, CloudFront, Global Accelerator | **overview — built** |
 | 25 | Mapi | Route 53 | **built** |
-| 26 | Zip | CloudFront | ← next |
+| 26 | Zip | CloudFront | **built** |
 | 27 | Global Accelerator | Global Accelerator | |
 | 28 | The name tag on the door | ACM, API Gateway, Amplify | overview |
 | 29 | ACM | ACM | |
@@ -389,9 +389,10 @@ Remy from far away wants Maya’s drawing. He gets lost, then arrives slow. Mapi
 ### 25 — Mapi (Route 53 only) — **built (reshot, bible shapes)**
 Two same-color houses. Friends knock on the wrong door. Mapi names each house (emblem, no letters), points by name not color. Closed house → she points to the open twin (failover). All three at the right door. Maya waves.
 
-### 26 — Zip ← **NEXT (CloudFront)**
+### 26 — Zip (CloudFront) — **built**
 Remy waits far away. The chest walks a drawing all the way across town (slow). The fast-road stall keeps a copy at the edge (instant). New drawing: old copy goes away, fresh copy arrives (expire).
-### 27 — Boost (Global Accelerator)
+
+### 27 — Boost ← **NEXT (Global Accelerator)**
 
 ### 28 — The name tag on the door (overview)
 ACM, API Gateway, Amplify.

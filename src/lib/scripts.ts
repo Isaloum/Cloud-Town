@@ -270,4 +270,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: ["/script-pages/25-Mapi-script-p1.jpg"],
     voiceover: "Welcome back to Cloud Town, high up in the sky! Eddie, Sammy, and Lulu want to visit Maya. Oh no! Two houses look the same color. They knock on the wrong door. Mapi is the town map. She gives each house a name. A star. A moon. Not the color. The name! She points by name. This way to Maya. Oh no! Maya's house is closed. Mapi points to the open twin. That is failover. All three friends at the right door. Maya waves. Now you know Mapi! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 26,
+    title: "Zip",
+    tagline: "CloudFront. A copy waits at the edge of town.",
+    video: "/26-Zip.mp4?v=1",
+    pdf: "/scripts/26-Zip-script.pdf",
+    scriptFile: "26-Zip-script.pdf",
+    pages: ["/script-pages/26-Zip-script-p1.jpg"],
+    voiceover: "Welcome back to Cloud Town, high up in the sky! Remy lives far away. He wants Maya's new drawing. Sammy walks it all the way across town. Remy waits. And waits. And waits. So slow! The first trip takes forever. Zip is the fast road. Zip keeps a copy at the edge of town, near Remy. Next time Remy asks... it is right there! Instant! Maya paints a new drawing. The old copy goes away. Zip fetches the fresh one. Remy smiles. Maya waves. Now you know Zip! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
