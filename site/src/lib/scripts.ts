@@ -304,7 +304,7 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     n: 29,
     title: "Seal",
     tagline: "ACM. Look for the glow before you hand over your coin.",
-    video: "/29-Seal.mp4?v=1",
+    video: "/29-Seal.mp4?v=face",
     pdf: "/scripts/29-Seal-script.pdf",
     scriptFile: "29-Seal-script.pdf",
     pages: ["/script-pages/29-Seal-script-p1.jpg"],
