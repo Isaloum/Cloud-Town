@@ -320,4 +320,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: ["/script-pages/30-Winn-script-p1.jpg"],
     voiceover: "Welcome back to Cloud Town, high up in the sky! Helpers work in the back. Sammy has photos. Eddie mixes. Lulu scoops ice. Oh no! Visitors walk into the back. Eddie drops a pitcher. Winn is the ticket window. Come to the window first. Ask nicely. Get a ticket. Winn passes it to the right helper. Helpers are calm. A crowd rushes. Winn holds up a hand. Wait. A few at a time. No ticket? Winn shakes her head. Seal glows. Only real friends get in. Ask at the window, get a ticket, wait your turn. Maya waves. Now you know Winn! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 31,
+    title: "Poppy",
+    tagline: "Amplify. Build the front once, and it pops up for everyone.",
+    video: "/31-Poppy.mp4?v=1",
+    pdf: "/scripts/31-Poppy-script.pdf",
+    scriptFile: "31-Poppy-script.pdf",
+    pages: ["/script-pages/31-Poppy-script-p1.jpg"],
+    voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 31. Maya wants her lemonade stand today. She hammers one board. Then another. It takes forever. The door is not joined to the window. Nothing works yet. Oh no! Here comes the booth kit. One pop! The street, the door, and the window unfold together. Already joined. Already ready. Maya draws a new picture. The kit sends it to every stand in town. No hammering. No waiting. Build the front once, and it pops up for everyone. Now you know Amplify! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
