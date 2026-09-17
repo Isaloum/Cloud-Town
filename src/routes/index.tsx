@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Check, ChevronLeft, ChevronRight, Cloud, Copy, Play } from "lucide-react";
+import { Check, ChevronLeft, ChevronRight, Cloud, Copy, Download, Play } from "lucide-react";
 import { useMemo, useRef, useState } from "react";
 import { EPISODE_SCRIPTS } from "@/lib/scripts";
 import { cn } from "@/lib/utils";
@@ -16,7 +16,7 @@ function fileUrl(video: string) {
 }
 
 function Home() {
-  const [n, setN] = useState(31);
+  const [n, setN] = useState(32);
   const episode = useMemo(() => EPISODE_SCRIPTS.find((e) => e.n === n) ?? EPISODE_SCRIPTS[0], [n]);
   const [copied, setCopied] = useState(false);
   const [playing, setPlaying] = useState(false);
@@ -79,6 +79,14 @@ function Home() {
           <button type="button" onClick={next} className="inline-flex size-11 items-center justify-center rounded-lg border border-border bg-surface" aria-label="Next episode">
             <ChevronRight className="size-5" />
           </button>
+          <a
+            href={src}
+            download={`${src.replace(/^\//, "")}`}
+            className="inline-flex h-11 items-center gap-1.5 rounded-lg bg-primary px-3 font-display text-sm font-semibold text-primary-fg"
+          >
+            <Download className="size-4" aria-hidden />
+            Save
+          </a>
         </div>
       </div>
 
@@ -92,10 +100,7 @@ function Home() {
           <video
             ref={videoRef}
             key={src}
-            className={cn(
-              "absolute inset-0 h-full w-full object-cover",
-              playing ? "opacity-100" : "opacity-0",
-            )}
+            className="absolute inset-0 h-full w-full object-cover"
             src={src}
             poster={poster}
             controls={playing}

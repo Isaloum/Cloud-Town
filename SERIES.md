@@ -98,7 +98,7 @@ Single page. Order from the top:
 
 **Pattern for every remaining district:** one **overview** episode (the district title), then **one 60s cartoon per service** — same as Episode 10 (The vaults) plus 11–19. If a service cannot fill 60s honestly, **say so before shooting** and propose pairing. **Do not pair silently.**
 
-**Next built cartoon:** Episode **32 — The post office** (SQS, SNS, EventBridge overview).
+**Next built cartoon:** Episode **33 — Pip (SQS)**.
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
 
@@ -118,7 +118,7 @@ Planned (not built unless noted):
 | 29 | Seal | ACM | **built** |
 | 30 | Winn | API Gateway | **built** |
 | 31 | Poppy | Amplify | **built** |
-| 32 | The post office | SQS, SNS, EventBridge | ← next |
+| 32 | The post office | SQS, SNS, EventBridge | **built** |
 | 33 | SQS | SQS | |
 | 34 | SNS | SNS | |
 | 35 | EventBridge | EventBridge | |
@@ -437,8 +437,10 @@ ACM, API Gateway, Amplify.
 
 ### 29 ACM · 30 API Gateway · 31 Amplify
 
-### 32 — The post office ← **NEXT (overview)**
+### 32 — The post office (overview) — **built**
 Maya shouts; nobody hears. Notes one by one; one falls. Letter box: neat line, first in first out. Horn: one call, all hear. Table: round chute, square chute.
+
+### 33 — Pip ← **NEXT (SQS)**
 
 
 ### 33 SQS · 34 SNS · 35 EventBridge

@@ -14,7 +14,7 @@ function fileUrl(video: string) {
 }
 
 export function Home() {
-  const [n, setN] = useState(31);
+  const [n, setN] = useState(32);
   const episode = useMemo(() => EPISODE_SCRIPTS.find((e) => e.n === n) ?? EPISODE_SCRIPTS[0], [n]);
   const [copied, setCopied] = useState(false);
   const [playing, setPlaying] = useState(false);

@@ -330,4 +330,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: ["/script-pages/31-Poppy-script-p1.jpg"],
     voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 31. Maya wants her lemonade stand today. She hammers one board. Then another. It takes forever. The door is not joined to the window. Nothing works yet. Oh no! Here comes the booth kit. One pop! The street, the door, and the window unfold together. Already joined. Already ready. Maya draws a new picture. The kit sends it to every stand in town. No hammering. No waiting. Build the front once, and it pops up for everyone. Now you know Amplify! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 32,
+    title: "The post office",
+    tagline: "SQS, SNS, EventBridge. A line, one call, the right chute.",
+    video: "/32-The-post-office.mp4?v=1",
+    pdf: "/scripts/32-The-post-office-script.pdf",
+    scriptFile: "32-The-post-office-script.pdf",
+    pages: ["/script-pages/32-The-post-office-script-p1.jpg"],
+    voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 32. Maya wants to invite all her friends to a party. She shouts. Everyone talks at once. Nobody hears. She hands out notes one by one. One note falls in a puddle. The post office can help. The letter box holds every note in a neat line. First in, first out. Nothing gets lost. The town horn calls once. Every friend hears at the same moment. The sorting table sends the round parcel down the round chute and the square one down the square chute. Quiet street. Every friend told. Nothing lost. Now you know the post office! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
