@@ -118,7 +118,7 @@ Planned (not built unless noted):
 | 29 | Seal | ACM | **built** |
 | 30 | Winn | API Gateway | **built** |
 | 31 | Poppy | Amplify | **built** |
-| 32 | The post office | SQS, SNS, EventBridge | overview |
+| 32 | The post office | SQS, SNS, EventBridge | ← next |
 | 33 | SQS | SQS | |
 | 34 | SNS | SNS | |
 | 35 | EventBridge | EventBridge | |
@@ -302,6 +302,14 @@ Planned (not built unless noted):
 | **Winn** | **API Gateway** | Cream **ticket window** with a **cream smiling face**, **teal awning**, **one small coral bell on top**. Hands blank colored tickets (no writing). Holds up a hand when too many come. Always this window. Never a blue box. Never a person. *Winn is the ticket window. Ask nicely, get a ticket, wait if too many.* |
 | **Poppy** | **Amplify** | Cream **folded lemonade-booth kit** with a smiling face, teal trim, **one coral lemon**. Unfolds in one motion into a whole stand: street, door, and window already built. Always this kit. Never a person. *Poppy is the booth kit. One pop, and the whole stand is ready.* |
 
+### The post office (Episodes 32–35)
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Pip** | **SQS** | Cream **letter box** with a smiling face, a **teal flap**, and **one coral envelope on top** (an envelope shape, never writing). Notes stack inside in a neat line; the bottom one leaves first. Always this box. Never a person. *Pip holds every note in a neat line. First in, first out.* |
+| **Hoot** | **SNS** | Cream **town horn on a post** with a smiling face, a **teal trumpet mouth**, and **one coral ribbon**. One call, every friend hears. Always this horn. Never a person. Never a bell. *Hoot calls once. Every friend hears.* |
+| **Tilly** | **EventBridge** | Cream **sorting table** with a smiling face, **three teal chutes**, and **one coral lever**. Round parcel down the round chute, square parcel down the square chute. Sorts by shape and colour only, never writing. Always this table. Never a person. *Tilly sends the round one down the round chute, and the square one down the square chute.* |
+
 ### Setting
 
 **Cloud Town** = a cute cobblestone town in the clouds at sunset. Cream houses, teal lamps, no logos.
@@ -364,6 +372,9 @@ New episodes are **60 seconds**.
 - **Seal (every shot):** cream **padlock sticker** with a smiling face, teal shackle, one coral rivet. Never a person. Never letters on the lock.
 - **Winn (every shot):** cream **ticket window** with a smiling face, teal awning, one coral bell. Tickets are blank colored cards, never writing.
 - **Poppy (every shot):** cream **folded lemonade-booth kit** with a smiling face, teal trim, one coral lemon. Unfolds into a stand. Never a person.
+- **Pip (every shot):** cream **letter box** with a smiling face, teal flap, one coral envelope on top. Never a person. Never writing on the box.
+- **Hoot (every shot):** cream **town horn on a post** with a smiling face, teal trumpet mouth, one coral ribbon. Never a person. Never a bell.
+- **Tilly (every shot):** cream **sorting table** with a smiling face, three teal chutes, one coral lever. Never a person. Never writing.
 
 - **Never use character names** in image or video prompts (not Sammy, Eddie, Lulu, Maya, Mapi, Boxy, Kira, Fay, Remy, or any other row).
 - **Always describe the shape from the bible row instead**, e.g. “cream treasure chest with gold clasps and a round smiling face”; “cream retro CRT computer with a teal screen face, arms and legs”; “small glowing yellow-gold orb with a face”; “girl with brown hair in a coral dress”.
@@ -426,8 +437,9 @@ ACM, API Gateway, Amplify.
 
 ### 29 ACM · 30 API Gateway · 31 Amplify
 
-### 32 — The post office (overview)
-SQS, SNS, EventBridge.
+### 32 — The post office ← **NEXT (overview)**
+Maya shouts; nobody hears. Notes one by one; one falls. Letter box: neat line, first in first out. Horn: one call, all hear. Table: round chute, square chute.
+
 
 ### 33 SQS · 34 SNS · 35 EventBridge
 
