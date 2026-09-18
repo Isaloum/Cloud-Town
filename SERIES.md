@@ -98,7 +98,7 @@ Single page. Order from the top:
 
 **Pattern for every remaining district:** one **overview** episode (the district title), then **one 60s cartoon per service** — same as Episode 10 (The vaults) plus 11–19. If a service cannot fill 60s honestly, **say so before shooting** and propose pairing. **Do not pair silently.**
 
-**Next built cartoon:** Episode **35 — Tilly (EventBridge)**.
+**Next built cartoon:** Episode **36 — The recipe and the river** (Step Functions, AppFlow, AppSync, MQ overview).
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
 
@@ -121,7 +121,7 @@ Planned (not built unless noted):
 | 32 | The post office | SQS, SNS, EventBridge | **built** |
 | 33 | Pip | SQS | **built** |
 | 34 | Hoot | SNS | **built** |
-| 35 | EventBridge | EventBridge | |
+| 35 | Tilly | EventBridge | **built** |
 | 36 | The recipe and the river | Step Functions, AppFlow, AppSync, MQ | overview |
 | 37 | Step Functions | Step Functions | |
 | 38 | AppFlow | AppFlow | |
@@ -446,7 +446,11 @@ Eddie is not home. Notes blow away. Letter box holds them in a line. Maya plays.
 ### 34 — Hoot (SNS) — **built**
 Maya runs house to house. Nobody hears. One tap, one call. Chest, computer, and spark all turn at once. Say it once, every friend hears.
 
-### 35 — Tilly ← **NEXT (EventBridge)**
+### 35 — Tilly (EventBridge) — **built**
+Mixed parcels. Wrong friend. Lever flips. Round chute, square chute, triangle chute. Right thing, right friend.
+
+### 36 — The recipe and the river ← **NEXT (overview)**
+
 
 
 

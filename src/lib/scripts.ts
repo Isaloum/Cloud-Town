@@ -360,4 +360,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: ["/script-pages/34-Hoot-script-p1.jpg"],
     voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 34. Maya made lemonade. She wants to tell Sammy, Eddie and Lulu. She runs to one house. Then the next. Then the next. Oh no! Sammy wandered off. Eddie never heard. Here comes the town horn. Maya taps the post once. The horn calls one time. Sammy hears it. Eddie hears it. Lulu hears it. All at the same moment. Everyone comes running. Maya does not run anymore. Say it once, and every friend hears it. That is the town horn. Now you know SNS! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 35,
+    title: "Tilly",
+    tagline: "EventBridge. Right thing, right friend, every time.",
+    video: "/35-Tilly.mp4?v=1",
+    pdf: "/scripts/35-Tilly-script.pdf",
+    scriptFile: "35-Tilly-script.pdf",
+    pages: ["/script-pages/35-Tilly-script-p1.jpg"],
+    voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 35. A big pile of parcels lands in the street. Round ones. Square ones. Triangle ones. All mixed up. Maya carries them one at a time. Oh no! She gives a square to Sammy. Wrong friend. Here comes the sorting table. Maya dumps the whole pile on top. The lever flips. Round goes down the round chute to Sammy. Square goes down the square chute to Eddie. Triangle goes down the triangle chute to Lulu. Right thing, right friend. Now you know EventBridge! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
