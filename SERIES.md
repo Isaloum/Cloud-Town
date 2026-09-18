@@ -98,7 +98,7 @@ Single page. Order from the top:
 
 **Pattern for every remaining district:** one **overview** episode (the district title), then **one 60s cartoon per service** — same as Episode 10 (The vaults) plus 11–19. If a service cannot fill 60s honestly, **say so before shooting** and propose pairing. **Do not pair silently.**
 
-**Next built cartoon:** Episode **37 — AppFlow**.
+**Next built cartoon:** Episode **37 — Mira (AppSync)**.
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
 
@@ -123,7 +123,7 @@ Planned (not built unless noted):
 | 34 | Hoot | SNS | **built** |
 | 35 | Tilly | EventBridge | **built** |
 | 36 | Tess | Step Functions | **built** |
-| 37 | Step Functions | Step Functions | |
+| 37 | Mira | AppSync | ← next |
 | 38 | AppFlow | AppFlow | |
 | 39 | AppSync | AppSync | |
 | 40 | MQ | Amazon MQ | |
@@ -315,6 +315,7 @@ Planned (not built unless noted):
 | Name | AWS | Shape |
 |---|---|---|
 | **Tess** | **Step Functions** | Cream **staircase** with a smiling face on the front of the bottom step, **teal steps**, and **one coral flag at the top**. Each step lights up only after the one below it is finished. Always this staircase. Never a person. Never a ladder. *Tess is the staircase. One step at a time. Each step waits for the one before.* |
+| **Mira** | **AppSync** | Cream **easel-style drawing board** with a smiling face on its front, a **teal frame**, and **one coral clip at the top**. Draw on it once and the same drawing appears on every other board in town. Icons only (sun, star, heart), never letters. Always this board. Never a person. Never a screen. *Mira is the drawing board. Draw it once, everyone sees it right now.* |
 
 ### Setting
 
@@ -382,6 +383,7 @@ New episodes are **60 seconds**.
 - **Hoot (every shot):** cream **town horn on a post** with a smiling face, teal trumpet mouth, one coral ribbon. Never a person. Never a bell.
 - **Tilly (every shot):** cream **sorting table** with a smiling face, three teal chutes, one coral lever. Never a person. Never writing.
 - **Tess (every shot):** cream **staircase** with a smiling face on the bottom step, teal steps, one coral flag at the top. Each step lights only after the one below. Never a person. Never a ladder.
+- **Mira (every shot):** cream **easel drawing board** with a smiling face, teal frame, one coral clip. Icons only, never letters. Never a person. Never a screen.
 
 - **Never use character names** in image or video prompts (not Sammy, Eddie, Lulu, Maya, Mapi, Boxy, Kira, Fay, Remy, or any other row).
 - **Always describe the shape from the bible row instead**, e.g. “cream treasure chest with gold clasps and a round smiling face”; “cream retro CRT computer with a teal screen face, arms and legs”; “small glowing yellow-gold orb with a face”; “girl with brown hair in a coral dress”.
@@ -459,7 +461,9 @@ Mixed parcels. Wrong friend. Lever flips. Round chute, square chute, triangle ch
 ### 36 — Tess (Step Functions) — **built**
 Maya claps. Everyone starts at once. Pour with no cups. Staircase: one step lights after the one below. Cups, then mix, then pour. Flag pops.
 
-### 37 — AppFlow ← **NEXT**
+### 37 — Mira ← **NEXT (AppSync)**
+Maya runs a drawing to every friend. Changes her mind, runs again. Big board: draw once, every little board shows it at once.
+
 
 
 
