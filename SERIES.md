@@ -98,7 +98,7 @@ Single page. Order from the top:
 
 **Pattern for every remaining district:** one **overview** episode (the district title), then **one 60s cartoon per service** — same as Episode 10 (The vaults) plus 11–19. If a service cannot fill 60s honestly, **say so before shooting** and propose pairing. **Do not pair silently.**
 
-**Next built cartoon:** Episode **36 — The recipe and the river** (Step Functions, AppFlow, AppSync, MQ overview).
+**Next built cartoon:** Episode **36 — Tess (Step Functions)**.
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
 
@@ -122,7 +122,7 @@ Planned (not built unless noted):
 | 33 | Pip | SQS | **built** |
 | 34 | Hoot | SNS | **built** |
 | 35 | Tilly | EventBridge | **built** |
-| 36 | The recipe and the river | Step Functions, AppFlow, AppSync, MQ | overview |
+| 36 | Tess | Step Functions | ← next |
 | 37 | Step Functions | Step Functions | |
 | 38 | AppFlow | AppFlow | |
 | 39 | AppSync | AppSync | |
@@ -310,6 +310,12 @@ Planned (not built unless noted):
 | **Hoot** | **SNS** | Cream **town horn on a post** with a smiling face, a **teal trumpet mouth**, and **one coral ribbon**. One call, every friend hears. Always this horn. Never a person. Never a bell. *Hoot calls once. Every friend hears.* |
 | **Tilly** | **EventBridge** | Cream **sorting table** with a smiling face, **three teal chutes**, and **one coral lever**. Round parcel down the round chute, square parcel down the square chute. Sorts by shape and colour only, never writing. Always this table. Never a person. *Tilly sends the round one down the round chute, and the square one down the square chute.* |
 
+### The recipe and the river (Episodes 36–)
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Tess** | **Step Functions** | Cream **staircase** with a smiling face on the front of the bottom step, **teal steps**, and **one coral flag at the top**. Each step lights up only after the one below it is finished. Always this staircase. Never a person. Never a ladder. *Tess is the staircase. One step at a time. Each step waits for the one before.* |
+
 ### Setting
 
 **Cloud Town** = a cute cobblestone town in the clouds at sunset. Cream houses, teal lamps, no logos.
@@ -375,6 +381,7 @@ New episodes are **60 seconds**.
 - **Pip (every shot):** cream **letter box** with a smiling face, teal flap, one coral envelope on top. Never a person. Never writing on the box.
 - **Hoot (every shot):** cream **town horn on a post** with a smiling face, teal trumpet mouth, one coral ribbon. Never a person. Never a bell.
 - **Tilly (every shot):** cream **sorting table** with a smiling face, three teal chutes, one coral lever. Never a person. Never writing.
+- **Tess (every shot):** cream **staircase** with a smiling face on the bottom step, teal steps, one coral flag at the top. Each step lights only after the one below. Never a person. Never a ladder.
 
 - **Never use character names** in image or video prompts (not Sammy, Eddie, Lulu, Maya, Mapi, Boxy, Kira, Fay, Remy, or any other row).
 - **Always describe the shape from the bible row instead**, e.g. “cream treasure chest with gold clasps and a round smiling face”; “cream retro CRT computer with a teal screen face, arms and legs”; “small glowing yellow-gold orb with a face”; “girl with brown hair in a coral dress”.
@@ -449,7 +456,9 @@ Maya runs house to house. Nobody hears. One tap, one call. Chest, computer, and 
 ### 35 — Tilly (EventBridge) — **built**
 Mixed parcels. Wrong friend. Lever flips. Round chute, square chute, triangle chute. Right thing, right friend.
 
-### 36 — The recipe and the river ← **NEXT (overview)**
+### 36 — Tess ← **NEXT (Step Functions)**
+Maya claps. Everyone starts at once. Pour with no cups. Staircase: one step lights after the one below. Cups, then mix, then pour. Flag pops.
+
 
 
 
