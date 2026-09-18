@@ -98,7 +98,7 @@ Single page. Order from the top:
 
 **Pattern for every remaining district:** one **overview** episode (the district title), then **one 60s cartoon per service** — same as Episode 10 (The vaults) plus 11–19. If a service cannot fill 60s honestly, **say so before shooting** and propose pairing. **Do not pair silently.**
 
-**Next built cartoon:** Episode **37 — Mira (AppSync)**.
+**Next built cartoon:** Episode **38 — AppFlow**.
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
 
@@ -123,7 +123,7 @@ Planned (not built unless noted):
 | 34 | Hoot | SNS | **built** |
 | 35 | Tilly | EventBridge | **built** |
 | 36 | Tess | Step Functions | **built** |
-| 37 | Mira | AppSync | ← next |
+| 37 | Mira | AppSync | **built** |
 | 38 | AppFlow | AppFlow | |
 | 39 | AppSync | AppSync | |
 | 40 | MQ | Amazon MQ | |
@@ -461,8 +461,10 @@ Mixed parcels. Wrong friend. Lever flips. Round chute, square chute, triangle ch
 ### 36 — Tess (Step Functions) — **built**
 Maya claps. Everyone starts at once. Pour with no cups. Staircase: one step lights after the one below. Cups, then mix, then pour. Flag pops.
 
-### 37 — Mira ← **NEXT (AppSync)**
+### 37 — Mira (AppSync) — **built**
 Maya runs a drawing to every friend. Changes her mind, runs again. Big board: draw once, every little board shows it at once.
+
+### 38 — AppFlow ← **NEXT**
 
 
 

@@ -380,4 +380,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: ["/script-pages/36-Tess-script-p1.jpg"],
     voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 36. Maya needs three jobs done. Cups first. Then mixing. Then pouring. She claps once. Everyone starts at the same time. Oh no! Lulu pours lemonade into thin air. No cups yet. What a mess. Here comes the staircase. Sammy stands on the first step. It lights up. He sets out the cups. Now the second step lights. Eddie mixes the jug. Now the third step lights. Lulu pours. Every cup is full. The flag pops up at the top. One step at a time. Each step waits for the one before it. That is the staircase. Now you know Step Functions! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 37,
+    title: "Mira",
+    tagline: "AppSync. Draw it once, everyone sees it right now.",
+    video: "/37-Mira.mp4?v=1",
+    pdf: "/scripts/37-Mira-script.pdf",
+    scriptFile: "37-Mira-script.pdf",
+    pages: ["/script-pages/37-Mira-script-p1.jpg"],
+    voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 37. Maya draws a sun. She wants everyone to see it. She runs to Sammy. Then to Eddie. Then to Lulu. Oh no! She changes her mind and draws a star. Now she has to run all over again. Here comes the drawing board. Every friend gets a little board of their own. Maya draws a heart on the big one. Pop! The same heart shows up on all three. She draws a star. Every board changes at once. Nobody runs. Draw it once, everyone sees it right now. That is the drawing board. Now you know AppSync! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
