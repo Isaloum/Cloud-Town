@@ -98,7 +98,7 @@ Single page. Order from the top:
 
 **Pattern for every remaining district:** one **overview** episode (the district title), then **one 60s cartoon per service** — same as Episode 10 (The vaults) plus 11–19. If a service cannot fill 60s honestly, **say so before shooting** and propose pairing. **Do not pair silently.**
 
-**Next built cartoon:** Episode **33 — Pip (SQS)**.
+**Next built cartoon:** Episode **34 — Hoot (SNS)**.
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
 
@@ -119,7 +119,7 @@ Planned (not built unless noted):
 | 30 | Winn | API Gateway | **built** |
 | 31 | Poppy | Amplify | **built** |
 | 32 | The post office | SQS, SNS, EventBridge | **built** |
-| 33 | SQS | SQS | |
+| 33 | Pip | SQS | **built** |
 | 34 | SNS | SNS | |
 | 35 | EventBridge | EventBridge | |
 | 36 | The recipe and the river | Step Functions, AppFlow, AppSync, MQ | overview |
@@ -440,7 +440,11 @@ ACM, API Gateway, Amplify.
 ### 32 — The post office (overview) — **built**
 Maya shouts; nobody hears. Notes one by one; one falls. Letter box: neat line, first in first out. Horn: one call, all hear. Table: round chute, square chute.
 
-### 33 — Pip ← **NEXT (SQS)**
+### 33 — Pip (SQS) — **built**
+Eddie is not home. Notes blow away. Letter box holds them in a line. Maya plays. Eddie comes home. Red, then yellow, then blue. First in, first out.
+
+### 34 — Hoot ← **NEXT (SNS)**
+
 
 
 ### 33 SQS · 34 SNS · 35 EventBridge

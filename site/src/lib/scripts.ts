@@ -340,4 +340,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: ["/script-pages/32-The-post-office-script-p1.jpg"],
     voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 32. Maya wants to invite all her friends to a party. She shouts. Everyone talks at once. Nobody hears. She hands out notes one by one. One note falls in a puddle. The post office can help. The letter box holds every note in a neat line. First in, first out. Nothing gets lost. The town horn calls once. Every friend hears at the same moment. The sorting table sends the round parcel down the round chute and the square one down the square chute. Quiet street. Every friend told. Nothing lost. Now you know the post office! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 33,
+    title: "Pip",
+    tagline: "SQS. Notes wait in a neat line. First in, first out.",
+    video: "/33-Pip.mp4?v=1",
+    pdf: "/scripts/33-Pip-script.pdf",
+    scriptFile: "33-Pip-script.pdf",
+    pages: ["/script-pages/33-Pip-script-p1.jpg"],
+    voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 33. Maya has a note for Eddie. But Eddie is not home. She waits. And waits. Oh no! The wind takes her note away. Here comes the letter box. Maya drops her notes inside. Red, then yellow, then blue. They wait in a neat line. Nothing blows away. Maya goes to play. Eddie comes home. He opens the flap. Red first. Then yellow. Then blue. The same order they went in. Every note is safe. Now you know SQS! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
