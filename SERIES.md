@@ -98,7 +98,7 @@ Single page. Order from the top:
 
 **Pattern for every remaining district:** one **overview** episode (the district title), then **one 60s cartoon per service** — same as Episode 10 (The vaults) plus 11–19. If a service cannot fill 60s honestly, **say so before shooting** and propose pairing. **Do not pair silently.**
 
-**Next built cartoon:** Episode **36 — Tess (Step Functions)**.
+**Next built cartoon:** Episode **37 — AppFlow**.
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
 
@@ -122,7 +122,7 @@ Planned (not built unless noted):
 | 33 | Pip | SQS | **built** |
 | 34 | Hoot | SNS | **built** |
 | 35 | Tilly | EventBridge | **built** |
-| 36 | Tess | Step Functions | ← next |
+| 36 | Tess | Step Functions | **built** |
 | 37 | Step Functions | Step Functions | |
 | 38 | AppFlow | AppFlow | |
 | 39 | AppSync | AppSync | |
@@ -456,8 +456,10 @@ Maya runs house to house. Nobody hears. One tap, one call. Chest, computer, and 
 ### 35 — Tilly (EventBridge) — **built**
 Mixed parcels. Wrong friend. Lever flips. Round chute, square chute, triangle chute. Right thing, right friend.
 
-### 36 — Tess ← **NEXT (Step Functions)**
+### 36 — Tess (Step Functions) — **built**
 Maya claps. Everyone starts at once. Pour with no cups. Staircase: one step lights after the one below. Cups, then mix, then pour. Flag pops.
+
+### 37 — AppFlow ← **NEXT**
 
 
 

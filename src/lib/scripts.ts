@@ -370,4 +370,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: ["/script-pages/35-Tilly-script-p1.jpg"],
     voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 35. A big pile of parcels lands in the street. Round ones. Square ones. Triangle ones. All mixed up. Maya carries them one at a time. Oh no! She gives a square to Sammy. Wrong friend. Here comes the sorting table. Maya dumps the whole pile on top. The lever flips. Round goes down the round chute to Sammy. Square goes down the square chute to Eddie. Triangle goes down the triangle chute to Lulu. Right thing, right friend. Now you know EventBridge! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 36,
+    title: "Tess",
+    tagline: "Step Functions. One step at a time. Each step waits for the one before.",
+    video: "/36-Tess.mp4?v=1",
+    pdf: "/scripts/36-Tess-script.pdf",
+    scriptFile: "36-Tess-script.pdf",
+    pages: ["/script-pages/36-Tess-script-p1.jpg"],
+    voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 36. Maya needs three jobs done. Cups. Then mixing. Then pouring. She claps. Everyone starts at once. Oh no! Lulu pours before the cups are there. What a mess. Here comes the staircase. Sammy steps on the first step. It lights up. He sets out the cups. Now the second step lights. Eddie mixes. Now the third step lights. Lulu pours. The flag pops up. One step at a time. Each step waits for the one before. Now you know Step Functions! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
