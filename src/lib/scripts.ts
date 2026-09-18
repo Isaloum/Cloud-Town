@@ -374,10 +374,10 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     n: 36,
     title: "Tess",
     tagline: "Step Functions. One step at a time. Each step waits for the one before.",
-    video: "/36-Tess.mp4?v=1",
+    video: "/36-Tess.mp4?v=vo2",
     pdf: "/scripts/36-Tess-script.pdf",
     scriptFile: "36-Tess-script.pdf",
     pages: ["/script-pages/36-Tess-script-p1.jpg"],
-    voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 36. Maya needs three jobs done. Cups. Then mixing. Then pouring. She claps. Everyone starts at once. Oh no! Lulu pours before the cups are there. What a mess. Here comes the staircase. Sammy steps on the first step. It lights up. He sets out the cups. Now the second step lights. Eddie mixes. Now the third step lights. Lulu pours. The flag pops up. One step at a time. Each step waits for the one before. Now you know Step Functions! See you next time in Cloud Town, high up in the sky!",
+    voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 36. Maya needs three jobs done. Cups first. Then mixing. Then pouring. She claps once. Everyone starts at the same time. Oh no! Lulu pours lemonade into thin air. No cups yet. What a mess. Here comes the staircase. Sammy stands on the first step. It lights up. He sets out the cups. Now the second step lights. Eddie mixes the jug. Now the third step lights. Lulu pours. Every cup is full. The flag pops up at the top. One step at a time. Each step waits for the one before it. That is the staircase. Now you know Step Functions! See you next time in Cloud Town, high up in the sky!",
   },
 ];
