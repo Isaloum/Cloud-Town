@@ -344,10 +344,10 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     n: 33,
     title: "Pip",
     tagline: "SQS. Notes wait in a neat line. First in, first out.",
-    video: "/33-Pip.mp4?v=1",
+    video: "/33-Pip.mp4?v=catch",
     pdf: "/scripts/33-Pip-script.pdf",
     scriptFile: "33-Pip-script.pdf",
     pages: ["/script-pages/33-Pip-script-p1.jpg"],
-    voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 33. Maya has a note for Eddie. But Eddie is not home. She waits. And waits. Oh no! The wind takes her note away. Here comes the letter box. Maya drops her notes inside. Red, then yellow, then blue. They wait in a neat line. Nothing blows away. Maya goes to play. Eddie comes home. He opens the flap. Red first. Then yellow. Then blue. The same order they went in. Every note is safe. Now you know SQS! See you next time in Cloud Town, high up in the sky!",
+    voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 33. Maya has a note for Eddie. But Eddie is not home. She waits. And waits. Oh no! The wind takes her note away. Here comes the letter box. Maya drops her notes inside. Red, then yellow, then blue. They wait in a neat line. Nothing blows away. Maya does not have to wait. She goes to play. Eddie comes home. He opens the flap. Red first. Then yellow. Then blue. The same order they went in. Every note is safe. Every note is read. That is the letter box. Now you know SQS! See you next time in Cloud Town, high up in the sky!",
   },
 ];

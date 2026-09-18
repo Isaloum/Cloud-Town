@@ -51,42 +51,54 @@ They wait in a neat line.
 Nothing blows away.
 
 14
-00:00:34,720 --> 00:00:37,007
-Maya goes to play.
+00:00:34,720 --> 00:00:37,486
+Maya does not have to wait.
 
 15
-00:00:37,007 --> 00:00:39,135
-Eddie comes home.
+00:00:37,486 --> 00:00:39,614
+She goes to play.
 
 16
-00:00:39,135 --> 00:00:41,489
-He opens the flap.
+00:00:39,614 --> 00:00:41,742
+Eddie comes home.
 
 17
-00:00:41,489 --> 00:00:43,404
-Red first.
+00:00:41,742 --> 00:00:44,095
+He opens the flap.
 
 18
-00:00:43,404 --> 00:00:45,252
-Then yellow.
+00:00:44,095 --> 00:00:46,010
+Red first.
 
 19
-00:00:45,252 --> 00:00:46,994
-Then blue.
+00:00:46,010 --> 00:00:47,859
+Then yellow.
 
 20
-00:00:46,994 --> 00:00:49,787
-The same order they went in.
+00:00:47,859 --> 00:00:49,601
+Then blue.
 
 21
-00:00:49,787 --> 00:00:52,207
-Every note is safe.
+00:00:49,601 --> 00:00:52,393
+The same order they went in.
 
 22
-00:00:52,207 --> 00:00:55,013
-Now you know SQS!
+00:00:52,393 --> 00:00:54,813
+Every note is safe.
 
 23
-00:00:55,013 --> 00:00:59,707
+00:00:54,813 --> 00:00:57,127
+Every note is read.
+
+24
+00:00:57,127 --> 00:00:59,654
+That is the letter box.
+
+25
+00:00:59,654 --> 00:01:02,460
+Now you know SQS!
+
+26
+00:01:02,460 --> 00:01:07,154
 See you next time in Cloud Town, high up in the sky!
 
