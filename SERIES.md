@@ -317,6 +317,15 @@ Planned (not built unless noted):
 | **Tess** | **Step Functions** | Cream **staircase** with a smiling face on the front of the bottom step, **teal steps**, and **one coral flag at the top**. Each step lights up only after the one below it is finished. Always this staircase. Never a person. Never a ladder. *Tess is the staircase. One step at a time. Each step waits for the one before.* |
 | **Mira** | **AppSync** | Cream **easel-style drawing board** with a smiling face on its front, a **teal frame**, and **one coral clip at the top**. Draw on it once and the same drawing appears on every other board in town. Icons only (sun, star, heart), never letters. Always this board. Never a person. Never a screen. *Mira is the drawing board. Draw it once, everyone sees it right now.* |
 
+### The safety net
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Scramble** | **KMS** | Small **teal padlock** with a friendly face and its own tiny key. Hops onto a drawing and turns the picture into colored squiggles so nobody can read it. The tiny key turns the squiggles back into the picture. Never a person. Never letters. *Scramble locks the picture. Only the little key can read it.* |
+| **Whisper** | **Secrets Manager** | Cream **jar** with a lid and a tiny face. Opens a crack, glows, tells one secret, and closes. Nobody else hears. Never a person. Never letters. *Whisper tells the secret to one friend. Nobody else hears.* |
+| **Sieve** | **WAF** | Coral **garden gate** with a friendly face, set in a low cream wall. A friend walks through. A muddy blob bounces off. Never a person. Never letters. *Sieve lets the good one through and bounces the bad one off.* |
+| **Umbrella** | **Shield** | Wide **teal umbrella** with a small friendly face. Pops open by itself. Pebbles bounce off. Never a person. Never letters. *Umbrella pops open. Not one pebble gets through.* |
+
 ### Setting
 
 **Cloud Town** = a cute cobblestone town in the clouds at sunset. Cream houses, teal lamps, no logos.
