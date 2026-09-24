@@ -75,6 +75,7 @@ Single page. Order from the top:
 
 | Ep | Title | AWS | Length | Notes |
 |---|---|---|---|---|
+| 0 | What is the cloud? | the idea of the cloud | 60s | Native 9:16. Maya on the ground. Helpers wave, no names yet. |
 | 1 | The helpers | S3, EC2, Lambda | 30s | Sammy / Eddie / Lulu intro. Grandfathered at 30s. |
 | 2 | Sammy’s closet | S3 classes + Glacier family | 60s | |
 | 3 | Copies and locks | Versioning, CRR, encryption, BPA, Object Lock | 60s | |
@@ -95,9 +96,100 @@ Single page. Order from the top:
 | 18 | The family tree | Neptune | 60s | |
 | 19 | The wide cubbies | Keyspaces | 60s | |
 
-**Next built cartoon:** compute friends — **ECS, EKS, Fargate** (toy boxes that run many Eddies).
+**Pattern for every remaining district:** one **overview** episode (the district title), then **one 60s cartoon per service** — same as Episode 10 (The vaults) plus 11–19. If a service cannot fill 60s honestly, **say so before shooting** and propose pairing. **Do not pair silently.**
+
+**Next built cartoon:** Episode **31 — Poppy (Amplify)**.
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
+
+Planned (not built unless noted):
+
+| Ep | Title | AWS | Notes |
+|---|---|---|---|
+| 20 | The toy boxes | ECS, EKS, Fargate | **overview — built** |
+| 21 | Boxy | ECS | **built** |
+| 22 | Kira | EKS | **built** |
+| 23 | Fay | Fargate | **built** |
+| 24 | The front door | Route 53, CloudFront, Global Accelerator | **overview — built** |
+| 25 | Mapi | Route 53 | **built** |
+| 26 | Zip | CloudFront | **built** |
+| 27 | Boost | Global Accelerator | **built** |
+| 28 | The name tag on the door | ACM, API Gateway, Amplify | **built** |
+| 29 | Seal | ACM | **built** |
+| 30 | Winn | API Gateway | **built** |
+| 31 | Amplify | Amplify | |
+| 32 | The post office | SQS, SNS, EventBridge | overview |
+| 33 | SQS | SQS | |
+| 34 | SNS | SNS | |
+| 35 | EventBridge | EventBridge | |
+| 36 | The recipe and the river | Step Functions, AppFlow, AppSync, MQ | overview |
+| 37 | Step Functions | Step Functions | |
+| 38 | AppFlow | AppFlow | |
+| 39 | AppSync | AppSync | |
+| 40 | MQ | Amazon MQ | |
+| 41 | The watchtower | CloudWatch, CloudTrail, Config, X-Ray | overview |
+| 42 | CloudWatch | CloudWatch | |
+| 43 | CloudTrail | CloudTrail | |
+| 44 | Config | Config | |
+| 45 | X-Ray | X-Ray | |
+| 46 | The builder crew | Auto Scaling, Beanstalk, Batch, ECR | overview |
+| 47 | Auto Scaling | Auto Scaling | |
+| 48 | Beanstalk | Elastic Beanstalk | |
+| 49 | Batch | Batch | |
+| 50 | ECR | ECR | |
+| 51 | The safety net | KMS, Secrets Manager, WAF, Shield | overview |
+| 52 | KMS | KMS | |
+| 53 | Secrets Manager | Secrets Manager | |
+| 54 | WAF | WAF | |
+| 55 | Shield | Shield | |
+| 56 | The night watch | GuardDuty, Inspector, Macie, Security Hub | overview |
+| 57 | GuardDuty | GuardDuty | |
+| 58 | Inspector | Inspector | |
+| 59 | Macie | Macie | |
+| 60 | Security Hub | Security Hub | |
+| 61 | The town hall | CloudFormation, Organizations, Control Tower, Systems Manager | overview |
+| 62 | CloudFormation | CloudFormation | |
+| 63 | Organizations | Organizations | |
+| 64 | Control Tower | Control Tower | |
+| 65 | Systems Manager | Systems Manager | |
+| 66 | The grown-up desk | CLI, Console, Trusted Advisor | overview |
+| 67 | CLI | AWS CLI | |
+| 68 | Console | AWS Console | |
+| 69 | Trusted Advisor | Trusted Advisor | |
+| 70 | The movers | MGN, DMS, DataSync, Snow Family, Transfer Family | overview |
+| 71 | MGN | MGN | |
+| 72 | DMS | DMS | |
+| 73 | DataSync | DataSync | |
+| 74 | Snow Family | Snow Family | |
+| 75 | Transfer Family | Transfer Family | |
+| 76 | The library | Athena, Redshift, Glue, Kinesis, OpenSearch, EMR, QuickSight | overview |
+| 77 | Athena | Athena | |
+| 78 | Redshift | Redshift | |
+| 79 | Glue | Glue | |
+| 80 | Kinesis | Kinesis | |
+| 81 | OpenSearch | OpenSearch | |
+| 82 | EMR | EMR | |
+| 83 | QuickSight | QuickSight | |
+| 84 | The talking friends | SageMaker, Rekognition, Comprehend, Polly, Transcribe, Translate, Textract, Lex, Kendra | overview |
+| 85 | SageMaker | SageMaker | |
+| 86 | Rekognition | Rekognition | |
+| 87 | Comprehend | Comprehend | |
+| 88 | Polly | Polly | |
+| 89 | Transcribe | Transcribe | |
+| 90 | Translate | Translate | |
+| 91 | Textract | Textract | |
+| 92 | Lex | Lex | |
+| 93 | Kendra | Kendra | |
+| 94 | The picture shop | Elastic Transcoder, Kinesis Video Streams | overview |
+| 95 | Elastic Transcoder | Elastic Transcoder | |
+| 96 | Kinesis Video Streams | Kinesis Video Streams | |
+| 97 | The piggy bank | Budgets, Cost Explorer, CUR, Savings Plans, Compute Optimizer | overview |
+| 98 | Budgets | Budgets | |
+| 99 | Cost Explorer | Cost Explorer | |
+| 100 | CUR | Cost and Usage Report | |
+| 101 | Savings Plans | Savings Plans | |
+| 102 | Compute Optimizer | Compute Optimizer | |
+| 103 | The whole town | SAA four promises | finale |
 
 ---
 
@@ -108,9 +200,13 @@ Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you nex
 ### Art rules (locked)
 
 - 3D Pixar-style, warm sunset, cobblestone, cream + teal, cute faces on objects.
+- **Every shot keeps the Cloud Town palette:** sunset sky, **cream + coral + teal**, cobblestone. **No flat white rooms. No clay-render look.**
 - **No AWS logos, no letters, no words** on the picture.
 - **No narrator kid in the corner** — voice is off-screen only.
 - **Characters never speak on camera.** Body reactions only (blink, nod, wiggle, wave). **No mouth animation. No lip-sync.**
+- **No humans on screen except Maya and Theo** unless they have a §6 row. If a story needs a second kid, **lock the row first.** Do not reuse unnamed extras.
+- **Named friends are always their object.** Boxy, Kira, Fay, Eddie, Sammy, Lulu stay boxes / computers / sparks. **Never draw a friend as a human.** (Episode 22 briefly showed Kira as a girl in a hat — do not repeat.)
+- **Remy is always a boy in a teal sweater.** Never a mouse. Never a girl.
 - Render **native 9:16, 1080×1920**. Full-frame cartoon. **No letterbox. No blurred bars. No 16:9 strip in the middle.**
 - Cloud Town floats in the sky.
 
@@ -120,8 +216,10 @@ Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you nex
 |---|---|---|
 | **Sammy** | **S3** | Cream treasure **chest** with gold clasps, round friendly face, short arms/legs. His house is a **closet / bucket**. |
 | **Eddie** | **EC2** | Cream **retro CRT computer**. Teal screen. Chunk of a body, round face on the monitor, arms and legs. Never sleeps. Lives in the **backyard** (private subnet). |
+| **Little Eddies** | **containers** (inside Boxy) | **Tiny copies of Eddie.** Cream mini CRT with a teal screen face, **palm-sized**. Never white robots. Never generic figures. |
 | **Lulu** | **Lambda** | Small round **yellow-gold spark / orb** with a face. Pops in, does one job, **poofs away**. |
-| **Maya** | (kid, not a service) | Little girl. Brown hair, **pink/coral dress**. Lives in Cloud Town. Friends with Eddie and Lulu. |
+| **Maya** | (kid, not a service) | Little girl. Brown hair **down**, **pink/coral dress**. **No bun. No apron.** Lives in Cloud Town. Friends with Eddie and Lulu. |
+| **Theo** | (kid, not a service) | Maya’s friend. **Little Black boy**, Maya’s height. **Dark brown skin**, short close-cropped black coily hair, **mustard-yellow hoodie**, teal shorts, coral sneakers. **Always a boy. Always dark brown skin — restate it in every prompt. Never a teal sweater. Not Remy.** In every book from Book 2 and every episode from EP40 on. |
 | **Dot** | **the vaults** (RDS family) | Cream **notebook / vault** with a face. Hides in the backyard. “Dot” is the whole database family; each vault has its own shape below. |
 
 ### The neighborhood (Episode 4)
@@ -170,15 +268,48 @@ Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you nex
 
 | Name | AWS | Shape |
 |---|---|---|
-| **Tidy notebook** | **RDS** | Cream **lined notebook** with a face. Rows and columns. AWS turns the pages. Lives in the backyard. |
-| **Super notebook** | **Aurora** | A **bigger, glowing** notebook. Extra copies. Extra fast. Still MySQL / PostgreSQL. |
-| **Nap notebook** | **Aurora Serverless** | The same super notebook **asleep** when empty. Wakes and grows for a crowd. |
-| **Labeled cubbies** | **DynamoDB** | Wooden **cubby mascot** with round holes. One toy per cubby. Grab **by name**. |
-| **Cubby extras** | DAX, Global Tables, on-demand, strong/eventual | **Snack shelf** on the cubbies (DAX). Twin cubbies in another town. |
-| **Unwrapped snack** | **ElastiCache** | An **open snack tray**. Redis = a list. Memcached = a simple tray. **Not the vault.** |
-| **Story vault** | **DocumentDB** | A **leather storybook**. Whole tale in one pile of pages. Talks like MongoDB. |
-| **Family tree** | **Neptune** | A smiling **oak tree** with **glowing yarn** between friends. Who is related to who. A graph. |
-| **Wide cubbies** | **Keyspaces** | A **much wider** wooden cubby. One name, then a **long row of slots**. Cassandra talk. |
+| **Tidy notebook** | **RDS** | Cream **lined notebook** with a face. Rows and columns. AWS turns the pages. Lives in the backyard. This is **Dot** in the books. |
+| **Rory** (the super notebook) | **Aurora** | **Gold embossed notebook** with a face, **teal spine**, **red cape**, dark arms and legs. Bigger than the tidy notebook, soft glow. Extra copies. Extra fast. Still MySQL / PostgreSQL. **Never cream. Never a tablet.** |
+| **Sevi** (the nap notebook) | **Aurora Serverless** | **Cream notebook, teal spine, gold trim**, gold arms and legs. **Asleep under a pink star blanket** when empty. Wakes and grows for a crowd. **Never a pillow.** |
+| **Dibby** (the labeled cubbies) | **DynamoDB** | **Brown wooden house-shaped cubby**, peaked shingle roof with a small chimney, **face on the gable**, open square cubbies holding bright toys, little wooden feet. One toy per cubby. Grab **by name**. Icon tags only. **Never a flat grid. Never a bookshelf.** |
+| **Dash** (the snack shelf) | **DAX** | **Small teal snack shelf** with a smiling face, **hooked on the side of the wooden house cubby**, a few cookies on it. No arms or legs. Only for cubbies. **Never stands alone. Never the walking snack tray.** (New shape — EP15 has no on-model shelf; approved 2026-09-20 for books and EP40+.) |
+| **Cubby extras** | Global Tables, on-demand, strong/eventual | Twin house cubbies in another town. Write here, it shows up there. |
+| **Ellie** (the unwrapped snack) | **ElastiCache** | **Teal snack tray** with a face, teal arms and legs, **cookies and a glass of lemonade inside**. Redis = a list. Memcached = a simple tray. **Not the vault. Never cream. Never a lidded box.** |
+| **Minty** (the story vault) | **DocumentDB** | **Brown leather storybook** with a face on the cover, **brass clasp, red ribbon bookmark**, brown arms and legs. Whole tale in one pile of pages. Talks like MongoDB. **Never lined. Never cream.** |
+| **Tuni** (the family tree) | **Neptune** | A smiling **oak tree**, brown trunk with the face in the bark, green leaves, **glowing coloured yarn balls and string lights** between the branches. Who is related to who. A graph. **Never a person. Never a chart.** |
+| **Kasey** (the wide cubbies) | **Keyspaces** | A **much wider wooden house cubby**, peaked shingle roof, **face on the front wall**, **two long rows of coloured drawers**. Always wider than the small house cubby. One name, then a **long row of slots**. Cassandra talk. **Never square.** |
+
+### The toy boxes (Episodes 20–23)
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Boxy** | **ECS** | Cream **toy box** with a friendly face and a teal latch. Holds many little Eddie toys and runs them. *Boxy is a toy box that runs many Eddies.* |
+| **Kira** | **EKS** | Cream **toy box with a teal captain’s hat**. Lines up many boxes the Kubernetes way. *Kira is the captain of the toy boxes.* |
+| **Fay** | **Fargate** | Cream **toy box with tiny teal wings**, floating. **Wings are always teal, never white.** No Eddie holds her. *Fay flies. No Eddie has to hold the box.* |
+
+### The front door (Episodes 24–27)
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Mapi** | **Route 53** | Cream **wooden signpost** with a smiling carved face, **one teal star-shaped arrow** and **one coral moon-shaped arrow**. Never a plain white post. Points visitors to the right house. *Mapi is the town map. She points you to the right house.* |
+| **Zip** | **CloudFront** | Cream **fast road** with a smiling face in the cobblestones, plus a cream **edge stall** with a face, holding copies of drawings (icons only, never writing). **Always this pair. Never a person. Never a vehicle.** *Zip is the fast road. Copies wait at the edge so you don’t walk all the way in.* |
+| **Boost** | **Global Accelerator** | Cream **front-door arch** with a smiling carved face, teal speed streaks, and **one coral keystone**. Always this one doorway. Never a person. Never a vehicle. Never rainbow. *Boost is the rocket path. One door. Always the fastest road.* |
+| **Remy** | (kid, not a service) | Visiting **boy**. Curly dark hair, **teal sweater**, cream shorts. **Always a boy. Never a girl. Never a mouse or any animal.** *Remy is a visitor from far away.* |
+
+### The name tag on the door (Episodes 28–31)
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Seal** | **ACM** | Cream **padlock sticker** with a smiling face, teal shackle, **one coral rivet**. Always this sticker. Glows on the door to prove the house is real. Never a person. Never letters. *Seal is the lock on the door. She proves this is really Maya’s house.* |
+| **Winn** | **API Gateway** | Cream **ticket window** with a **cream smiling face**, **teal awning**, **one small coral bell on top**. Hands blank colored tickets (no writing). Holds up a hand when too many come. Always this window. Never a blue box. Never a person. *Winn is the ticket window. Ask nicely, get a ticket, wait if too many.* |
+| **Poppy** | **Amplify** | Cream **folded lemonade-booth kit** with a smiling face, teal trim, **one coral lemon**. Unfolds in one motion into a whole stand: street, door, and window already built. Always this kit. Never a person. *Poppy is the booth kit. One pop, and the whole stand is ready.* |
+| **Linny** | **SQS** | Cream **letter box** with a smiling face, teal flap, **one coral letter** on top. Letters stack inside in a neat line; the bottom one leaves first. They wait as long as they need to. Always this box. Never a person. *Linny is the letter box. One letter at a time, and nothing gets lost while it waits.* |
+| **Nell** | **SNS** | Cream **town horn on a post** with a smiling face, teal trumpet mouth, **one coral ribbon**. She calls out once and every friend hears at the same moment. Always this horn. Never a person. Never a bell. *Nell is the town horn. She says it once, everybody hears it.* |
+| **Sorty** | **EventBridge** | Cream **sorting table** with a smiling face, three teal chutes, **one coral lever**. A round parcel goes down the round chute, a square parcel down the square chute. She sorts by shape and colour only, never by writing. Always this table. Never a person. *Sorty is the sorting table. She sends each thing to the friend who needs it.* |
+| **Steppy** | **Step Functions** | Cream **staircase** with a smiling face, teal steps, **one coral flag** at the top. Each step lights up only after the step before it finishes. Always this staircase. Never a person. Never a ladder. *Steppy is the staircase. One step, then the next, always in order.* |
+| **Mira** | **AppSync** | Cream **drawing board** with a smiling face, teal frame, **one coral clip**. When someone draws on her, the same drawing appears on every other board at the same moment. Drawings are icons only, never writing. Always this board. Never a person. Never a screen. *Mira is the shared board. Draw once, and everyone sees it.* |
+| **Flo** | **AppFlow** | Cream **curved pipe** with a smiling face, teal ends, **one coral valve**. Carries parcels from one house to another by itself, on a timer. Nobody pushes them. Always this pipe. Never a person. Never a hose. *Flo is the pipe. She moves things between houses without being asked.* |
+| **Otto** | **MQ** | Cream **brass tube** with a smiling face, teal bands, **one coral knob**. The old post system from the ground house, brought up into the sky so old friends can send mail the way they always did. Brass and old-fashioned, never shiny modern. Always this tube. Never a person. *Otto is the old brass tube. Old friends keep sending mail the way they know.* |
 
 ### Setting
 
@@ -217,6 +348,37 @@ New episodes are **60 seconds**.
 - **No storyteller kid in the corner.**
 - **Working together** is mandatory.
 
+**Story rule (every episode):**
+
+- Open on a **problem within the first 10 seconds.** Someone needs something and it is not working.
+- Every new friend does a **visible action on screen** that fixes part of the problem. Never “meet X” with a wave.
+- End on the **payoff:** the thing works, a kid reacts.
+- **Bright props** (toys, games, letters) in **red / yellow / blue** against the cream-and-teal town.
+- **Camera moves** in at least 3 shots. **No shot held longer than 6 seconds.**
+- **No text, letters, or logos** anywhere in the picture. Episode 20 had “CLOUD TOWN” on a classroom board — **do not repeat.**
+- **Little Eddies** are tiny copies of Eddie (cream mini CRT, teal screen, palm-sized). Never white robots.
+- **Only Maya** as a human unless the extra has a §6 row.
+- **Never draw a named friend as a human.** Kira is a box with a hat, always.
+- Palette: **sunset sky, cream + coral + teal, cobblestone.** No white rooms. No clay look.
+
+**Prompt rule (every image and every video clip):**
+
+- **Never use character names** in image or video prompts (no Maya, Eddie, Sammy, Lulu, Mapi, Boxy, Kira, Fay, Remy, Zip, Boost, …).
+- **Always describe the shape from the bible row:** “cream treasure chest with gold clasps and a round smiling face”; “cream retro CRT computer with a teal screen face, arms and legs”; “small glowing yellow-gold orb with a face”; “girl with brown hair in a coral dress”; “cream wooden signpost with a face and teal arrows”.
+- If a shot cannot be generated **on-model**, **drop the shot and reuse an approved still**. Never substitute an animal, a robot, a flame, or a different object.
+- **Emotion beat:** the problem shot shows a **worried face for 2–4 seconds**, mild, **no tears**. The payoff shot shows the **same character happy**.
+- **Never render readable text or lettering inside shots.** Signs and labels are **blank** or use **only icons** (star, moon, arrows). No letters, numbers, or fake glyphs.
+- **Mapi (every shot):** cream **wooden signpost** with a smiling carved face, **one teal star-shaped arrow** and **one coral moon-shaped arrow**. Never a plain white post.
+- **Boost (every shot):** cream **front-door arch** with a smiling carved face, teal speed streaks, **one coral keystone**. Never a person. Never rainbow.
+- **Seal (every shot):** cream **padlock sticker** with a smiling face, teal shackle, one coral rivet. Never a person. Never letters on the lock.
+- **Winn (every shot):** cream **ticket window** with a smiling face, teal awning, one coral bell. Tickets are blank colored cards, never writing.
+- **Poppy (every shot):** cream **folded lemonade-booth kit** with a smiling face, teal trim, one coral lemon. Unfolds into a stand. Never a person.
+
+- **Never use character names** in image or video prompts (not Sammy, Eddie, Lulu, Maya, Mapi, Boxy, Kira, Fay, Remy, or any other row).
+- **Always describe the shape from the bible row instead**, e.g. “cream treasure chest with gold clasps and a round smiling face”; “cream retro CRT computer with a teal screen face, arms and legs”; “small glowing yellow-gold orb with a face”; “girl with brown hair in a coral dress”.
+- If a shot **cannot be generated on-model**, **drop the shot and reuse an approved still**. **Never substitute an animal or a different object.**
+- **Emotion beat:** the problem shot shows a **worried face for 2–4 seconds**, mild, **no tears**. The payoff shot shows the **same character happy**.
+
 Code checklist when a chapter opens:
 
 1. Add the episode to `src/lib/scripts.ts`.
@@ -228,44 +390,136 @@ Code checklist when a chapter opens:
 
 ## 8. Remaining beat sheets (build in this order)
 
-### Next — The toy boxes (compute)
-ECS, EKS, Fargate. Boxes that run many Eddies.
+Vaults pattern: **overview, then one 60s per service.** If a service cannot fill 60s honestly, say so **before** shooting and propose pairing. Do not pair silently.
 
-### Then — The front door
-Route 53, CloudFront, Global Accelerator, ACM, API Gateway, Amplify.
+### 20 — The toy boxes (overview) — **built**
+Class taps play. Eddie drops toys. Boxy pops helpers. Kira lines up five boxes. Fay flies with no Eddie under her. Maya cheers.
 
-### Then — The post office
-SQS, SNS, EventBridge, Step Functions, AppFlow, AppSync, MQ.
+### 21 — Boxy (ECS only) — **built**
+Many small jobs in one box. One little Eddie inside stops. That job goes dark. Boxy pops a new little Eddie in. The job lights up again.
 
-### Then — The watchtower
-CloudWatch, CloudTrail, Config, X-Ray, Health Dashboard.
+### 22 — Kira (EKS only) — **built**
+Five Boxys doing their own thing. Toys everywhere. Kira whistles, lines them up, replaces a box that tips, adds a box when the line gets long. The whole row works in step.
 
-### Then — The builder crew
+### 23 — Fay (Fargate only) — **built**
+Every Eddie is busy. Nobody can carry the box. Boxy sits on Eddie's head (needs an Eddie). Fay flies the box with nobody underneath. Jobs done, she lands and rests. Nobody pays for an idle Eddie.
+
+### 24 — The front door (overview) — **built**
+Remy from far away wants Maya’s drawing. He gets lost, then arrives slow. Mapi points the way. Zip hands a copy at the edge. Boost is one rocket door, always the fastest road. Remy smiles at the drawing.
+
+### 25 — Mapi (Route 53 only) — **built (reshot, bible shapes)**
+Two same-color houses. Friends knock on the wrong door. Mapi names each house (emblem, no letters), points by name not color. Closed house → she points to the open twin (failover). All three at the right door. Maya waves.
+
+### 26 — Zip (CloudFront) — **built**
+Remy waits far away. The chest walks a drawing all the way across town (slow). The fast-road stall keeps a copy at the edge (instant). New drawing: old copy goes away, fresh copy arrives (expire).
+
+### 27 — Boost (Global Accelerator) — **built**
+Three far-away friends pick three bad roads (bumpy, closed, long). Late and tired. One cream doorway sends each down the fastest road. Zip keeps copies near you; this doorway is one door and the fastest road.
+
+### 28 — The name tag on the door (overview) — **built**
+Maya wants a lemonade stand. Fake-stand scare, shouting crowd, hand-built forever. Seal glows on the door. Winn hands tickets and holds up a hand. Poppy unfolds the whole stand.
+
+### 29 — Seal (ACM) — **built**
+Copycat lemonade stand with a crooked awning. Remy almost pays. Glow on the real door only. Walk past the fake. Glow fades, a fresh lock pops on (renew). Look for the glow before you hand over your coin.
+
+### 30 — Winn (API Gateway) — **built**
+Visitors crash the back. Eddie drops a pitcher. Window first: ticket to the right helper. Crowd rushes, hand up, wait (throttle). No ticket: shake head, padlock glow (auth).
+
+### 31 — Poppy (Amplify) ← **NEXT**
+Maya hammers boards one by one; the stand is half built and takes forever. The door is not joined to the window, so nothing works. The booth kit pops: street, door and window unfold together, already joined. Maya draws a new picture and the kit puts it on every stand in town. Build the front once, it pops up for everyone.
+
+### 31 — Poppy (Amplify)
+ACM, API Gateway, Amplify.
+
+### 29 ACM · 30 API Gateway · 31 Amplify
+
+### 32 — The post office (overview) — **NEXT**
+SQS, SNS, EventBridge. Maya wants to tell all her friends about a party. She shouts — everyone talks at once, nothing is heard. She hands out notes one by one — it takes forever and one gets dropped. The letter box holds each note safely in a line. The town horn says it once and everyone hears. The sorting table sends the round parcel down the round chute and the square one down the square chute. Quiet street, every friend told, nothing lost.
+
+### 33 — Linny (SQS)
+### 34 — Nell (SNS)
+Maya runs house to house with news; some miss it. The horn calls once; every friend turns at the same moment. Say it once, everybody hears.
+### 35 — Sorty (EventBridge)
+A mixed pile of parcels; Maya carries them one at a time and hands a square to the wrong friend. The table sorts by shape: round chute to Sammy, square to Eddie, triangle to Lulu. Right thing, right friend, every time.
+### 36 — Steppy (Step Functions)
+Three jobs started at once make a mess (pouring before cups). The staircase lights one step at a time: cups, then mix, then pour. Flag pops at the top. Each step waits for the one before.
+### 37 — Mira (AppSync)
+Maya runs a drawing to each friend; when she changes it, one friend still has the old picture. The drawing board: draw once on the big board, every small board changes at the same instant. Draw it once, everyone sees it right now.
+### 38 — The old tube (AppFlow + MQ)
+Maya hauls boxes house to house every morning; a parcel from the ground house has nowhere to land. The pipe carries boxes between houses by itself once the valve is turned. The brass tube brings the old-style mail up from the ground. Nobody carries a thing.
+
+> **Numbering note (2026-09-15, revised):** the post office is EP32–38.
+> **EP39–42 are IAM sub-videos** using characters that are already locked — no new rows needed.
+> **Security moved up:** the safety net is now EP43–47 and the night watch EP48–52, ahead of the watchtower. Reason: Design Secure Architectures is 30% of SAA-C03, the single biggest domain, and it was previously sitting at EP51–60.
+### 39 — The borrowed badge (IAM roles) — **sub-video**
+Eddie needs to open the chest but has no key of his own. Giving him a name tag forever is risky — he would keep it. He borrows a badge for one job, opens the chest, hands the badge straight back. Nothing is kept. No key left lying around. *Uses the locked "borrowed badge" row. No new character.*
+
+### 40 — The sunset pass (STS) — **sub-video** — prompt written 2026-09-20
+A visitor needs to get in today, not forever. A name tag would last for good. The sunset pass works right now and peels off by itself when the sun goes down. Nobody has to take it back. Contrast with the borrowed badge: the badge is *who you become*, the pass is *how long it lasts*. *Uses the locked "sunset pass" row.*
+
+### 41 — The door list (IAM policies) — **sub-video**
+A friend with a perfectly good badge walks up to a door and it stays shut. The door list decides, not the badge. The list has may and may-not on it. When one line says may and another says may-not, **may-not always wins**. Right doors open, wrong doors stay shut. *Uses the locked "door list" row.*
+
+### 42 — The principal's rule (SCP) — **sub-video**
+A whole classroom wants to open every door in the school. Their own door list says may. The principal's rule sits above every classroom and says may-not — and the rule wins. The rule never opens a door by itself; it only ever closes one. A ceiling, not a key. *Uses the locked "principal's rule" row.*
+
+### 43 — The safety net (overview) — **moved up from 51**
+KMS, Secrets Manager, WAF, Shield.
+
+### 44 KMS · 45 Secrets Manager · 46 WAF · 47 Shield
+
+### 48 — The night watch (overview) — **moved up from 56**
+GuardDuty, Inspector, Macie, Security Hub.
+
+### 49 GuardDuty · 50 Inspector · 51 Macie · 52 Security Hub
+
+### 53 — The watchtower (overview)
+CloudWatch, CloudTrail, Config, X-Ray.
+
+### 54 CloudWatch · 55 CloudTrail · 56 Config · 57 X-Ray
+
+### 58 — The builder crew (overview)
 Auto Scaling, Beanstalk, Batch, ECR.
 
-### Then — The safety net
-KMS, Secrets Manager, WAF, Shield, GuardDuty, Inspector, Macie, Security Hub.
+### 59 Auto Scaling · 60 Beanstalk · 61 Batch · 62 ECR
 
-### Then — The town hall
-CloudFormation, Organizations, Control Tower, Systems Manager, CLI, Console, Trusted Advisor.
+### 63 — The town hall (overview)
+CloudFormation, Organizations, Control Tower, Systems Manager.
 
-### Then — The movers
+### 64 CloudFormation · 65 Organizations · 66 Control Tower · 67 Systems Manager
+
+### 68 — The grown-up desk (overview)
+CLI, Console, Trusted Advisor.
+
+### 69 CLI · 70 Console · 71 Trusted Advisor
+
+### 72 — The movers (overview)
 MGN, DMS, DataSync, Snow Family, Transfer Family.
 
-### Then — The library
-Athena, Redshift, EMR, Glue, Kinesis, OpenSearch, QuickSight.
+### 73 MGN · 74 DMS · 75 DataSync · 76 Snow Family · 77 Transfer Family
 
-### Then — The talking friends
+### 78 — The library (overview)
+Athena, Redshift, Glue, Kinesis, OpenSearch, EMR, QuickSight.
+
+### 79 Athena · 80 Redshift · 81 Glue · 82 Kinesis · 83 OpenSearch · 84 EMR · 85 QuickSight
+
+### 86 — The talking friends (overview)
 SageMaker, Rekognition, Comprehend, Polly, Transcribe, Translate, Textract, Lex, Kendra.
 
-### Then — The picture shop
+### 87 SageMaker · 88 Rekognition · 89 Comprehend · 90 Polly · 91 Transcribe · 92 Translate · 93 Textract · 94 Lex · 95 Kendra
+
+### 96 — The picture shop (overview)
 Elastic Transcoder, Kinesis Video Streams.
 
-### Then — The piggy bank
-Budgets, Cost Explorer, Cost and Usage Report, Savings Plans, Compute Optimizer.
+### 97 Elastic Transcoder · 98 Kinesis Video Streams
 
-### Then — The whole town
-The four SAA promises. Series finale.
+### 99 — The piggy bank (overview)
+Budgets, Cost Explorer, CUR, Savings Plans, Compute Optimizer.
+
+### 100 Budgets · 101 Cost Explorer · 102 CUR · 103 Savings Plans · 104 Compute Optimizer
+
+### 105 — The whole town
+The four SAA promises. Series finale. Everyone works together.
 
 ---
 
@@ -273,7 +527,8 @@ The four SAA promises. Series finale.
 
 1. If the next service is **not** in §6, invent the character, **add the row, push SERIES.md**, then shoot the cartoon.
 2. Build native **9:16 1080×1920** (no blurred bars), 60s, kids voice, 58+2, no mouth animation, no kid overlay.
-3. Do not rebuild episodes 1–19 unless the user says they are broken.
-4. Do not change Sammy, Eddie, Lulu, Maya, Dot, Vivi, Iggie, Albie, Nat, or any other locked row.
+3. Overview first, then one cartoon per service. **Do not pair silently.**
+4. Do not rebuild episodes 0–19 unless the user says they are broken.
+5. Do not change Sammy, Eddie, Lulu, Maya, Dot, Vivi, Iggie, Albie, Nat, Boxy, Kira, Fay, or any other locked row.
 
 If the user asks for a different next chapter, obey the user, then come back to this order.
