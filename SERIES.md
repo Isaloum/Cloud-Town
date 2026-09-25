@@ -326,6 +326,15 @@ Planned (not built unless noted):
 | **Sieve** | **WAF** | Coral **garden gate** with a friendly face, set in a low cream wall. Friends may pass. A muddy blob bounces off. A paper hat does not fool it. Never a person. Never letters. *Sieve lets the good one through and bounces the bad one off.* |
 | **Umbrella** | **Shield** | Wide **teal umbrella** with a small friendly face on the canopy. Pops open by itself when pebbles fall. Pebbles bounce off. It does not bend. When the storm leaves, it folds itself and waits. Never a person. Never letters. *Umbrella pops open. Not one pebble gets through.* |
 
+### The night watch
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Nim** | **GuardDuty** | Round **teal owl** on a wooden post. Eyes glow yellow. Hoots and points a wing. Never a person. Never letters. *Nim watches all night. Hoot! That one does not belong.* |
+| **Peek** | **Inspector** | Cream **magnifying glass** with a friendly face. Hops along the wall, circles a crack, and rings a tiny bell. Never a person. Never letters. *Peek finds the tiny crack.* |
+| **Beep** | **Macie** | Small **coral lantern** with a face. Shines on papers. Turns pink and beeps when one is private. Never a person. Never letters. *Beep finds the private paper.* |
+| **Pin** | **Security Hub** | Wide **cream chalkboard** with a friendly face. Friends pin blank notes on it. No letters. Never a person. *Pin keeps every note on one board.* |
+
 ### Setting
 
 **Cloud Town** = a cute cobblestone town in the clouds at sunset. Cream houses, teal lamps, no logos.
