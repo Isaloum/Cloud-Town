@@ -321,7 +321,7 @@ Planned (not built unless noted):
 
 | Name | AWS | Shape |
 |---|---|---|
-| **Scramble** | **KMS** | Small **teal padlock** with a friendly face and its own tiny key. Hops onto a drawing and turns the picture into colored squiggles so nobody can read it. The tiny key turns the squiggles back into the picture. Never a person. Never letters. *Scramble locks the picture. Only the little key can read it.* |
+| **Scramble** | **KMS** | Small **teal padlock** with a friendly face and its own tiny gold key. Hops onto a drawing and turns the picture into colored squiggles so nobody can read it. The tiny key turns the squiggles back into the picture. The key lives in a tiny **teal hut** with one round window. The hut never moves. The key never leaves home. Never a person. Never letters. *Scramble locks the picture. The key stays home.* |
 | **Whisper** | **Secrets Manager** | Cream **jar** with a lid and a tiny face. Opens a crack, glows, tells one secret, and closes. Nobody else hears. Never a person. Never letters. *Whisper tells the secret to one friend. Nobody else hears.* |
 | **Sieve** | **WAF** | Coral **garden gate** with a friendly face, set in a low cream wall. A friend walks through. A muddy blob bounces off. Never a person. Never letters. *Sieve lets the good one through and bounces the bad one off.* |
 | **Umbrella** | **Shield** | Wide **teal umbrella** with a small friendly face. Pops open by itself. Pebbles bounce off. Never a person. Never letters. *Umbrella pops open. Not one pebble gets through.* |
