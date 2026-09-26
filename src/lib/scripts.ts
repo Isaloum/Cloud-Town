@@ -410,4 +410,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Too many friends! Maya's stand can't keep up! Welcome back to Cloud Town, high up in the sky! This is Episode 58. Meet the builder crew. First, the copy stands. More friends? Pop, pop, pop! More stands. Fewer friends? They sink away. That is Auto Scaling. Next, the magic bean. Plant it, and whoosh, a whole stand is ready. Maya just makes lemonade. That is Beanstalk. At night, the night basket squeezes a mountain of lemons while Maya sleeps. That is Batch. And the toy shelf keeps the same lunchbox recipe for every stand. Every cup tastes the same. That is ECR. Four helpers, one busy stand. Now you know the builder crew! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 59,
+    title: "The copy stands",
+    tagline: "Auto Scaling. More friends, more stands. Fewer friends, fewer stands.",
+    video: "/59-The-copy-stands.mp4?v=1",
+    pdf: "/scripts/59-The-copy-stands-script.pdf",
+    scriptFile: "59-The-copy-stands-script.pdf",
+    pages: [],
+    voiceover: "Oh no! A giant crowd! One stand is not enough! Welcome back to Cloud Town, high up in the sky! This is Episode 59. Meet the copy stands. The line gets long. Pop! A copy stand. Pop, pop! Two more. Now every friend gets a cup fast. Evening comes. The friends go home. The copy stands sink away. No empty stands. There is always one stand. And never more than the square can fit. Uh-oh, one copy stand is wobbly. It sinks, and a fresh one pops up. More friends, more stands. Fewer friends, fewer stands. That is the copy stands. Now you know Auto Scaling! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
