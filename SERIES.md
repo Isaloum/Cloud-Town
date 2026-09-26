@@ -335,6 +335,15 @@ Planned (not built unless noted):
 | **Beep** | **Macie** | Small **coral lantern** with a friendly face and a handle. It floats. Its light is warm yellow. It turns pink and beeps when it finds a private paper. Never a person. Never letters. *Beep finds the private paper before anyone else does.* |
 | **Pin** | **Security Hub** | Wide **cream chalkboard** on two wooden legs, with a friendly face. Friends pin blank colored notes on it. Red is urgent and comes first. When it is fixed, the note turns green. No letters. Never a person. *Pin keeps every note on one board. Red first.* |
 
+### The watchtower
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Tick** | **CloudWatch** | Cream **stone tower** with a friendly face near the top and a brass bell. A round dial on its side has a needle and a red zone, never numbers. When the needle enters the red, the bell rings. Never a person. Never letters. *Tick rings when the town gets too busy.* |
+| **Print** | **CloudTrail** | Brown **leather book** with a face, lying open. Footprints appear on the page, in order. No letters. Never a person. *Print remembers who came, in order.* |
+| **Match** | **Config** | **Blue paper** pinned to a post, with a white line drawing and a tiny face in the corner. It glows red when the real thing looks different. Never a person. Never letters. *Match glows red when something does not match.* |
+| **Thread** | **X-Ray** | A thin **glowing yellow string**. It turns orange and thick where things slow down. Never a person. Never letters. *Thread shows the slow spot.* |
+
 ### Setting
 
 **Cloud Town** = a cute cobblestone town in the clouds at sunset. Cream houses, teal lamps, no logos.
