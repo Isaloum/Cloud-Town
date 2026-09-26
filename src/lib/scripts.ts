@@ -390,4 +390,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: ["/script-pages/37-Mira-script-p1.jpg"],
     voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 37. Maya draws a sun. She wants everyone to see it. She runs to Sammy. Then to Eddie. Then to Lulu. Oh no! She changes her mind and draws a star. Now she has to run all over again. Here comes the drawing board. Every friend gets a little board of their own. Maya draws a heart on the big one. Pop! The same heart shows up on all three. She draws a star. Every board changes at once. Nobody runs. Draw it once, everyone sees it right now. That is the drawing board. Now you know AppSync! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 57,
+    title: "The glow string",
+    tagline: "X-Ray. Follow the path. Find the slow spot. Fix it.",
+    video: "/57-The-glow-string.mp4?v=1",
+    pdf: "/scripts/57-The-glow-string-script.pdf",
+    scriptFile: "57-The-glow-string-script.pdf",
+    pages: [],
+    voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 57. Maya's line is slow. Every cup takes forever. But why? Oh no! Here comes the glow string. It ties onto a lemon. And follows it. Into the squeezer. Orange! Thick! Squeak, squeak. Slow here! Into the pitcher. Yellow. Fast. Into the cup. Yellow. Fast. To the friend. Yellow. Fast. Only one slow spot. The squeezer! Maya gets a big new one. Whoosh! Now the string is yellow everywhere. The line moves fast. Follow the path. Find the slow spot. Fix it. That is the glow string. Now you know X-Ray! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
