@@ -333,7 +333,7 @@ Planned (not built unless noted):
 | **Nim** | **GuardDuty** | Round **teal owl** on a wooden post. Eyes glow yellow. Head turns all the way around. Hoots and points a wing when something comes the wrong way. Nods and stays quiet when friends come the normal way. Never a person. Never letters. *Nim knows normal. Nim spots strange.* |
 | **Peek** | **Inspector** | Cream **magnifying glass** with a friendly face. Hops on its handle. The lens glows when it looks. A tiny brass bell on the handle rings when it finds a crack. It checks every day. Never a person. Never letters. *Peek finds the tiny crack before trouble does.* |
 | **Beep** | **Macie** | Small **coral lantern** with a friendly face and a handle. It floats. Its light is warm yellow. It turns pink and beeps when it finds a private paper. Never a person. Never letters. *Beep finds the private paper before anyone else does.* |
-| **Pin** | **Security Hub** | Wide **cream chalkboard** with a friendly face. Friends pin blank notes on it. No letters. Never a person. *Pin keeps every note on one board.* |
+| **Pin** | **Security Hub** | Wide **cream chalkboard** on two wooden legs, with a friendly face. Friends pin blank colored notes on it. Red is urgent and comes first. When it is fixed, the note turns green. No letters. Never a person. *Pin keeps every note on one board. Red first.* |
 
 ### Setting
 
