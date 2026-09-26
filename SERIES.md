@@ -330,7 +330,7 @@ Planned (not built unless noted):
 
 | Name | AWS | Shape |
 |---|---|---|
-| **Nim** | **GuardDuty** | Round **teal owl** on a wooden post. Eyes glow yellow. Hoots and points a wing. Never a person. Never letters. *Nim watches all night. Hoot! That one does not belong.* |
+| **Nim** | **GuardDuty** | Round **teal owl** on a wooden post. Eyes glow yellow. Head turns all the way around. Hoots and points a wing when something comes the wrong way. Nods and stays quiet when friends come the normal way. Never a person. Never letters. *Nim knows normal. Nim spots strange.* |
 | **Peek** | **Inspector** | Cream **magnifying glass** with a friendly face. Hops along the wall, circles a crack, and rings a tiny bell. Never a person. Never letters. *Peek finds the tiny crack.* |
 | **Beep** | **Macie** | Small **coral lantern** with a face. Shines on papers. Turns pink and beeps when one is private. Never a person. Never letters. *Beep finds the private paper.* |
 | **Pin** | **Security Hub** | Wide **cream chalkboard** with a friendly face. Friends pin blank notes on it. No letters. Never a person. *Pin keeps every note on one board.* |
