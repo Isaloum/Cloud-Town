@@ -339,7 +339,7 @@ Planned (not built unless noted):
 
 | Name | AWS | Shape |
 |---|---|---|
-| **Tick** | **CloudWatch** | Cream **stone tower** with a friendly face near the top and a brass bell. A round dial on its side has a needle and a red zone, never numbers. When the needle enters the red, the bell rings. Never a person. Never letters. *Tick rings when the town gets too busy.* |
+| **Tick** | **CloudWatch** | Cream **stone tower** with a friendly face near the top and a brass bell. A round dial has a needle and three color zones — green, yellow, red — never numbers. The needle climbs as the crowd grows. In the red, the bell rings. When the crowd thins, the needle drops and the bell stops. Never a person. Never letters. *Tick watches the needle. The bell tells Maya when.* |
 | **Print** | **CloudTrail** | Brown **leather book** with a face, lying open. Footprints appear on the page, in order. No letters. Never a person. *Print remembers who came, in order.* |
 | **Match** | **Config** | **Blue paper** pinned to a post, with a white line drawing and a tiny face in the corner. It glows red when the real thing looks different. Never a person. Never letters. *Match glows red when something does not match.* |
 | **Thread** | **X-Ray** | A thin **glowing yellow string**. It turns orange and thick where things slow down. Never a person. Never letters. *Thread shows the slow spot.* |
