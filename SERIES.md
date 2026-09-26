@@ -342,7 +342,7 @@ Planned (not built unless noted):
 | **Tick** | **CloudWatch** | Cream **stone tower** with a friendly face near the top and a brass bell. A round dial has a needle and three color zones — green, yellow, red — never numbers. The needle climbs as the crowd grows. In the red, the bell rings. When the crowd thins, the needle drops and the bell stops. Never a person. Never letters. *Tick watches the needle. The bell tells Maya when.* |
 | **Print** | **CloudTrail** | Brown **leather book** with a friendly face on its cover. It lies open and flips its own pages. Every visit leaves a glowing print in a row: a small shoe, then round dots, then a messy mud print. No letters. Never a person. *Print remembers every step. Nothing is hidden.* |
 | **Match** | **Config** | **Blue paper** pinned to a post, with a white line drawing of the stand and a tiny face in the corner. It glows soft blue when the stand matches. It glows red when something is different. Never a person. Never letters. *Match shows how things should look, and spots what changed.* |
-| **Thread** | **X-Ray** | A thin **glowing yellow string**. It turns orange and thick where things slow down. Never a person. Never letters. *Thread shows the slow spot.* |
+| **Thread** | **X-Ray** | A thin **glowing yellow string**. It follows the lemonade on its path. Fast parts stay thin and yellow. Where things are slow it turns thick, orange, and pulses. Never a person. Never letters. *Thread follows the path and shows the slow spot.* |
 
 ### Setting
 
