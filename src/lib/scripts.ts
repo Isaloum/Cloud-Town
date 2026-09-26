@@ -400,4 +400,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 57. Maya's line is slow. Every cup takes forever. But why? Oh no! Here comes the glow string. It ties onto a lemon. And follows it. Into the squeezer. Orange! Thick! Squeak, squeak. Slow here! Into the pitcher. Yellow. Fast. Into the cup. Yellow. Fast. To the friend. Yellow. Fast. Only one slow spot. The squeezer! Maya gets a big new one. Whoosh! Now the string is yellow everywhere. The line moves fast. Follow the path. Find the slow spot. Fix it. That is the glow string. Now you know X-Ray! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 58,
+    title: "The builder crew",
+    tagline: "Auto Scaling, Beanstalk, Batch, ECR. Four helpers, one busy stand.",
+    video: "/58-The-builder-crew.mp4?v=1",
+    pdf: "/scripts/58-The-builder-crew-script.pdf",
+    scriptFile: "58-The-builder-crew-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Too many friends! Maya's stand can't keep up! Welcome back to Cloud Town, high up in the sky! This is Episode 58. Meet the builder crew. First, the copy stands. More friends? Pop, pop, pop! More stands. Fewer friends? They sink away. That is Auto Scaling. Next, the magic bean. Plant it, and whoosh, a whole stand is ready. Maya just makes lemonade. That is Beanstalk. At night, the night basket squeezes a mountain of lemons while Maya sleeps. That is Batch. And the toy shelf keeps the same lunchbox recipe for every stand. Every cup tastes the same. That is ECR. Four helpers, one busy stand. Now you know the builder crew! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
