@@ -420,4 +420,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! A giant crowd! One stand is not enough! Welcome back to Cloud Town, high up in the sky! This is Episode 59. Meet the copy stands. The line gets long. Pop! A copy stand. Pop, pop! Two more. Now every friend gets a cup fast. Evening comes. The friends go home. The copy stands sink away. No empty stands. There is always one stand. And never more than the square can fit. Uh-oh, one copy stand is wobbly. It sinks, and a fresh one pops up. More friends, more stands. Fewer friends, fewer stands. That is the copy stands. Now you know Auto Scaling! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 60,
+    title: "The magic bean",
+    tagline: "Elastic Beanstalk. You bring the lemon. The bean builds the rest.",
+    video: "/60-The-magic-bean.mp4?v=1",
+    pdf: "/scripts/60-The-magic-bean-script.pdf",
+    scriptFile: "60-The-magic-bean-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Building a stand is so hard! Wood, nails, a roof... Maya is so tired! Welcome back to Cloud Town, high up in the sky! This is Episode 60. Meet the magic bean. Maya gives it her lemon. She plants it. Whoosh! Up grows a whole stand. Roof. Counter. Cups. And copy stands, ready to pop. Maya did not hammer one nail. She just makes lemonade. New flavor? Give the bean a strawberry. Whoosh! The stand is ready again. And Maya can still open the little door and change anything herself. You bring the lemon. The bean builds the rest. That is the magic bean. Now you know Elastic Beanstalk! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
