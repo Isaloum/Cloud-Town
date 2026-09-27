@@ -430,4 +430,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Building a stand is so hard! Wood, nails, a roof... Maya is so tired! Welcome back to Cloud Town, high up in the sky! This is Episode 60. Meet the magic bean. Maya gives it her lemon. She plants it. Whoosh! Up grows a whole stand. Roof. Counter. Cups. And copy stands, ready to pop. Maya did not hammer one nail. She just makes lemonade. New flavor? Give the bean a strawberry. Whoosh! The stand is ready again. And Maya can still open the little door and change anything herself. You bring the lemon. The bean builds the rest. That is the magic bean. Now you know Elastic Beanstalk! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 61,
+    title: "The night basket",
+    tagline: "AWS Batch. Big jobs, done while you sleep.",
+    video: "/61-The-night-basket.mp4?v=1",
+    pdf: "/scripts/61-The-night-basket-script.pdf",
+    scriptFile: "61-The-night-basket-script.pdf",
+    pages: [],
+    voiceover: "Oh no! A mountain of lemons! Maya can't squeeze them all! Welcome back to Cloud Town, high up in the sky! This is Episode 61. Meet the night basket. Maya puts the lemons inside. They wait in a line. Night comes. Maya goes to sleep. The moon on the lid glows. Out hop the little squeezers. One, two, ten! Squeeze, squeeze, squeeze! The big job gets done, lemon by lemon. The last lemon? Done! The squeezers hop back in. Nobody stays up for nothing. Morning. Pitchers everywhere! Maya did not squeeze one lemon. Big jobs, done while you sleep. That is the night basket. Now you know AWS Batch! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
