@@ -440,4 +440,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! A mountain of lemons! Maya can't squeeze them all! Welcome back to Cloud Town, high up in the sky! This is Episode 61. Meet the night basket. Maya puts the lemons inside. They wait in a line. Night comes. Maya goes to sleep. The moon on the lid glows. Out hop the little squeezers. One, two, ten! Squeeze, squeeze, squeeze! The big job gets done, lemon by lemon. The last lemon? Done! The squeezers hop back in. Nobody stays up for nothing. Morning. Pitchers everywhere! Maya did not squeeze one lemon. Big jobs, done while you sleep. That is the night basket. Now you know AWS Batch! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 62,
+    title: "The toy shelf",
+    tagline: "Amazon ECR. Same box, same taste, every stand.",
+    video: "/62-The-toy-shelf.mp4?v=1",
+    pdf: "/scripts/62-The-toy-shelf-script.pdf",
+    scriptFile: "62-The-toy-shelf-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Every cup tastes different! Too sour! Too sweet! Welcome back to Cloud Town, high up in the sky! This is Episode 62. Meet the toy shelf. Maya packs her best recipe in a lunchbox. Snap! Sealed tight. Onto the shelf. Every stand takes the same lunchbox. Sip. Yum! Sip. Yum! Every cup tastes the same. New recipe? A new lunchbox, with a green ribbon. The old one stays too, just in case. A muddy blob reaches for a box. Clack! The shelf closes. Only Cloud Town stands may take one. Same box, same taste, every stand. That is the toy shelf. Now you know Amazon ECR! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
