@@ -450,4 +450,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Every cup tastes different! Too sour! Too sweet! Welcome back to Cloud Town, high up in the sky! This is Episode 62. Meet the toy shelf. Maya packs her best recipe in a lunchbox. Snap! Sealed tight. Onto the shelf. Every stand takes the same lunchbox. Sip. Yum! Sip. Yum! Every cup tastes the same. New recipe? A new lunchbox, with a green ribbon. The old one stays too, just in case. A muddy blob reaches for a box. Clack! The shelf closes. Only Cloud Town stands may take one. Same box, same taste, every stand. That is the toy shelf. Now you know Amazon ECR! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 63,
+    title: "The town hall",
+    tagline: "CloudFormation, Organizations, Control Tower, Systems Manager. Four helpers, one tidy town.",
+    video: "/63-The-town-hall.mp4?v=1",
+    pdf: "/scripts/63-The-town-hall-script.pdf",
+    scriptFile: "63-The-town-hall-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Cloud Town is growing too fast! Stands everywhere, and every one is different! Welcome back to Cloud Town, high up in the sky! This is Episode 63. Meet the town hall crew. First, the town stamp. Stamp! A whole street pops up, exactly right. Stamp! Another one, just the same. That is CloudFormation. Next, the family rope. It loops the houses into neighborhoods. One town, all together. That is Organizations. The lighthouse sets up each new neighborhood, safe from day one. That is Control Tower. And the magic toolbox fixes every stand at once. Tap, tap, done! That is Systems Manager. Four helpers, one tidy town. Now you know the town hall crew! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
