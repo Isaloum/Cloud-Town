@@ -460,4 +460,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Cloud Town is growing too fast! Stands everywhere, and every one is different! Welcome back to Cloud Town, high up in the sky! This is Episode 63. Meet the town hall crew. First, the town stamp. Stamp! A whole street pops up, exactly right. Stamp! Another one, just the same. That is CloudFormation. Next, the family rope. It loops the houses into neighborhoods. One town, all together. That is Organizations. The lighthouse sets up each new neighborhood, safe from day one. That is Control Tower. And the magic toolbox fixes every stand at once. Tap, tap, done! That is Systems Manager. Four helpers, one tidy town. Now you know the town hall crew! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 64,
+    title: "The town stamp",
+    tagline: "AWS CloudFormation. Draw it once. Stamp it anywhere.",
+    video: "/64-The-town-stamp.mp4?v=1",
+    pdf: "/scripts/64-The-town-stamp-script.pdf",
+    scriptFile: "64-The-town-stamp-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Building a street by hand takes all day! And nothing matches! Welcome back to Cloud Town, high up in the sky! This is Episode 64. Meet the town stamp. Look underneath. A picture of the whole street. Stamp! The street pops up, exactly like the picture. Stamp again! Another street, just the same. Want flowers? Add them to the picture. Stamp! Now every stand has flowers. Done with a street? Lift and twist. Everything folds away. Nothing left behind. Draw it once. Stamp it anywhere. That is the town stamp. Now you know AWS CloudFormation! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
