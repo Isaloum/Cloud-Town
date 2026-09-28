@@ -480,4 +480,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Houses everywhere, floating apart! Who belongs where? Welcome back to Cloud Town, high up in the sky! This is Episode 65. Meet the family rope. It loops around every house. Pull! One town, all together. Little loops make neighborhoods. Blue roofs here. Green roofs there. Maya ties a red ribbon on the blue loop. Click, click, click! Every blue back door locks at once. One rule for the whole neighborhood. And one piggy bank pays for every house. A new house floats in. Loop! It joins the blue ones, and its door locks too. That is the family rope. Now you know AWS Organizations! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 66,
+    title: "The lighthouse",
+    tagline: "AWS Control Tower. Set up safe. Stay safe.",
+    video: "/66-The-lighthouse.mp4?v=1",
+    pdf: "/scripts/66-The-lighthouse-script.pdf",
+    scriptFile: "66-The-lighthouse-script.pdf",
+    pages: [],
+    voiceover: "Oh no! A brand new neighborhood, and every gate is wide open! Welcome back to Cloud Town, high up in the sky! This is Episode 66. Meet the lighthouse. Its beam sweeps the new land. Fences! Lamps! Back doors lock. Safe from day one. The muddy blob bonks the fence. Nope! Need another neighborhood? Shine! The same safe setup, every single time. The lighthouse keeps watching. Green, green, green... red! One gate is open. Maya runs and closes it. Green again. Set up safe. Stay safe. That is the lighthouse. Now you know AWS Control Tower! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
