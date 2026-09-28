@@ -470,4 +470,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Building a street by hand takes all day! And nothing matches! Welcome back to Cloud Town, high up in the sky! This is Episode 64. Meet the town stamp. Look underneath. A picture of the whole street. Stamp! The street pops up, exactly like the picture. Stamp again! Another street, just the same. Want flowers? Add them to the picture. Stamp! Now every stand has flowers. Done with a street? Lift and twist. Everything folds away. Nothing left behind. Draw it once. Stamp it anywhere. That is the town stamp. Now you know AWS CloudFormation! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 65,
+    title: "The family rope",
+    tagline: "AWS Organizations. One town, little neighborhoods, one rule for all.",
+    video: "/65-The-family-rope.mp4?v=1",
+    pdf: "/scripts/65-The-family-rope-script.pdf",
+    scriptFile: "65-The-family-rope-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Houses everywhere, floating apart! Who belongs where? Welcome back to Cloud Town, high up in the sky! This is Episode 65. Meet the family rope. It loops around every house. Pull! One town, all together. Little loops make neighborhoods. Blue roofs here. Green roofs there. Maya ties a red ribbon on the blue loop. Click, click, click! Every blue back door locks at once. One rule for the whole neighborhood. And one piggy bank pays for every house. A new house floats in. Loop! It joins the blue ones, and its door locks too. That is the family rope. Now you know AWS Organizations! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
