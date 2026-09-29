@@ -490,4 +490,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! A brand new neighborhood, and every gate is wide open! Welcome back to Cloud Town, high up in the sky! This is Episode 66. Meet the lighthouse. Its beam sweeps the new land. Fences! Lamps! Back doors lock. Safe from day one. The muddy blob bonks the fence. Nope! Need another neighborhood? Shine! The same safe setup, every single time. The lighthouse keeps watching. Green, green, green... red! One gate is open. Maya runs and closes it. Green again. Set up safe. Stay safe. That is the lighthouse. Now you know AWS Control Tower! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 67,
+    title: "The magic toolbox",
+    tagline: "AWS Systems Manager. One toolbox, every stand, all at once.",
+    video: "/67-The-magic-toolbox.mp4?v=1",
+    pdf: "/scripts/67-The-magic-toolbox-script.pdf",
+    scriptFile: "67-The-magic-toolbox-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Every stand is squeaking and wobbling! Welcome back to Cloud Town, high up in the sky! This is Episode 67. Meet the magic toolbox. Maya does not fix them one by one. She opens the toolbox. Whoosh! Sparkles fly to every stand at once. Squeak... gone! The toolbox can peek inside every stand. Pitcher? Cups? Lemons? Maya sees it all. This one has no cups. Tap! Cups appear. At night, while Maya sleeps, the toolbox works on its own. Polish, tighten, fix. Morning! Every stand shines. One toolbox, every stand, all at once. That is the magic toolbox. Now you know AWS Systems Manager! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
