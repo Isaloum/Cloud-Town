@@ -500,4 +500,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Every stand is squeaking and wobbling! Welcome back to Cloud Town, high up in the sky! This is Episode 67. Meet the magic toolbox. Maya does not fix them one by one. She opens the toolbox. Whoosh! Sparkles fly to every stand at once. Squeak... gone! The toolbox can peek inside every stand. Pitcher? Cups? Lemons? Maya sees it all. This one has no cups. Tap! Cups appear. At night, while Maya sleeps, the toolbox works on its own. Polish, tighten, fix. Morning! Every stand shines. One toolbox, every stand, all at once. That is the magic toolbox. Now you know AWS Systems Manager! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 68,
+    title: "The grown-up desk",
+    tagline: "The Console, the CLI, and Trusted Advisor. Three helpers, one desk.",
+    video: "/68-The-grown-up-desk.mp4?v=1",
+    pdf: "/scripts/68-The-grown-up-desk-script.pdf",
+    scriptFile: "68-The-grown-up-desk-script.pdf",
+    pages: [],
+    voiceover: "Oh no! So many stands, and Maya has to run to each one! Welcome back to Cloud Town, high up in the sky! This is Episode 68. Meet the grown-up desk. The button board shows every stand in little pictures. Press a button. Click! A stand opens. Easy to see, easy to press. That is the Console. The whisper tube is for quick helpers. Whisper once, and ten stands open. Whisper it again tomorrow. Same result. That is the CLI. And the wise turtle checks everything. Too many coins spent here! A gate left open there! It holds up little tips. That is Trusted Advisor. Three helpers, one desk. Now you know the grown-up desk! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
