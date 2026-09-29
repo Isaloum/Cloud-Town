@@ -494,7 +494,7 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     n: 67,
     title: "The magic toolbox",
     tagline: "AWS Systems Manager. One toolbox, every stand, all at once.",
-    video: "/67-The-magic-toolbox.mp4?v=1",
+    video: "/67-The-magic-toolbox.mp4?v=2",
     pdf: "/scripts/67-The-magic-toolbox-script.pdf",
     scriptFile: "67-The-magic-toolbox-script.pdf",
     pages: [],
