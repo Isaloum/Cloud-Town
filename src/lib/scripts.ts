@@ -510,4 +510,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! So many stands, and Maya has to run to each one! Welcome back to Cloud Town, high up in the sky! This is Episode 68. Meet the grown-up desk. The button board shows every stand in little pictures. Press a button. Click! A stand opens. Easy to see, easy to press. That is the Console. The whisper tube is for quick helpers. Whisper once, and ten stands open. Whisper it again tomorrow. Same result. That is the CLI. And the wise turtle checks everything. Too many coins spent here! A gate left open there! It holds up little tips. That is Trusted Advisor. Three helpers, one desk. Now you know the grown-up desk! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 69,
+    title: "The whisper tube",
+    tagline: "AWS CLI. A few short words, and the work is done.",
+    video: "/69-The-whisper-tube.mp4?v=1",
+    pdf: "/scripts/69-The-whisper-tube-script.pdf",
+    scriptFile: "69-The-whisper-tube-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Twenty stands to open, and Maya presses twenty buttons, one by one! Her finger is so tired! Welcome back to Cloud Town, high up in the sky! This is Episode 69. Meet the whisper tube. The whisper tube has no buttons at all. Maya just whispers what she wants. Open the whole row! Whoosh! Twenty stands open at the same moment. And the tube remembers. Tomorrow morning, Maya whispers the same words. Same stands, same result, every single time. The tube can even reach the far-away towns, in one breath. Buttons are great for one stand. Whispers are great for many. That is the AWS CLI. You type a few short words, and AWS does all the work. Now you know the whisper tube! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
