@@ -634,7 +634,7 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     n: 81,
     title: "The sticky-pot",
     tagline: "AWS Glue. Clean the messy cards first, then ask.",
-    video: "/81-The-sticky-pot.mp4?v=1",
+    video: "/81-The-sticky-pot.mp4?v=2",
     pdf: "/scripts/81-The-sticky-pot-script.pdf",
     scriptFile: "81-The-sticky-pot-script.pdf",
     pages: [],
