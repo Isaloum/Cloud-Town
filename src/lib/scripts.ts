@@ -640,4 +640,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! The cards are torn, folded and upside down, and the lamp cannot read them! Welcome back to Cloud Town, high up in the sky! This is Episode 81. Meet the sticky-pot. Its brush gets to work. Flatten the folded ones. Flip the upside-down ones. Stick the torn ones back together. Trim them all to one size. Then one neat stack, all facing up. Now the lamp shines, and the answer floats up at once. Clean first, then ask. That is AWS Glue. It cleans and tidies messy data so the other helpers can use it. Now you know the sticky-pot! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 82,
+    title: "The river chute",
+    tagline: "Amazon Kinesis. A live stream of notes, the moment they are made.",
+    video: "/82-The-river-chute.mp4?v=1",
+    pdf: "/scripts/82-The-river-chute-script.pdf",
+    scriptFile: "82-The-river-chute-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Cups are selling so fast, Maya cannot catch the cards as they come! Welcome back to Cloud Town, high up in the sky! This is Episode 82. Meet the river chute. Every new card floats down, one after another, in order. The lamp reads them on the way. Count, count, count, as they go by. More cups? The river gets wider. Two lanes, three lanes, nothing bumps. At the end, every card lands in the basket, still in order. The notes flow like a river, live, as things happen. That is Amazon Kinesis. It carries a live stream of data the moment it is made. Now you know the river chute! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
