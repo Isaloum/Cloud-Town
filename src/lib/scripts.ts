@@ -570,4 +570,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Maya's notebook has every recipe, and she cannot carry it up without losing pages! Welcome back to Cloud Town, high up in the sky! This is Episode 74. Meet the pour-pitcher. It dips its spout into the old notebook and pours the pages up, one by one. And Maya keeps writing the whole time. The new drawing flows up too. Up on the cloud, the pages land in a new notebook, in the same order. Not one page lost. Not one minute closed. That is AWS Database Migration Service, DMS. It copies a database to the cloud while the old one keeps working. Now you know the pour-pitcher! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 75,
+    title: "The bucket-chain",
+    tagline: "AWS DataSync. Move the big pile up, fast, and check every one.",
+    video: "/75-The-bucket-chain.mp4?v=1",
+    pdf: "/scripts/75-The-bucket-chain-script.pdf",
+    scriptFile: "75-The-bucket-chain-script.pdf",
+    pages: [],
+    voiceover: "Oh no! A whole crate of lemons, and Maya can carry only two at a time! Welcome back to Cloud Town, high up in the sky! This is Episode 75. Meet the bucket-chain. One rope, many buckets, from the ground all the way up to the cloud. Scoop, lift, tip, back down. Again and again, fast and steady. One bucket is chipped? Swap it. The chain never stops. Up top, every lemon lands in its cubby box. Same lemons, same order, nothing lost. That is AWS DataSync. It moves big piles of files to the cloud, fast, and checks every one. Now you know the bucket-chain! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
