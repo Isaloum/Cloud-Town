@@ -644,7 +644,7 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     n: 82,
     title: "The river chute",
     tagline: "Amazon Kinesis. A live stream of notes, the moment they are made.",
-    video: "/82-The-river-chute.mp4?v=1",
+    video: "/82-The-river-chute.mp4?v=2",
     pdf: "/scripts/82-The-river-chute-script.pdf",
     scriptFile: "82-The-river-chute-script.pdf",
     pages: [],
