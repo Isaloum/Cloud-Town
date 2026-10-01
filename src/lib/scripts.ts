@@ -620,4 +620,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Maya wants to know how many cups she sold on sunny days, and the cards are one big mess! Welcome back to Cloud Town, high up in the sky! This is Episode 79. Meet the reading lamp. Maya asks one question: sunny days? The lamp shines on the pile. Every sunny card glows and floats up. Count them. Done. The pile never moved. No sorting, no new shelf, no copying. Ask, shine, answer. Another pile? Shine there too. That is Amazon Athena. It asks questions straight to your files where they sit, and you pay only for the question. Now you know the reading lamp! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 80,
+    title: "The shelf-tower",
+    tagline: "Amazon Redshift. A giant warehouse, built to answer big questions fast.",
+    video: "/80-The-shelf-tower.mp4?v=1",
+    pdf: "/scripts/80-The-shelf-tower-script.pdf",
+    scriptFile: "80-The-shelf-tower-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Maya has too many cards for her little shelf, and it is about to burst! Welcome back to Cloud Town, high up in the sky! This is Episode 80. Meet the shelf-tower. It is tall, very tall, with hundreds of tiny drawers. Every card goes in its own drawer, cups with cups, lemons with lemons. Ask a big question: cups sold at night? Hundreds of drawers open at once. The answer stacks up in a second. Millions of cards, one quick answer. The little shelf is for a few cards. The tower is for a whole town of cards. That is Amazon Redshift. A giant warehouse for your data, built to answer big questions fast. Now you know the shelf-tower! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
