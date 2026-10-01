@@ -670,4 +670,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! A mountain of cards, and Maya can sort one card at a time! The sun is going down! Welcome back to Cloud Town, high up in the sky! This is Episode 84. Meet the ant crew. Hundreds of tiny ants, each one carries one card. Cups to the red mat, lemons to the yellow, suns to the blue. All at the same time. The mountain melts. Need it faster? Clap, and more ants come. Done? They march home. You only pay while they work. That is Amazon EMR. A big crew of helpers that chews through a mountain of data together, then goes away. Now you know the ant crew! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 85,
+    title: "The picture easel",
+    tagline: "Amazon QuickSight. Turn the stacks into a picture you see in one look.",
+    video: "/85-The-picture-easel.mp4?v=1",
+    pdf: "/scripts/85-The-picture-easel-script.pdf",
+    scriptFile: "85-The-picture-easel-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Three stacks of cards, and Maya cannot tell which is biggest just by looking! Welcome back to Cloud Town, high up in the sky! This is Episode 85. Meet the picture easel. It paints the answer. Three bars: tall, medium, short. Now you see it in one look. A circle cut into slices: which part is biggest? A wavy line going up: are we growing? Yes! Add a new card, and the picture grows by itself. No counting, no squinting. Just look. That is Amazon QuickSight. It turns your data into simple pictures you understand in a second. Now you know the picture easel! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
