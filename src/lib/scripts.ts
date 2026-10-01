@@ -650,4 +650,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Cups are selling so fast, Maya cannot catch the cards as they come! Welcome back to Cloud Town, high up in the sky! This is Episode 82. Meet the river chute. Every new card floats down, one after another, in order. The lamp reads them on the way. Count, count, count, as they go by. More cups? The river gets wider. Two lanes, three lanes, nothing bumps. At the end, every card lands in the basket, still in order. The notes flow like a river, live, as things happen. That is Amazon Kinesis. It carries a live stream of data the moment it is made. Now you know the river chute! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 83,
+    title: "The pointer bird",
+    tagline: "Amazon OpenSearch. Find the right card, even from a smudge.",
+    video: "/83-The-pointer-bird.mp4?v=1",
+    pdf: "/scripts/83-The-pointer-bird-script.pdf",
+    scriptFile: "83-The-pointer-bird-script.pdf",
+    pages: [],
+    voiceover: "Oh no! One heart card, somewhere in a thousand cards, and Maya is flipping one by one! Welcome back to Cloud Town, high up in the sky! This is Episode 83. Meet the pointer bird. Show it what you want. Zip! It darts into the pile and pulls out the one card. Two things at once? Zip, zip, zip, three boxes. A smudged drawing? It still finds the closest match. It does not read the whole pile. It already knows where everything is. That is Amazon OpenSearch. It finds the right thing in a huge pile, fast, even when you are not sure of the exact word. Now you know the pointer bird! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
