@@ -600,4 +600,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Maya moved to the cloud, but her friends still send letters to the old mailbox on the ground! Welcome back to Cloud Town, high up in the sky! This is Episode 77. Meet the mail-chute. Its pipe reaches down from the cloud, and its flap sits right where the old mailbox was. Same flap, same way. Friends drop a letter in, just like always. Whoosh! It lands in the cloud cubby. Nobody has to learn anything new. That is the AWS Transfer Family. Friends send files the old way, and they land in the cloud. Now you know the mail-chute! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 78,
+    title: "The library",
+    tagline: "AWS analytics. From a mountain of notes to one picture.",
+    video: "/78-The-library.mp4?v=1",
+    pdf: "/scripts/78-The-library-script.pdf",
+    scriptFile: "78-The-library-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Maya has a mountain of notes, and no idea what they say! Welcome back to Cloud Town, high up in the sky! This is Episode 78. Meet the library. The sticky-pot cleans the cards and stacks them neat. The river chute brings new cards as they come. The reading lamp finds the answer in a pile, no sorting needed. The pointer bird darts to the one card you want. The ant crew moves a whole mountain of cards in minutes. The tall tower keeps millions in tiny drawers. And the easel paints the answer as a picture. That is AWS analytics: Glue, Kinesis, Athena, OpenSearch, EMR, Redshift and QuickSight. Now you know the library! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
