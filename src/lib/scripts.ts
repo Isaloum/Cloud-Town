@@ -584,7 +584,7 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     n: 76,
     title: "The snow-box",
     tagline: "AWS Snow Family. Big tough boxes that carry huge piles to the cloud by truck.",
-    video: "/76-The-snow-box.mp4?v=1",
+    video: "/76-The-snow-box.mp4?v=2",
     pdf: "/scripts/76-The-snow-box-script.pdf",
     scriptFile: "76-The-snow-box-script.pdf",
     pages: [],
