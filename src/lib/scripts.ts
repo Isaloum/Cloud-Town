@@ -630,4 +630,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Maya has too many cards for her little shelf, and it is about to burst! Welcome back to Cloud Town, high up in the sky! This is Episode 80. Meet the shelf-tower. It is tall, very tall, with hundreds of tiny drawers. Every card goes in its own drawer, cups with cups, lemons with lemons. Ask a big question: cups sold at night? Hundreds of drawers open at once. The answer stacks up in a second. Millions of cards, one quick answer. The little shelf is for a few cards. The tower is for a whole town of cards. That is Amazon Redshift. A giant warehouse for your data, built to answer big questions fast. Now you know the shelf-tower! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 81,
+    title: "The sticky-pot",
+    tagline: "AWS Glue. Clean the messy cards first, then ask.",
+    video: "/81-The-sticky-pot.mp4?v=1",
+    pdf: "/scripts/81-The-sticky-pot-script.pdf",
+    scriptFile: "81-The-sticky-pot-script.pdf",
+    pages: [],
+    voiceover: "Oh no! The cards are torn, folded and upside down, and the lamp cannot read them! Welcome back to Cloud Town, high up in the sky! This is Episode 81. Meet the sticky-pot. Its brush gets to work. Flatten the folded ones. Flip the upside-down ones. Stick the torn ones back together. Trim them all to one size. Then one neat stack, all facing up. Now the lamp shines, and the answer floats up at once. Clean first, then ask. That is AWS Glue. It cleans and tidies messy data so the other helpers can use it. Now you know the sticky-pot! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
