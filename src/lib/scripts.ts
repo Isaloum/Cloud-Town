@@ -534,7 +534,7 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     n: 71,
     title: "The wise turtle",
     tagline: "AWS Trusted Advisor. It points, kindly, at what you should fix.",
-    video: "/71-The-wise-turtle.mp4?v=1",
+    video: "/71-The-wise-turtle.mp4?v=2",
     pdf: "/scripts/71-The-wise-turtle-script.pdf",
     scriptFile: "71-The-wise-turtle-script.pdf",
     pages: [],
