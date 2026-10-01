@@ -750,4 +750,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Maya is talking, but the little green orb does not understand one word! Welcome back to Cloud Town, high up in the sky! This is Episode 92. Meet the swap-bridge. Maya says something. It crosses the bridge, and comes out in the orb's language. The orb answers. It crosses back, and comes out in Maya's language. Back and forth, faster and faster. Now they can chat all day. A whole sentence? It crosses in order, every word. That is Amazon Translate. It turns words from one language into another, fast. Now you know the swap-bridge! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 93,
+    title: "The scanner window",
+    tagline: "Amazon Textract. It pulls the drawings out of the crumpled papers.",
+    video: "/93-The-scanner-window.mp4?v=1",
+    pdf: "/scripts/93-The-scanner-window-script.pdf",
+    scriptFile: "93-The-scanner-window-script.pdf",
+    pages: [],
+    voiceover: "Oh no! A mountain of crumpled papers, and Maya has to copy every little drawing by hand! Welcome back to Cloud Town, high up in the sky! This is Episode 93. Meet the scanner window. Hold a paper behind it. The light sweeps down, and every drawing pops out as a clean card. Drawings in boxes and rows? They come out in boxes and rows. Wrinkled and stained? It looks twice, and still gets them all. Feed it the whole pile, and the cards stack themselves. That is Amazon Textract. It reads papers and pulls out the words, numbers and tables for you. Now you know the scanner window! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
