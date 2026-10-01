@@ -700,4 +700,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! A mountain of fruit cards, and Maya has to sort every single one by hand! Welcome back to Cloud Town, high up in the sky! This is Episode 87. Meet the learning robot. Maya shows it a lemon. Yellow bowl. A lime. Green bowl. The robot watches. It tries one. Oops, wrong bowl. Maya fixes it, and the robot remembers. Try again. Right! And again. Right! The more examples it sees, the smarter it gets. Now it sorts all by itself. A brand new card? It thinks, and still gets it right. That is Amazon SageMaker. You show it examples, it learns the pattern, and then it does the job for you. Now you know the learning robot! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 88,
+    title: "The seeing eye",
+    tagline: "Amazon Rekognition. It looks at the pictures and tells you what is in them.",
+    video: "/88-The-seeing-eye.mp4?v=1",
+    pdf: "/scripts/88-The-seeing-eye-script.pdf",
+    scriptFile: "88-The-seeing-eye-script.pdf",
+    pages: [],
+    voiceover: "Oh no! A giant pile of photos, and Maya has to look at every single one to sort them! Welcome back to Cloud Town, high up in the sky! This is Episode 88. Meet the seeing eye. Show it a photo. It looks, and tells you what is inside. A lemon! A dog! A boat! It never gets tired. Blurry photo? It looks closer, and still knows. Three things in one photo? It spots all three. Maya just holds them up, and the eye does the looking. That is Amazon Rekognition. It looks at pictures and videos, and tells you what is in them. Now you know the seeing eye! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
