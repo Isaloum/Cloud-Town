@@ -704,7 +704,7 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     n: 88,
     title: "The seeing eye",
     tagline: "Amazon Rekognition. It looks at the pictures and tells you what is in them.",
-    video: "/88-The-seeing-eye.mp4?v=1",
+    video: "/88-The-seeing-eye.mp4?v=2",
     pdf: "/scripts/88-The-seeing-eye-script.pdf",
     scriptFile: "88-The-seeing-eye-script.pdf",
     pages: [],
