@@ -710,4 +710,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! A giant pile of photos, and Maya has to look at every single one to sort them! Welcome back to Cloud Town, high up in the sky! This is Episode 88. Meet the seeing eye. Show it a photo. It looks, and tells you what is inside. A lemon! A dog! A boat! It never gets tired. Blurry photo? It looks closer, and still knows. Three things in one photo? It spots all three. Maya just holds them up, and the eye does the looking. That is Amazon Rekognition. It looks at pictures and videos, and tells you what is in them. Now you know the seeing eye! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 89,
+    title: "The listening ear",
+    tagline: "Amazon Comprehend. It hears the feeling and the meaning.",
+    video: "/89-The-listening-ear.mp4?v=1",
+    pdf: "/scripts/89-The-listening-ear-script.pdf",
+    scriptFile: "89-The-listening-ear-script.pdf",
+    pages: [],
+    voiceover: "Oh no! A heap of notes from the stands, and Maya cannot tell which ones are happy and which ones are sad! Welcome back to Cloud Town, high up in the sky! This is Episode 89. Meet the listening ear. Tap a note. The ear listens. Happy! Into the sunny jar. Tap another. Sad. Into the cloudy jar. It never gets mixed up. And it hears more. This note is happy, and it is about lemons. That one is about cups. A whole stack goes by, and the ear sorts every feeling and every topic. That is Amazon Comprehend. It reads words and understands the feeling and the meaning behind them. Now you know the listening ear! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
