@@ -580,4 +580,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! A whole crate of lemons, and Maya can carry only two at a time! Welcome back to Cloud Town, high up in the sky! This is Episode 75. Meet the bucket-chain. One rope, many buckets, from the ground all the way up to the cloud. Scoop, lift, tip, back down. Again and again, fast and steady. One bucket is chipped? Swap it. The chain never stops. Up top, every lemon lands in its cubby box. Same lemons, same order, nothing lost. That is AWS DataSync. It moves big piles of files to the cloud, fast, and checks every one. Now you know the bucket-chain! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 76,
+    title: "The snow-box",
+    tagline: "AWS Snow Family. Big tough boxes that carry huge piles to the cloud by truck.",
+    video: "/76-The-snow-box.mp4?v=1",
+    pdf: "/scripts/76-The-snow-box-script.pdf",
+    scriptFile: "76-The-snow-box-script.pdf",
+    pages: [],
+    voiceover: "Oh no! A mountain of lemons, and the bucket-chain lifts one lemon at a time! That would take all year! Welcome back to Cloud Town, high up in the sky! This is Episode 76. Meet the snow-box. It is big, padded, and very tough. Maya fills it with the whole mountain. Click, the lid shuts. A truck drives it up the ramp to the cloud. Up top, the lid opens, and the whole mountain lands at once. When the pile is too big for the rope, you ship the box. That is the AWS Snow Family. Big tough boxes that carry huge piles of data to the cloud by truck. Now you know the snow-box! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
