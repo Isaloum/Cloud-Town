@@ -690,4 +690,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Maya shows a picture and talks, and nobody in the room understands her! Welcome back to Cloud Town, high up in the sky! This is Episode 86. Meet the talking friends. The eye looks at a picture and says what it sees. The ear listens and knows if you are happy or sad. The bell reads cards out loud. The quill writes down what it hears. The bridge turns your words into another language. The window pulls drawings off a paper. The parrot chats back. The owl finds the one card you need. And the little robot? It learns by watching, and gets better every day. That is AWS AI: Rekognition, Comprehend, Polly, Transcribe, Translate, Textract, Lex, Kendra and SageMaker. Now you know the talking friends! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 87,
+    title: "The learning robot",
+    tagline: "Amazon SageMaker. Show it examples, and it learns the job.",
+    video: "/87-The-learning-robot.mp4?v=1",
+    pdf: "/scripts/87-The-learning-robot-script.pdf",
+    scriptFile: "87-The-learning-robot-script.pdf",
+    pages: [],
+    voiceover: "Oh no! A mountain of fruit cards, and Maya has to sort every single one by hand! Welcome back to Cloud Town, high up in the sky! This is Episode 87. Meet the learning robot. Maya shows it a lemon. Yellow bowl. A lime. Green bowl. The robot watches. It tries one. Oops, wrong bowl. Maya fixes it, and the robot remembers. Try again. Right! And again. Right! The more examples it sees, the smarter it gets. Now it sorts all by itself. A brand new card? It thinks, and still gets it right. That is Amazon SageMaker. You show it examples, it learns the pattern, and then it does the job for you. Now you know the learning robot! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
