@@ -730,4 +730,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! The little orbs want a bedtime story, and Maya is too tired to read out loud! Welcome back to Cloud Town, high up in the sky! This is Episode 90. Meet the singing bell. Slide a card under it, and the bell reads it out loud in a warm voice. Want a different voice? Slide another card. Soft and low. Bright and high. Tap once, and it reads slower. Tap twice, faster. Stack up a hundred cards, and it reads them all without ever getting tired. That is Amazon Polly. It turns written words into a real speaking voice. Now you know the singing bell! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 91,
+    title: "The writing quill",
+    tagline: "Amazon Transcribe. It listens, and turns the talking into pictures she can keep.",
+    video: "/91-The-writing-quill.mp4?v=1",
+    pdf: "/scripts/91-The-writing-quill-script.pdf",
+    scriptFile: "91-The-writing-quill-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Everyone is talking at once, and Maya cannot write it all down! Welcome back to Cloud Town, high up in the sky! This is Episode 91. Meet the writing quill. Say something, and the quill writes it down. The orbs talk fast, and the quill keeps up with every word. Two talking at the same time? The quill writes two cards, and knows who said what. Now Maya can read it all later, as many times as she wants. That is Amazon Transcribe. It listens to talking and turns it into written words. Now you know the writing quill! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
