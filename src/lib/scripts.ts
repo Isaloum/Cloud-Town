@@ -590,4 +590,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! A mountain of lemons, and the bucket-chain lifts one lemon at a time! That would take all year! Welcome back to Cloud Town, high up in the sky! This is Episode 76. Meet the snow-box. It is big, padded, and very tough. Maya fills it with the whole mountain. Click, the lid shuts. A truck drives it up the ramp to the cloud. Up top, the lid opens, and the whole mountain lands at once. When the pile is too big for the rope, you ship the box. That is the AWS Snow Family. Big tough boxes that carry huge piles of data to the cloud by truck. Now you know the snow-box! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 77,
+    title: "The mail-chute",
+    tagline: "AWS Transfer Family. Friends send files the old way, and they land in the cloud.",
+    video: "/77-The-mail-chute.mp4?v=1",
+    pdf: "/scripts/77-The-mail-chute-script.pdf",
+    scriptFile: "77-The-mail-chute-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Maya moved to the cloud, but her friends still send letters to the old mailbox on the ground! Welcome back to Cloud Town, high up in the sky! This is Episode 77. Meet the mail-chute. Its pipe reaches down from the cloud, and its flap sits right where the old mailbox was. Same flap, same way. Friends drop a letter in, just like always. Whoosh! It lands in the cloud cubby. Nobody has to learn anything new. That is the AWS Transfer Family. Friends send files the old way, and they land in the cloud. Now you know the mail-chute! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
