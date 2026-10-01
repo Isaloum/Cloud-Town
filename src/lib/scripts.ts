@@ -610,4 +610,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Maya has a mountain of notes, and no idea what they say! Welcome back to Cloud Town, high up in the sky! This is Episode 78. Meet the library. The sticky-pot cleans the cards and stacks them neat. The river chute brings new cards as they come. The reading lamp finds the answer in a pile, no sorting needed. The pointer bird darts to the one card you want. The ant crew moves a whole mountain of cards in minutes. The tall tower keeps millions in tiny drawers. And the easel paints the answer as a picture. That is AWS analytics: Glue, Kinesis, Athena, OpenSearch, EMR, Redshift and QuickSight. Now you know the library! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 79,
+    title: "The reading lamp",
+    tagline: "Amazon Athena. Ask the files where they sit. Pay only for the question.",
+    video: "/79-The-reading-lamp.mp4?v=1",
+    pdf: "/scripts/79-The-reading-lamp-script.pdf",
+    scriptFile: "79-The-reading-lamp-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Maya wants to know how many cups she sold on sunny days, and the cards are one big mess! Welcome back to Cloud Town, high up in the sky! This is Episode 79. Meet the reading lamp. Maya asks one question: sunny days? The lamp shines on the pile. Every sunny card glows and floats up. Count them. Done. The pile never moved. No sorting, no new shelf, no copying. Ask, shine, answer. Another pile? Shine there too. That is Amazon Athena. It asks questions straight to your files where they sit, and you pay only for the question. Now you know the reading lamp! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
