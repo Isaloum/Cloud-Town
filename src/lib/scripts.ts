@@ -530,4 +530,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! One stand needs help, and Maya cannot see which one! The town is so big! Welcome back to Cloud Town, high up in the sky! This is Episode 70. Meet the button board. The board shows every stand in a little picture. Green means happy. Red means help. Maya taps the red one. Aha! No lemons! One button. Click! A basket slides in. The light turns green. Maya can see everything from one board. Cups, lemons, how long each stand has been open. No whispering, no magic words. Just look and press. That is the AWS Console. A screen with pictures and buttons for every helper. When you are new, you start here. Now you know the button board! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 71,
+    title: "The wise turtle",
+    tagline: "AWS Trusted Advisor. It points, kindly, at what you should fix.",
+    video: "/71-The-wise-turtle.mp4?v=1",
+    pdf: "/scripts/71-The-wise-turtle-script.pdf",
+    scriptFile: "71-The-wise-turtle-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Maya's coins are leaking away, and she does not know why! Welcome back to Cloud Town, high up in the sky! This is Episode 71. Meet the wise turtle. The turtle walks around the whole town and checks everything. First card: the coin. That stand is lit all night with no customers. Turn it off, save your coins. Second card: the padlock. That back gate is wide open! Click. Safe. Third card: the heart. That stand has only one lamp. If it breaks, dark! Add a second one. The turtle does not fix things for you. It just points, kindly, at what you should fix. That is AWS Trusted Advisor. It checks your cost, your safety, and your backups, and gives you tips. Now you know the wise turtle! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
