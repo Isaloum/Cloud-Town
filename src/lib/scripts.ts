@@ -740,4 +740,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Everyone is talking at once, and Maya cannot write it all down! Welcome back to Cloud Town, high up in the sky! This is Episode 91. Meet the writing quill. Say something, and the quill writes it down. The orbs talk fast, and the quill keeps up with every word. Two talking at the same time? The quill writes two cards, and knows who said what. Now Maya can read it all later, as many times as she wants. That is Amazon Transcribe. It listens to talking and turns it into written words. Now you know the writing quill! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 92,
+    title: "The swap-bridge",
+    tagline: "Amazon Translate. Words cross the bridge and come out in the other language.",
+    video: "/92-The-swap-bridge.mp4?v=1",
+    pdf: "/scripts/92-The-swap-bridge-script.pdf",
+    scriptFile: "92-The-swap-bridge-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Maya is talking, but the little green orb does not understand one word! Welcome back to Cloud Town, high up in the sky! This is Episode 92. Meet the swap-bridge. Maya says something. It crosses the bridge, and comes out in the orb's language. The orb answers. It crosses back, and comes out in Maya's language. Back and forth, faster and faster. Now they can chat all day. A whole sentence? It crosses in order, every word. That is Amazon Translate. It turns words from one language into another, fast. Now you know the swap-bridge! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
