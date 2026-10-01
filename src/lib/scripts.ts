@@ -660,4 +660,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! One heart card, somewhere in a thousand cards, and Maya is flipping one by one! Welcome back to Cloud Town, high up in the sky! This is Episode 83. Meet the pointer bird. Show it what you want. Zip! It darts into the pile and pulls out the one card. Two things at once? Zip, zip, zip, three boxes. A smudged drawing? It still finds the closest match. It does not read the whole pile. It already knows where everything is. That is Amazon OpenSearch. It finds the right thing in a huge pile, fast, even when you are not sure of the exact word. Now you know the pointer bird! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 84,
+    title: "The ant crew",
+    tagline: "Amazon EMR. A big crew that chews through a mountain, then goes away.",
+    video: "/84-The-ant-crew.mp4?v=1",
+    pdf: "/scripts/84-The-ant-crew-script.pdf",
+    scriptFile: "84-The-ant-crew-script.pdf",
+    pages: [],
+    voiceover: "Oh no! A mountain of cards, and Maya can sort one card at a time! The sun is going down! Welcome back to Cloud Town, high up in the sky! This is Episode 84. Meet the ant crew. Hundreds of tiny ants, each one carries one card. Cups to the red mat, lemons to the yellow, suns to the blue. All at the same time. The mountain melts. Need it faster? Clap, and more ants come. Done? They march home. You only pay while they work. That is Amazon EMR. A big crew of helpers that chews through a mountain of data together, then goes away. Now you know the ant crew! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
