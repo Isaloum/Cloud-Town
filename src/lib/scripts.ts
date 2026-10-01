@@ -680,4 +680,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Three stacks of cards, and Maya cannot tell which is biggest just by looking! Welcome back to Cloud Town, high up in the sky! This is Episode 85. Meet the picture easel. It paints the answer. Three bars: tall, medium, short. Now you see it in one look. A circle cut into slices: which part is biggest? A wavy line going up: are we growing? Yes! Add a new card, and the picture grows by itself. No counting, no squinting. Just look. That is Amazon QuickSight. It turns your data into simple pictures you understand in a second. Now you know the picture easel! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 86,
+    title: "The talking friends",
+    tagline: "AWS AI. Nine friends that see, hear, write, and learn.",
+    video: "/86-The-talking-friends.mp4?v=1",
+    pdf: "/scripts/86-The-talking-friends-script.pdf",
+    scriptFile: "86-The-talking-friends-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Maya shows a picture and talks, and nobody in the room understands her! Welcome back to Cloud Town, high up in the sky! This is Episode 86. Meet the talking friends. The eye looks at a picture and says what it sees. The ear listens and knows if you are happy or sad. The bell reads cards out loud. The quill writes down what it hears. The bridge turns your words into another language. The window pulls drawings off a paper. The parrot chats back. The owl finds the one card you need. And the little robot? It learns by watching, and gets better every day. That is AWS AI: Rekognition, Comprehend, Polly, Transcribe, Translate, Textract, Lex, Kendra and SageMaker. Now you know the talking friends! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
