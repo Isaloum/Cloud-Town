@@ -550,4 +550,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Maya's whole stand is still down on the ground, and Cloud Town is way up there! Welcome back to Cloud Town, high up in the sky! This is Episode 72. Meet the movers. The lift-cart slides under the whole stand and floats it up in one piece. The pour-pitcher pours the old notebook into a new one, page by page, while Maya keeps writing. The bucket-chain passes lemons up, one by one, fast. The snow-box carries a whole mountain of lemons at once. And the mail-chute lets friends drop letters the old way, straight into the cloud. Five movers, one job: get everything up to the cloud, safely. That is AWS migration. Now you know the movers! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 73,
+    title: "The lift-cart",
+    tagline: "AWS Application Migration Service. Lift the whole server as it is, while it keeps running.",
+    video: "/73-The-lift-cart.mp4?v=1",
+    pdf: "/scripts/73-The-lift-cart-script.pdf",
+    scriptFile: "73-The-lift-cart-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Maya's old stand is too heavy to carry up to the clouds! Welcome back to Cloud Town, high up in the sky! This is Episode 73. Meet the lift-cart. It slides under the whole stand, just as it is. Friends keep buying cups the whole time. Then the balloons puff up. The stand lifts off, counter, cups, pitcher, everything, in one piece. Up through the clouds. Not one drop spilled. On the cloud, it lands in its new spot. Same stand, same cups, same pitcher, now up in Cloud Town. Nothing to rebuild, nothing to repack. That is AWS Application Migration Service, MGN. It lifts a whole server to the cloud as it is, while it keeps running. Now you know the lift-cart! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
