@@ -754,7 +754,7 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     n: 93,
     title: "The scanner window",
     tagline: "Amazon Textract. It pulls the drawings out of the crumpled papers.",
-    video: "/93-The-scanner-window.mp4?v=1",
+    video: "/93-The-scanner-window.mp4?v=2",
     pdf: "/scripts/93-The-scanner-window-script.pdf",
     scriptFile: "93-The-scanner-window-script.pdf",
     pages: [],
