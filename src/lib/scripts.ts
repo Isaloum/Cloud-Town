@@ -554,7 +554,7 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     n: 73,
     title: "The lift-cart",
     tagline: "AWS Application Migration Service. Lift the whole server as it is, while it keeps running.",
-    video: "/73-The-lift-cart.mp4?v=1",
+    video: "/73-The-lift-cart.mp4?v=2",
     pdf: "/scripts/73-The-lift-cart-script.pdf",
     scriptFile: "73-The-lift-cart-script.pdf",
     pages: [],
