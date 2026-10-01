@@ -520,4 +520,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Twenty stands to open, and Maya presses twenty buttons, one by one! Her finger is so tired! Welcome back to Cloud Town, high up in the sky! This is Episode 69. Meet the whisper tube. The whisper tube has no buttons at all. Maya just whispers what she wants. Open the whole row! Whoosh! Twenty stands open at the same moment. And the tube remembers. Tomorrow morning, Maya whispers the same words. Same stands, same result, every single time. The tube can even reach the far-away towns, in one breath. Buttons are great for one stand. Whispers are great for many. That is the AWS CLI. You type a few short words, and AWS does all the work. Now you know the whisper tube! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 70,
+    title: "The button board",
+    tagline: "AWS Console. Look and press. Start here when you are new.",
+    video: "/70-The-button-board.mp4?v=1",
+    pdf: "/scripts/70-The-button-board-script.pdf",
+    scriptFile: "70-The-button-board-script.pdf",
+    pages: [],
+    voiceover: "Oh no! One stand needs help, and Maya cannot see which one! The town is so big! Welcome back to Cloud Town, high up in the sky! This is Episode 70. Meet the button board. The board shows every stand in a little picture. Green means happy. Red means help. Maya taps the red one. Aha! No lemons! One button. Click! A basket slides in. The light turns green. Maya can see everything from one board. Cups, lemons, how long each stand has been open. No whispering, no magic words. Just look and press. That is the AWS Console. A screen with pictures and buttons for every helper. When you are new, you start here. Now you know the button board! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
