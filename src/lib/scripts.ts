@@ -560,4 +560,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Maya's old stand is too heavy to carry up to the clouds! Welcome back to Cloud Town, high up in the sky! This is Episode 73. Meet the lift-cart. It slides under the whole stand, just as it is. Friends keep buying cups the whole time. Then the balloons puff up. The stand lifts off, counter, cups, pitcher, everything, in one piece. Up through the clouds. Not one drop spilled. On the cloud, it lands in its new spot. Same stand, same cups, same pitcher, now up in Cloud Town. Nothing to rebuild, nothing to repack. That is AWS Application Migration Service, MGN. It lifts a whole server to the cloud as it is, while it keeps running. Now you know the lift-cart! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 74,
+    title: "The pour-pitcher",
+    tagline: "AWS Database Migration Service. Copy the pages while the old notebook keeps working.",
+    video: "/74-The-pour-pitcher.mp4?v=1",
+    pdf: "/scripts/74-The-pour-pitcher-script.pdf",
+    scriptFile: "74-The-pour-pitcher-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Maya's notebook has every recipe, and she cannot carry it up without losing pages! Welcome back to Cloud Town, high up in the sky! This is Episode 74. Meet the pour-pitcher. It dips its spout into the old notebook and pours the pages up, one by one. And Maya keeps writing the whole time. The new drawing flows up too. Up on the cloud, the pages land in a new notebook, in the same order. Not one page lost. Not one minute closed. That is AWS Database Migration Service, DMS. It copies a database to the cloud while the old one keeps working. Now you know the pour-pitcher! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
