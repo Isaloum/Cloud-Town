@@ -540,4 +540,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! Maya's coins are leaking away, and she does not know why! Welcome back to Cloud Town, high up in the sky! This is Episode 71. Meet the wise turtle. The turtle walks around the whole town and checks everything. First card: the coin. That stand is lit all night with no customers. Turn it off, save your coins. Second card: the padlock. That back gate is wide open! Click. Safe. Third card: the heart. That stand has only one lamp. If it breaks, dark! Add a second one. The turtle does not fix things for you. It just points, kindly, at what you should fix. That is AWS Trusted Advisor. It checks your cost, your safety, and your backups, and gives you tips. Now you know the wise turtle! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 72,
+    title: "The movers",
+    tagline: "AWS migration. Five movers, one job: get everything up to the cloud.",
+    video: "/72-The-movers.mp4?v=1",
+    pdf: "/scripts/72-The-movers-script.pdf",
+    scriptFile: "72-The-movers-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Maya's whole stand is still down on the ground, and Cloud Town is way up there! Welcome back to Cloud Town, high up in the sky! This is Episode 72. Meet the movers. The lift-cart slides under the whole stand and floats it up in one piece. The pour-pitcher pours the old notebook into a new one, page by page, while Maya keeps writing. The bucket-chain passes lemons up, one by one, fast. The snow-box carries a whole mountain of lemons at once. And the mail-chute lets friends drop letters the old way, straight into the cloud. Five movers, one job: get everything up to the cloud, safely. That is AWS migration. Now you know the movers! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
