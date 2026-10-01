@@ -720,4 +720,14 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     pages: [],
     voiceover: "Oh no! A heap of notes from the stands, and Maya cannot tell which ones are happy and which ones are sad! Welcome back to Cloud Town, high up in the sky! This is Episode 89. Meet the listening ear. Tap a note. The ear listens. Happy! Into the sunny jar. Tap another. Sad. Into the cloudy jar. It never gets mixed up. And it hears more. This note is happy, and it is about lemons. That one is about cups. A whole stack goes by, and the ear sorts every feeling and every topic. That is Amazon Comprehend. It reads words and understands the feeling and the meaning behind them. Now you know the listening ear! See you next time in Cloud Town, high up in the sky!",
   },
+  {
+    n: 90,
+    title: "The singing bell",
+    tagline: "Amazon Polly. It turns the cards into a real speaking voice.",
+    video: "/90-The-singing-bell.mp4?v=1",
+    pdf: "/scripts/90-The-singing-bell-script.pdf",
+    scriptFile: "90-The-singing-bell-script.pdf",
+    pages: [],
+    voiceover: "Oh no! The little orbs want a bedtime story, and Maya is too tired to read out loud! Welcome back to Cloud Town, high up in the sky! This is Episode 90. Meet the singing bell. Slide a card under it, and the bell reads it out loud in a warm voice. Want a different voice? Slide another card. Soft and low. Bright and high. Tap once, and it reads slower. Tap twice, faster. Stack up a hundred cards, and it reads them all without ever getting tired. That is Amazon Polly. It turns written words into a real speaking voice. Now you know the singing bell! See you next time in Cloud Town, high up in the sky!",
+  },
 ];
