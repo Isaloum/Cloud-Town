@@ -394,7 +394,7 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     n: 39,
     title: "The borrowed badge",
     tagline: "IAM roles. Borrow it for one job. Give it straight back.",
-    video: "/39-The-borrowed-badge.mp4?v=2",
+    video: "/39-The-borrowed-badge.mp4?v=3",
     pdf: "/scripts/39-The-borrowed-badge-script.pdf",
     scriptFile: "39-The-borrowed-badge-script.pdf",
     pages: [],
