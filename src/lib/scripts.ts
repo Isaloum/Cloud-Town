@@ -391,6 +391,16 @@ export const EPISODE_SCRIPTS: EpisodeScript[] = [
     voiceover: "Welcome back to Cloud Town, high up in the sky! This is Episode 37. Maya draws a sun. She wants everyone to see it. She runs to Sammy. Then to Eddie. Then to Lulu. Oh no! She changes her mind and draws a star. Now she has to run all over again. Here comes the drawing board. Every friend gets a little board of their own. Maya draws a heart on the big one. Pop! The same heart shows up on all three. She draws a star. Every board changes at once. Nobody runs. Draw it once, everyone sees it right now. That is the drawing board. Now you know AppSync! See you next time in Cloud Town, high up in the sky!",
   },
   {
+    n: 39,
+    title: "The borrowed badge",
+    tagline: "IAM roles. Borrow it for one job. Give it straight back.",
+    video: "/39-The-borrowed-badge.mp4?v=2",
+    pdf: "/scripts/39-The-borrowed-badge-script.pdf",
+    scriptFile: "39-The-borrowed-badge-script.pdf",
+    pages: [],
+    voiceover: "Oh no! Eddie needs a toy from inside Sammy, but Sammy is locked! Welcome back to Cloud Town, high up in the sky! This is Episode 39. Maya could give Eddie a name tag. Then Eddie could open Sammy any time. Even at night. Even when nobody is looking. That is too much. So Maya hands him a badge instead. Eddie clips it on. Click! Sammy opens. Eddie takes one toy. Then he hands the badge right back. Click! Sammy locks again. Eddie keeps nothing. Borrow it for one job. Give it straight back. That is the borrowed badge. Now you know IAM roles! See you next time in Cloud Town, high up in the sky!",
+  },
+  {
     n: 57,
     title: "The glow string",
     tagline: "X-Ray. Follow the path. Find the slow spot. Fix it.",
