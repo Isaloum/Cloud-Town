@@ -98,7 +98,7 @@ Single page. Order from the top:
 
 **Pattern for every remaining district:** one **overview** episode (the district title), then **one 60s cartoon per service** — same as Episode 10 (The vaults) plus 11–19. If a service cannot fill 60s honestly, **say so before shooting** and propose pairing. **Do not pair silently.**
 
-**Next built cartoon:** Episode **31 — Poppy (Amplify)**.
+**Next built cartoon:** Episode **94 — Lex (the talking parrot)**. EP1–93 are built; EP39–41 and EP53–61 are being redone under docs/GROK_PRODUCTION_BRIEF.md.
 
 Voice: 58 seconds talking + **2 seconds empty** at the end. Closer: *See you next time in Cloud Town, high up in the sky!*
 
@@ -117,13 +117,13 @@ Planned (not built unless noted):
 | 28 | The name tag on the door | ACM, API Gateway, Amplify | **built** |
 | 29 | Seal | ACM | **built** |
 | 30 | Winn | API Gateway | **built** |
-| 31 | Amplify | Amplify | |
-| 32 | The post office | SQS, SNS, EventBridge | overview |
-| 33 | SQS | SQS | |
-| 34 | SNS | SNS | |
-| 35 | EventBridge | EventBridge | |
-| 36 | The recipe and the river | Step Functions, AppFlow, AppSync, MQ | overview |
-| 37 | Step Functions | Step Functions | |
+| 31 | Poppy | Amplify | **built** |
+| 32 | The post office | SQS, SNS, EventBridge | **built** |
+| 33 | Pip | SQS | **built** |
+| 34 | Hoot | SNS | **built** |
+| 35 | Tilly | EventBridge | **built** |
+| 36 | Tess | Step Functions | **built** |
+| 37 | Mira | AppSync | **built** |
 | 38 | AppFlow | AppFlow | |
 | 39 | AppSync | AppSync | |
 | 40 | MQ | Amazon MQ | |
@@ -311,6 +311,73 @@ Planned (not built unless noted):
 | **Flo** | **AppFlow** | Cream **curved pipe** with a smiling face, teal ends, **one coral valve**. Carries parcels from one house to another by itself, on a timer. Nobody pushes them. Always this pipe. Never a person. Never a hose. *Flo is the pipe. She moves things between houses without being asked.* |
 | **Otto** | **MQ** | Cream **brass tube** with a smiling face, teal bands, **one coral knob**. The old post system from the ground house, brought up into the sky so old friends can send mail the way they always did. Brass and old-fashioned, never shiny modern. Always this tube. Never a person. *Otto is the old brass tube. Old friends keep sending mail the way they know.* |
 
+### The toy boxes (Episodes 20–23)
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Boxy** | **ECS** | Cream **toy box** with a friendly face and a teal latch. Holds many little Eddie toys and runs them. *Boxy is a toy box that runs many Eddies.* |
+| **Kira** | **EKS** | Cream **toy box with a teal captain’s hat**. Lines up many boxes the Kubernetes way. *Kira is the captain of the toy boxes.* |
+| **Fay** | **Fargate** | Cream **toy box with tiny teal wings**, floating. **Wings are always teal, never white.** No Eddie holds her. *Fay flies. No Eddie has to hold the box.* |
+
+### The front door (Episodes 24–27)
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Mapi** | **Route 53** | Cream **wooden signpost** with a smiling carved face, **one teal star-shaped arrow** and **one coral moon-shaped arrow**. Never a plain white post. Points visitors to the right house. *Mapi is the town map. She points you to the right house.* |
+| **Zip** | **CloudFront** | Cream **fast road** with a smiling face in the cobblestones, plus a cream **edge stall** with a face, holding copies of drawings (icons only, never writing). **Always this pair. Never a person. Never a vehicle.** *Zip is the fast road. Copies wait at the edge so you don’t walk all the way in.* |
+| **Boost** | **Global Accelerator** | Cream **front-door arch** with a smiling carved face, teal speed streaks, and **one coral keystone**. Always this one doorway. Never a person. Never a vehicle. Never rainbow. *Boost is the rocket path. One door. Always the fastest road.* |
+| **Remy** | (kid, not a service) | Visiting **boy**. Curly dark hair, **teal sweater**, cream shorts. **Always a boy. Never a girl. Never a mouse or any animal.** *Remy is a visitor from far away.* |
+
+### The name tag on the door (Episodes 28–31)
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Seal** | **ACM** | Cream **padlock sticker** with a smiling face, teal shackle, **one coral rivet**. Always this sticker. Glows on the door to prove the house is real. Never a person. Never letters. *Seal is the lock on the door. She proves this is really Maya’s house.* |
+| **Winn** | **API Gateway** | Cream **ticket window** with a **cream smiling face**, **teal awning**, **one small coral bell on top**. Hands blank colored tickets (no writing). Holds up a hand when too many come. Always this window. Never a blue box. Never a person. *Winn is the ticket window. Ask nicely, get a ticket, wait if too many.* |
+| **Poppy** | **Amplify** | Cream **folded lemonade-booth kit** with a smiling face, teal trim, **one coral lemon**. Unfolds in one motion into a whole stand: street, door, and window already built. Always this kit. Never a person. *Poppy is the booth kit. One pop, and the whole stand is ready.* |
+
+### The post office (Episodes 32–35)
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Pip** | **SQS** | Cream **letter box** with a smiling face, a **teal flap**, and **one coral envelope on top** (an envelope shape, never writing). Notes stack inside in a neat line; the bottom one leaves first. Always this box. Never a person. *Pip holds every note in a neat line. First in, first out.* |
+| **Hoot** | **SNS** | Cream **town horn on a post** with a smiling face, a **teal trumpet mouth**, and **one coral ribbon**. One call, every friend hears. Always this horn. Never a person. Never a bell. *Hoot calls once. Every friend hears.* |
+| **Tilly** | **EventBridge** | Cream **sorting table** with a smiling face, **three teal chutes**, and **one coral lever**. Round parcel down the round chute, square parcel down the square chute. Sorts by shape and colour only, never writing. Always this table. Never a person. *Tilly sends the round one down the round chute, and the square one down the square chute.* |
+
+### The recipe and the river (Episodes 36–)
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Tess** | **Step Functions** | Cream **staircase** with a smiling face on the front of the bottom step, **teal steps**, and **one coral flag at the top**. Each step lights up only after the one below it is finished. Always this staircase. Never a person. Never a ladder. *Tess is the staircase. One step at a time. Each step waits for the one before.* |
+| **Mira** | **AppSync** | Cream **easel-style drawing board** with a smiling face on its front, a **teal frame**, and **one coral clip at the top**. Draw on it once and the same drawing appears on every other board in town. Icons only (sun, star, heart), never letters. Always this board. Never a person. Never a screen. *Mira is the drawing board. Draw it once, everyone sees it right now.* |
+
+### The safety net
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Scramble** | **KMS** | Small **teal padlock** with a friendly face and its own tiny gold key. Hops onto a drawing and turns the picture into colored squiggles so nobody can read it. The tiny key turns the squiggles back into the picture. The key lives in a tiny **teal hut** with one round window. The hut never moves. The key never leaves home. Never a person. Never letters. *Scramble locks the picture. The key stays home.* |
+| **Whisper** | **Secrets Manager** | Cream **jar** with a lid and a tiny face. Opens a crack, glows, tells one secret, and closes. Nobody else hears. The glow can change color when the secret is new. The secret never sits on a sticky note. Never a person. Never letters. *Whisper tells the secret to one friend. Nobody else hears.* |
+| **Sieve** | **WAF** | Coral **garden gate** with a friendly face, set in a low cream wall. Friends may pass. A muddy blob bounces off. A paper hat does not fool it. Never a person. Never letters. *Sieve lets the good one through and bounces the bad one off.* |
+| **Umbrella** | **Shield** | Wide **teal umbrella** with a small friendly face on the canopy. Pops open by itself when pebbles fall. Pebbles bounce off. It does not bend. When the storm leaves, it folds itself and waits. Never a person. Never letters. *Umbrella pops open. Not one pebble gets through.* |
+
+### The night watch
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Nim** | **GuardDuty** | Round **teal owl** on a wooden post. Eyes glow yellow. Head turns all the way around. Hoots and points a wing when something comes the wrong way. Nods and stays quiet when friends come the normal way. Never a person. Never letters. *Nim knows normal. Nim spots strange.* |
+| **Peek** | **Inspector** | Cream **magnifying glass** with a friendly face. Hops on its handle. The lens glows when it looks. A tiny brass bell on the handle rings when it finds a crack. It checks every day. Never a person. Never letters. *Peek finds the tiny crack before trouble does.* |
+| **Beep** | **Macie** | Small **coral lantern** with a friendly face and a handle. It floats. Its light is warm yellow. It turns pink and beeps when it finds a private paper. Never a person. Never letters. *Beep finds the private paper before anyone else does.* |
+| **Pin** | **Security Hub** | Wide **cream chalkboard** on two wooden legs, with a friendly face. Friends pin blank colored notes on it. Red is urgent and comes first. When it is fixed, the note turns green. No letters. Never a person. *Pin keeps every note on one board. Red first.* |
+
+### The watchtower
+
+| Name | AWS | Shape |
+|---|---|---|
+| **Tick** | **CloudWatch** | Cream **stone tower** with a friendly face near the top and a brass bell. A round dial has a needle and three color zones — green, yellow, red — never numbers. The needle climbs as the crowd grows. In the red, the bell rings. When the crowd thins, the needle drops and the bell stops. Never a person. Never letters. *Tick watches the needle. The bell tells Maya when.* |
+| **Print** | **CloudTrail** | Brown **leather book** with a friendly face on its cover. It lies open and flips its own pages. Every visit leaves a glowing print in a row: a small shoe, then round dots, then a messy mud print. No letters. Never a person. *Print remembers every step. Nothing is hidden.* |
+| **Match** | **Config** | **Blue paper** pinned to a post, with a white line drawing of the stand and a tiny face in the corner. It glows soft blue when the stand matches. It glows red when something is different. Never a person. Never letters. *Match shows how things should look, and spots what changed.* |
+| **Thread** | **X-Ray** | A thin **glowing yellow string**. It follows the lemonade on its path. Fast parts stay thin and yellow. Where things are slow it turns thick, orange, and pulses. Never a person. Never letters. *Thread follows the path and shows the slow spot.* |
+
 ### Setting
 
 **Cloud Town** = a cute cobblestone town in the clouds at sunset. Cream houses, teal lamps, no logos.
@@ -373,6 +440,11 @@ New episodes are **60 seconds**.
 - **Seal (every shot):** cream **padlock sticker** with a smiling face, teal shackle, one coral rivet. Never a person. Never letters on the lock.
 - **Winn (every shot):** cream **ticket window** with a smiling face, teal awning, one coral bell. Tickets are blank colored cards, never writing.
 - **Poppy (every shot):** cream **folded lemonade-booth kit** with a smiling face, teal trim, one coral lemon. Unfolds into a stand. Never a person.
+- **Pip (every shot):** cream **letter box** with a smiling face, teal flap, one coral envelope on top. Never a person. Never writing on the box.
+- **Hoot (every shot):** cream **town horn on a post** with a smiling face, teal trumpet mouth, one coral ribbon. Never a person. Never a bell.
+- **Tilly (every shot):** cream **sorting table** with a smiling face, three teal chutes, one coral lever. Never a person. Never writing.
+- **Tess (every shot):** cream **staircase** with a smiling face on the bottom step, teal steps, one coral flag at the top. Each step lights only after the one below. Never a person. Never a ladder.
+- **Mira (every shot):** cream **easel drawing board** with a smiling face, teal frame, one coral clip. Icons only, never letters. Never a person. Never a screen.
 
 - **Never use character names** in image or video prompts (not Sammy, Eddie, Lulu, Maya, Mapi, Boxy, Kira, Fay, Remy, or any other row).
 - **Always describe the shape from the bible row instead**, e.g. “cream treasure chest with gold clasps and a round smiling face”; “cream retro CRT computer with a teal screen face, arms and legs”; “small glowing yellow-gold orb with a face”; “girl with brown hair in a coral dress”.
@@ -425,8 +497,10 @@ Copycat lemonade stand with a crooked awning. Remy almost pays. Glow on the real
 ### 30 — Winn (API Gateway) — **built**
 Visitors crash the back. Eddie drops a pitcher. Window first: ticket to the right helper. Crowd rushes, hand up, wait (throttle). No ticket: shake head, padlock glow (auth).
 
-### 31 — Poppy (Amplify) ← **NEXT**
-Maya hammers boards one by one; the stand is half built and takes forever. The door is not joined to the window, so nothing works. The booth kit pops: street, door and window unfold together, already joined. Maya draws a new picture and the kit puts it on every stand in town. Build the front once, it pops up for everyone.
+### 31 — Poppy (Amplify) — **built**
+Maya hammers a stand by hand. Pieces do not join. One pop: the kit unfolds a whole stand. She draws a picture; copies appear on every stand. Build the front once.
+
+
 
 ### 31 — Poppy (Amplify)
 ACM, API Gateway, Amplify.

@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Check, ChevronLeft, ChevronRight, Cloud, Copy, Play } from "lucide-react";
+import { Check, ChevronLeft, ChevronRight, Cloud, Copy, Download, Play } from "lucide-react";
 import { useMemo, useRef, useState } from "react";
 import { EPISODE_SCRIPTS } from "@/lib/scripts";
 import { cn } from "@/lib/utils";
@@ -16,7 +16,7 @@ function fileUrl(video: string) {
 }
 
 function Home() {
-  const [n, setN] = useState(4);
+  const [n, setN] = useState(37);
   const episode = useMemo(() => EPISODE_SCRIPTS.find((e) => e.n === n) ?? EPISODE_SCRIPTS[0], [n]);
   const [copied, setCopied] = useState(false);
   const [playing, setPlaying] = useState(false);
@@ -53,13 +53,16 @@ function Home() {
     window.setTimeout(() => setCopied(false), 2000);
   };
 
+  const order = useMemo(() => EPISODE_SCRIPTS.map((e) => e.n), []);
   const prev = () => {
     setPlaying(false);
-    setN((x) => (x <= 1 ? EPISODE_SCRIPTS.length : x - 1));
+    const i = order.indexOf(n);
+    setN(order[(i - 1 + order.length) % order.length]);
   };
   const next = () => {
     setPlaying(false);
-    setN((x) => (x >= EPISODE_SCRIPTS.length ? 1 : x + 1));
+    const i = order.indexOf(n);
+    setN(order[(i + 1) % order.length]);
   };
 
   return (
@@ -76,25 +79,33 @@ function Home() {
           <button type="button" onClick={next} className="inline-flex size-11 items-center justify-center rounded-lg border border-border bg-surface" aria-label="Next episode">
             <ChevronRight className="size-5" />
           </button>
+          <a
+            href={src}
+            download={`${src.replace(/^\//, "")}`}
+            className="inline-flex h-11 items-center gap-1.5 rounded-lg bg-primary px-3 font-display text-sm font-semibold text-primary-fg"
+          >
+            <Download className="size-4" aria-hidden />
+            Save
+          </a>
         </div>
       </div>
 
       <section className="flex justify-center bg-ink p-3">
-        <div className="relative w-full max-w-[360px]">
+        <div className="relative w-full max-w-[360px] min-h-[480px] aspect-[9/16] overflow-hidden rounded-xl bg-ink">
           <img
             src={poster}
             alt=""
-            className={cn("w-full rounded-xl bg-ink object-cover", playing ? "hidden" : "block")}
+            className="absolute inset-0 h-full w-full object-cover"
           />
           <video
             ref={videoRef}
             key={src}
-            className={cn("w-full rounded-xl bg-ink", playing ? "block" : "absolute inset-0 h-full w-full opacity-0")}
+            className="absolute inset-0 h-full w-full object-cover"
             src={src}
             poster={poster}
             controls={playing}
             playsInline
-            preload="metadata"
+            preload="auto"
             onPlaying={() => setPlaying(true)}
             aria-label={`${episode.title} cartoon`}
           />
@@ -102,7 +113,7 @@ function Home() {
             <button
               type="button"
               onClick={playLoud}
-              className="absolute inset-0 z-10 flex items-center justify-center rounded-xl"
+              className="absolute inset-0 z-10 flex items-center justify-center"
             >
               <span className="inline-flex size-20 items-center justify-center rounded-full bg-primary text-primary-fg shadow-card">
                 <Play className="size-10 translate-x-0.5" aria-hidden />
