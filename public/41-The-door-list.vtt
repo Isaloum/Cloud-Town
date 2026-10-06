@@ -1,105 +1,85 @@
 WEBVTT
 
 1
-00:00:00,120 --> 00:00:02,730
-Welcome back to Cloud Town, high up in the sky!
-
-2
-00:00:03,535 --> 00:00:05,385
-This is Episode 41.
-
-3
-00:00:06,190 --> 00:00:07,970
-Lulu has a shiny badge today.
-
-4
-00:00:08,774 --> 00:00:10,414
-She zips up to the blue door.
-
-5
-00:00:11,219 --> 00:00:12,169
-It stays shut.
-
-6
-00:00:12,974 --> 00:00:13,654
+00:00:00,100 --> 00:00:01,526
 Oh no!
 
-7
-00:00:14,459 --> 00:00:15,619
+2
+00:00:01,476 --> 00:00:05,952
+Lulu has a shiny badge, but the blue door stays shut!
+
+3
+00:00:05,952 --> 00:00:09,821
+Welcome back to Cloud Town, high up in the sky!
+
+4
+00:00:09,821 --> 00:00:12,357
+This is Episode 41.
+
+5
+00:00:12,357 --> 00:00:14,500
 Maya looks closer.
 
-8
-00:00:16,424 --> 00:00:17,664
+6
+00:00:14,500 --> 00:00:16,905
 Every door has a list.
 
-9
-00:00:18,468 --> 00:00:19,628
+7
+00:00:16,905 --> 00:00:18,869
 Green means may.
 
-10
-00:00:20,433 --> 00:00:21,643
+8
+00:00:18,869 --> 00:00:20,988
 Red means may not.
 
-11
-00:00:22,448 --> 00:00:24,088
+9
+00:00:20,988 --> 00:00:23,595
 The blue door says may not.
 
-12
-00:00:24,893 --> 00:00:26,383
+10
+00:00:23,595 --> 00:00:25,917
 The badge does not matter.
 
-13
-00:00:27,188 --> 00:00:28,728
+11
+00:00:25,917 --> 00:00:28,667
 Lulu zips to the yellow door.
 
-14
-00:00:29,532 --> 00:00:30,152
+12
+00:00:28,667 --> 00:00:29,988
 Green!
 
-15
-00:00:30,957 --> 00:00:31,997
+13
+00:00:29,988 --> 00:00:31,976
 It swings open.
 
-16
-00:00:32,802 --> 00:00:35,232
+14
+00:00:31,976 --> 00:00:35,869
 The green door has a green line and a red line.
 
-17
-00:00:36,037 --> 00:00:36,967
+15
+00:00:35,869 --> 00:00:37,738
 Which one wins?
 
-18
-00:00:37,772 --> 00:00:38,322
+16
+00:00:37,738 --> 00:00:38,952
 Red.
 
-19
-00:00:39,126 --> 00:00:40,536
+17
+00:00:38,952 --> 00:00:41,321
 May-not always wins.
 
-20
-00:00:41,341 --> 00:00:42,611
-The door stays shut.
-
-21
-00:00:43,416 --> 00:00:45,896
-Lulu shrugs and zips back through the yellow door.
-
-22
-00:00:46,701 --> 00:00:47,721
+18
+00:00:41,321 --> 00:00:43,381
 Right doors open.
 
-23
-00:00:48,526 --> 00:00:49,866
+19
+00:00:43,381 --> 00:00:45,690
 Wrong doors stay shut.
 
-24
-00:00:50,670 --> 00:00:51,800
-That is the door list.
+20
+00:00:45,690 --> 00:00:53,786
+That is an IAM policy: a list on each door that says who may do what, and one "may not" always wins.
 
-25
-00:00:52,605 --> 00:00:54,605
-Now you know IAM policies!
-
-26
-00:00:55,410 --> 00:00:58,000
+21
+00:00:53,786 --> 00:00:57,988
 See you next time in Cloud Town, high up in the sky!
